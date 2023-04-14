@@ -1,0 +1,3 @@
+pybullet build time: Oct  8 2020 00:11:27
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]

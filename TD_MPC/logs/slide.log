@@ -1,0 +1,1735 @@
+pybullet build time: Oct  8 2020 00:11:27
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 470.161.03
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+pthread_getconcurrency()=0
+Version = 3.3.0 NVIDIA 470.161.03
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+b3Printf: b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+
+b3Printf: CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+RENDER:  True
+Task id: KukaSlideParallelGripRenderSparseReward-v0
+evaluate on 0.26447582244873047
+{'episode': 1, 'step': 0, 'env_step': 0, 'total_time': 0.26447367668151855, 'episode_reward': -50.0}
+evaluate on 44.71245288848877
+{'episode': 21, 'step': 1000, 'env_step': 2000, 'total_time': 44.71244955062866, 'episode_reward': -50.0}
+evaluate on 93.30781292915344
+{'episode': 41, 'step': 2000, 'env_step': 4000, 'total_time': 93.30780982971191, 'episode_reward': -50.0}
+evaluate on 143.19319033622742
+{'episode': 61, 'step': 3000, 'env_step': 6000, 'total_time': 143.1931869983673, 'episode_reward': -50.0}
+evaluate on 190.6893711090088
+{'episode': 81, 'step': 4000, 'env_step': 8000, 'total_time': 190.68936777114868, 'episode_reward': -50.0}
+evaluate on 242.63051319122314
+{'episode': 101, 'step': 5000, 'env_step': 10000, 'total_time': 242.63051009178162, 'episode_reward': -50.0}
+evaluate on 296.66854310035706
+{'episode': 121, 'step': 6000, 'env_step': 12000, 'total_time': 296.66853976249695, 'episode_reward': -50.0}
+evaluate on 350.41825246810913
+{'episode': 141, 'step': 7000, 'env_step': 14000, 'total_time': 350.418249130249, 'episode_reward': -50.0}
+evaluate on 403.2957601547241
+{'episode': 161, 'step': 8000, 'env_step': 16000, 'total_time': 403.29575538635254, 'episode_reward': -50.0}
+evaluate on 455.02123856544495
+{'episode': 181, 'step': 9000, 'env_step': 18000, 'total_time': 455.021235704422, 'episode_reward': -50.0}
+evaluate on 510.1556987762451
+{'episode': 201, 'step': 10000, 'env_step': 20000, 'total_time': 510.1556956768036, 'episode_reward': -50.0}
+evaluate on 565.8200507164001
+{'episode': 221, 'step': 11000, 'env_step': 22000, 'total_time': 565.8200480937958, 'episode_reward': -50.0}
+evaluate on 618.6360776424408
+{'episode': 241, 'step': 12000, 'env_step': 24000, 'total_time': 618.6360747814178, 'episode_reward': -50.0}
+evaluate on 670.1855096817017
+{'episode': 261, 'step': 13000, 'env_step': 26000, 'total_time': 670.1855068206787, 'episode_reward': -50.0}
+evaluate on 725.0701344013214
+{'episode': 281, 'step': 14000, 'env_step': 28000, 'total_time': 725.070131778717, 'episode_reward': -50.0}
+evaluate on 782.5262231826782
+{'episode': 301, 'step': 15000, 'env_step': 30000, 'total_time': 782.5262203216553, 'episode_reward': -50.0}
+evaluate on 838.3911166191101
+{'episode': 321, 'step': 16000, 'env_step': 32000, 'total_time': 838.3911137580872, 'episode_reward': -50.0}
+evaluate on 894.3301162719727
+{'episode': 341, 'step': 17000, 'env_step': 34000, 'total_time': 894.3301134109497, 'episode_reward': -50.0}
+evaluate on 948.444137096405
+{'episode': 361, 'step': 18000, 'env_step': 36000, 'total_time': 948.4441347122192, 'episode_reward': -50.0}
+evaluate on 1002.3865790367126
+{'episode': 381, 'step': 19000, 'env_step': 38000, 'total_time': 1002.3865761756897, 'episode_reward': -50.0}
+evaluate on 1059.6477773189545
+{'episode': 401, 'step': 20000, 'env_step': 40000, 'total_time': 1059.64777469635, 'episode_reward': -50.0}
+evaluate on 1116.3411903381348
+{'episode': 421, 'step': 21000, 'env_step': 42000, 'total_time': 1116.3411877155304, 'episode_reward': -50.0}
+evaluate on 1171.8875560760498
+{'episode': 441, 'step': 22000, 'env_step': 44000, 'total_time': 1171.8875534534454, 'episode_reward': -50.0}
+evaluate on 1227.1501815319061
+{'episode': 461, 'step': 23000, 'env_step': 46000, 'total_time': 1227.1501779556274, 'episode_reward': -50.0}
+evaluate on 1283.8300507068634
+{'episode': 481, 'step': 24000, 'env_step': 48000, 'total_time': 1283.830048084259, 'episode_reward': -50.0}
+evaluate on 1339.7437508106232
+{'episode': 501, 'step': 25000, 'env_step': 50000, 'total_time': 1339.7437484264374, 'episode_reward': -50.0}
+evaluate on 1398.7606019973755
+{'episode': 521, 'step': 26000, 'env_step': 52000, 'total_time': 1398.7605993747711, 'episode_reward': -50.0}
+evaluate on 1457.7529323101044
+{'episode': 541, 'step': 27000, 'env_step': 54000, 'total_time': 1457.7529296875, 'episode_reward': -50.0}
+evaluate on 1517.3390910625458
+{'episode': 561, 'step': 28000, 'env_step': 56000, 'total_time': 1517.3390884399414, 'episode_reward': -50.0}
+evaluate on 1576.6362943649292
+{'episode': 581, 'step': 29000, 'env_step': 58000, 'total_time': 1576.6362915039062, 'episode_reward': -50.0}
+evaluate on 1635.6878409385681
+{'episode': 601, 'step': 30000, 'env_step': 60000, 'total_time': 1635.687837600708, 'episode_reward': -50.0}
+evaluate on 1695.3507628440857
+{'episode': 621, 'step': 31000, 'env_step': 62000, 'total_time': 1695.3507599830627, 'episode_reward': -50.0}
+evaluate on 1753.0186069011688
+{'episode': 641, 'step': 32000, 'env_step': 64000, 'total_time': 1753.0186038017273, 'episode_reward': -50.0}
+evaluate on 1811.5337572097778
+{'episode': 661, 'step': 33000, 'env_step': 66000, 'total_time': 1811.5337529182434, 'episode_reward': -50.0}
+evaluate on 1871.8287198543549
+{'episode': 681, 'step': 34000, 'env_step': 68000, 'total_time': 1871.8287167549133, 'episode_reward': -50.0}
+evaluate on 1931.2718081474304
+{'episode': 701, 'step': 35000, 'env_step': 70000, 'total_time': 1931.271805524826, 'episode_reward': -50.0}
+evaluate on 1992.4297680854797
+{'episode': 721, 'step': 36000, 'env_step': 72000, 'total_time': 1992.4297647476196, 'episode_reward': -50.0}
+evaluate on 2053.8683092594147
+{'episode': 741, 'step': 37000, 'env_step': 74000, 'total_time': 2053.868305683136, 'episode_reward': -50.0}
+evaluate on 2115.366798400879
+{'episode': 761, 'step': 38000, 'env_step': 76000, 'total_time': 2115.3667941093445, 'episode_reward': -50.0}
+evaluate on 2177.8927090168
+{'episode': 781, 'step': 39000, 'env_step': 78000, 'total_time': 2177.8927063941956, 'episode_reward': -50.0}
+evaluate on 2238.3569598197937
+{'episode': 801, 'step': 40000, 'env_step': 80000, 'total_time': 2238.3569569587708, 'episode_reward': -50.0}
+evaluate on 2300.4798605442047
+{'episode': 821, 'step': 41000, 'env_step': 82000, 'total_time': 2300.4798576831818, 'episode_reward': -50.0}
+evaluate on 2362.732077598572
+{'episode': 841, 'step': 42000, 'env_step': 84000, 'total_time': 2362.732074737549, 'episode_reward': -50.0}
+evaluate on 2423.710001707077
+{'episode': 861, 'step': 43000, 'env_step': 86000, 'total_time': 2423.709998846054, 'episode_reward': -50.0}
+evaluate on 2483.980044364929
+{'episode': 881, 'step': 44000, 'env_step': 88000, 'total_time': 2483.9800415039062, 'episode_reward': -50.0}
+evaluate on 2544.0886108875275
+{'episode': 901, 'step': 45000, 'env_step': 90000, 'total_time': 2544.0886080265045, 'episode_reward': -50.0}
+evaluate on 2604.9537692070007
+{'episode': 921, 'step': 46000, 'env_step': 92000, 'total_time': 2604.953766107559, 'episode_reward': -50.0}
+evaluate on 2667.246608018875
+{'episode': 941, 'step': 47000, 'env_step': 94000, 'total_time': 2667.2466053962708, 'episode_reward': -50.0}
+evaluate on 2731.3597519397736
+{'episode': 961, 'step': 48000, 'env_step': 96000, 'total_time': 2731.359748363495, 'episode_reward': -50.0}
+evaluate on 2795.7810232639313
+{'episode': 981, 'step': 49000, 'env_step': 98000, 'total_time': 2795.7810201644897, 'episode_reward': -50.0}
+evaluate on 2857.2160742282867
+{'episode': 1001, 'step': 50000, 'env_step': 100000, 'total_time': 2857.216071367264, 'episode_reward': -50.0}
+evaluate on 2916.132029771805
+{'episode': 1021, 'step': 51000, 'env_step': 102000, 'total_time': 2916.1320271492004, 'episode_reward': -50.0}
+evaluate on 2975.7659845352173
+{'episode': 1041, 'step': 52000, 'env_step': 104000, 'total_time': 2975.765981912613, 'episode_reward': -50.0}
+evaluate on 3034.531092405319
+{'episode': 1061, 'step': 53000, 'env_step': 106000, 'total_time': 3034.5310893058777, 'episode_reward': -50.0}
+evaluate on 3094.622056245804
+{'episode': 1081, 'step': 54000, 'env_step': 108000, 'total_time': 3094.6220529079437, 'episode_reward': -50.0}
+evaluate on 3154.7506518363953
+{'episode': 1101, 'step': 55000, 'env_step': 110000, 'total_time': 3154.7506489753723, 'episode_reward': -50.0}
+evaluate on 3216.1948750019073
+{'episode': 1121, 'step': 56000, 'env_step': 112000, 'total_time': 3216.194872379303, 'episode_reward': -50.0}
+evaluate on 3278.114322900772
+{'episode': 1141, 'step': 57000, 'env_step': 114000, 'total_time': 3278.114320039749, 'episode_reward': -50.0}
+evaluate on 3340.618611097336
+{'episode': 1161, 'step': 58000, 'env_step': 116000, 'total_time': 3340.61860871315, 'episode_reward': -50.0}
+evaluate on 3402.2816989421844
+{'episode': 1181, 'step': 59000, 'env_step': 118000, 'total_time': 3402.2816965579987, 'episode_reward': -50.0}
+evaluate on 3464.605623960495
+{'episode': 1201, 'step': 60000, 'env_step': 120000, 'total_time': 3464.605621576309, 'episode_reward': -50.0}
+evaluate on 3527.758761405945
+{'episode': 1221, 'step': 61000, 'env_step': 122000, 'total_time': 3527.7587583065033, 'episode_reward': -50.0}
+evaluate on 3590.4425785541534
+{'episode': 1241, 'step': 62000, 'env_step': 124000, 'total_time': 3590.442575454712, 'episode_reward': -50.0}
+evaluate on 3653.3374581336975
+{'episode': 1261, 'step': 63000, 'env_step': 126000, 'total_time': 3653.337455034256, 'episode_reward': -50.0}
+evaluate on 3715.1998796463013
+{'episode': 1281, 'step': 64000, 'env_step': 128000, 'total_time': 3715.199875831604, 'episode_reward': -50.0}
+evaluate on 3778.887714624405
+{'episode': 1301, 'step': 65000, 'env_step': 130000, 'total_time': 3778.887711763382, 'episode_reward': -50.0}
+evaluate on 3841.3117458820343
+{'episode': 1321, 'step': 66000, 'env_step': 132000, 'total_time': 3841.3117430210114, 'episode_reward': -50.0}
+evaluate on 3903.1233959198
+{'episode': 1341, 'step': 67000, 'env_step': 134000, 'total_time': 3903.123393058777, 'episode_reward': -50.0}
+evaluate on 3965.203224182129
+{'episode': 1361, 'step': 68000, 'env_step': 136000, 'total_time': 3965.2032215595245, 'episode_reward': -50.0}
+evaluate on 4027.7826108932495
+{'episode': 1381, 'step': 69000, 'env_step': 138000, 'total_time': 4027.7826080322266, 'episode_reward': -50.0}
+evaluate on 4090.567219018936
+{'episode': 1401, 'step': 70000, 'env_step': 140000, 'total_time': 4090.5672159194946, 'episode_reward': -50.0}
+evaluate on 4152.8770403862
+{'episode': 1421, 'step': 71000, 'env_step': 142000, 'total_time': 4152.877037763596, 'episode_reward': -50.0}
+evaluate on 4212.762045621872
+{'episode': 1441, 'step': 72000, 'env_step': 144000, 'total_time': 4212.762042284012, 'episode_reward': -50.0}
+evaluate on 4274.196371793747
+{'episode': 1461, 'step': 73000, 'env_step': 146000, 'total_time': 4274.1963675022125, 'episode_reward': -50.0}
+evaluate on 4338.42692565918
+{'episode': 1481, 'step': 74000, 'env_step': 148000, 'total_time': 4338.426920413971, 'episode_reward': -50.0}
+evaluate on 4401.909684419632
+{'episode': 1501, 'step': 75000, 'env_step': 150000, 'total_time': 4401.909680604935, 'episode_reward': -50.0}
+evaluate on 4463.840518712997
+{'episode': 1521, 'step': 76000, 'env_step': 152000, 'total_time': 4463.840515136719, 'episode_reward': -50.0}
+evaluate on 4525.743290901184
+{'episode': 1541, 'step': 77000, 'env_step': 154000, 'total_time': 4525.743287324905, 'episode_reward': -50.0}
+evaluate on 4588.844305038452
+{'episode': 1561, 'step': 78000, 'env_step': 156000, 'total_time': 4588.844301700592, 'episode_reward': -50.0}
+evaluate on 4652.603806734085
+{'episode': 1581, 'step': 79000, 'env_step': 158000, 'total_time': 4652.603802919388, 'episode_reward': -50.0}
+evaluate on 4717.088660001755
+{'episode': 1601, 'step': 80000, 'env_step': 160000, 'total_time': 4717.088656663895, 'episode_reward': -50.0}
+evaluate on 4781.3730318546295
+{'episode': 1621, 'step': 81000, 'env_step': 162000, 'total_time': 4781.373027801514, 'episode_reward': -50.0}
+evaluate on 4843.942337274551
+{'episode': 1641, 'step': 82000, 'env_step': 164000, 'total_time': 4843.942333698273, 'episode_reward': -50.0}
+evaluate on 4906.1169011592865
+{'episode': 1661, 'step': 83000, 'env_step': 166000, 'total_time': 4906.116897106171, 'episode_reward': -50.0}
+evaluate on 4969.428947687149
+{'episode': 1681, 'step': 84000, 'env_step': 168000, 'total_time': 4969.428942680359, 'episode_reward': -50.0}
+evaluate on 5033.533584356308
+{'episode': 1701, 'step': 85000, 'env_step': 170000, 'total_time': 5033.533580064774, 'episode_reward': -50.0}
+evaluate on 5097.403614044189
+{'episode': 1721, 'step': 86000, 'env_step': 172000, 'total_time': 5097.403609991074, 'episode_reward': -50.0}
+evaluate on 5160.51466012001
+{'episode': 1741, 'step': 87000, 'env_step': 174000, 'total_time': 5160.514654636383, 'episode_reward': -50.0}
+evaluate on 5223.013964176178
+{'episode': 1761, 'step': 88000, 'env_step': 176000, 'total_time': 5223.013960838318, 'episode_reward': -50.0}
+evaluate on 5284.596936225891
+{'episode': 1781, 'step': 89000, 'env_step': 178000, 'total_time': 5284.596932411194, 'episode_reward': -50.0}
+evaluate on 5347.172405719757
+{'episode': 1801, 'step': 90000, 'env_step': 180000, 'total_time': 5347.172401189804, 'episode_reward': -50.0}
+evaluate on 5408.631923913956
+{'episode': 1821, 'step': 91000, 'env_step': 182000, 'total_time': 5408.631920814514, 'episode_reward': -50.0}
+evaluate on 5472.768266677856
+{'episode': 1841, 'step': 92000, 'env_step': 184000, 'total_time': 5472.768263101578, 'episode_reward': -50.0}
+evaluate on 5536.550486326218
+{'episode': 1861, 'step': 93000, 'env_step': 186000, 'total_time': 5536.550483226776, 'episode_reward': -50.0}
+evaluate on 5598.782331705093
+{'episode': 1881, 'step': 94000, 'env_step': 188000, 'total_time': 5598.782328367233, 'episode_reward': -50.0}
+evaluate on 5658.144875764847
+{'episode': 1901, 'step': 95000, 'env_step': 190000, 'total_time': 5658.144871473312, 'episode_reward': -50.0}
+evaluate on 5720.493986606598
+{'episode': 1921, 'step': 96000, 'env_step': 192000, 'total_time': 5720.493982791901, 'episode_reward': -50.0}
+evaluate on 5781.345555782318
+{'episode': 1941, 'step': 97000, 'env_step': 194000, 'total_time': 5781.345552206039, 'episode_reward': -50.0}
+evaluate on 5839.713132619858
+{'episode': 1961, 'step': 98000, 'env_step': 196000, 'total_time': 5839.713129281998, 'episode_reward': -50.0}
+evaluate on 5901.357699394226
+{'episode': 1981, 'step': 99000, 'env_step': 198000, 'total_time': 5901.357696294785, 'episode_reward': -50.0}
+evaluate on 5962.999313354492
+{'episode': 2001, 'step': 100000, 'env_step': 200000, 'total_time': 5962.9993097782135, 'episode_reward': -50.0}
+evaluate on 6024.722642421722
+{'episode': 2021, 'step': 101000, 'env_step': 202000, 'total_time': 6024.722639322281, 'episode_reward': -50.0}
+evaluate on 6085.888145446777
+{'episode': 2041, 'step': 102000, 'env_step': 204000, 'total_time': 6085.888142585754, 'episode_reward': -50.0}
+evaluate on 6146.846845626831
+{'episode': 2061, 'step': 103000, 'env_step': 206000, 'total_time': 6146.8468425273895, 'episode_reward': -50.0}
+evaluate on 6207.598933696747
+{'episode': 2081, 'step': 104000, 'env_step': 208000, 'total_time': 6207.598930835724, 'episode_reward': -50.0}
+evaluate on 6268.999090433121
+{'episode': 2101, 'step': 105000, 'env_step': 210000, 'total_time': 6268.999087810516, 'episode_reward': -50.0}
+evaluate on 6329.856462717056
+{'episode': 2121, 'step': 106000, 'env_step': 212000, 'total_time': 6329.856459140778, 'episode_reward': -50.0}
+evaluate on 6390.320426225662
+{'episode': 2141, 'step': 107000, 'env_step': 214000, 'total_time': 6390.320423364639, 'episode_reward': -50.0}
+evaluate on 6449.8243060112
+{'episode': 2161, 'step': 108000, 'env_step': 216000, 'total_time': 6449.824302911758, 'episode_reward': -50.0}
+evaluate on 6509.870697021484
+{'episode': 2181, 'step': 109000, 'env_step': 218000, 'total_time': 6509.870694160461, 'episode_reward': -50.0}
+evaluate on 6569.617002725601
+{'episode': 2201, 'step': 110000, 'env_step': 220000, 'total_time': 6569.616999864578, 'episode_reward': -50.0}
+evaluate on 6629.022882223129
+{'episode': 2221, 'step': 111000, 'env_step': 222000, 'total_time': 6629.022879362106, 'episode_reward': -50.0}
+evaluate on 6689.472512483597
+{'episode': 2241, 'step': 112000, 'env_step': 224000, 'total_time': 6689.472509145737, 'episode_reward': -50.0}
+evaluate on 6749.616926431656
+{'episode': 2261, 'step': 113000, 'env_step': 226000, 'total_time': 6749.616923570633, 'episode_reward': -50.0}
+evaluate on 6808.331416845322
+{'episode': 2281, 'step': 114000, 'env_step': 228000, 'total_time': 6808.331413984299, 'episode_reward': -50.0}
+evaluate on 6868.781961917877
+{'episode': 2301, 'step': 115000, 'env_step': 230000, 'total_time': 6868.781958818436, 'episode_reward': -50.0}
+evaluate on 6929.372071027756
+{'episode': 2321, 'step': 116000, 'env_step': 232000, 'total_time': 6929.372067928314, 'episode_reward': -50.0}
+evaluate on 6991.077535867691
+{'episode': 2341, 'step': 117000, 'env_step': 234000, 'total_time': 6991.077533245087, 'episode_reward': -50.0}
+evaluate on 7052.6142909526825
+{'episode': 2361, 'step': 118000, 'env_step': 236000, 'total_time': 7052.61428809166, 'episode_reward': -50.0}
+evaluate on 7113.226320981979
+{'episode': 2381, 'step': 119000, 'env_step': 238000, 'total_time': 7113.226317644119, 'episode_reward': -50.0}
+evaluate on 7172.712206363678
+{'episode': 2401, 'step': 120000, 'env_step': 240000, 'total_time': 7172.712203502655, 'episode_reward': -50.0}
+evaluate on 7234.328887701035
+{'episode': 2421, 'step': 121000, 'env_step': 242000, 'total_time': 7234.32888507843, 'episode_reward': -50.0}
+evaluate on 7295.903001308441
+{'episode': 2441, 'step': 122000, 'env_step': 244000, 'total_time': 7295.902998685837, 'episode_reward': -50.0}
+evaluate on 7357.2767498493195
+{'episode': 2461, 'step': 123000, 'env_step': 246000, 'total_time': 7357.276746511459, 'episode_reward': -50.0}
+evaluate on 7418.402272701263
+{'episode': 2481, 'step': 124000, 'env_step': 248000, 'total_time': 7418.402268886566, 'episode_reward': -50.0}
+evaluate on 7479.808767557144
+{'episode': 2501, 'step': 125000, 'env_step': 250000, 'total_time': 7479.808764219284, 'episode_reward': -50.0}
+evaluate on 7538.429198503494
+{'episode': 2521, 'step': 126000, 'env_step': 252000, 'total_time': 7538.429195404053, 'episode_reward': -50.0}
+evaluate on 7600.302302122116
+{'episode': 2541, 'step': 127000, 'env_step': 254000, 'total_time': 7600.302299261093, 'episode_reward': -50.0}
+evaluate on 7661.922222852707
+{'episode': 2561, 'step': 128000, 'env_step': 256000, 'total_time': 7661.9222202301025, 'episode_reward': -50.0}
+evaluate on 7724.515650987625
+{'episode': 2581, 'step': 129000, 'env_step': 258000, 'total_time': 7724.515648126602, 'episode_reward': -50.0}
+evaluate on 7782.49565243721
+{'episode': 2601, 'step': 130000, 'env_step': 260000, 'total_time': 7782.495647907257, 'episode_reward': -50.0}
+evaluate on 7843.708449602127
+{'episode': 2621, 'step': 131000, 'env_step': 262000, 'total_time': 7843.708446025848, 'episode_reward': -50.0}
+evaluate on 7905.767179250717
+{'episode': 2641, 'step': 132000, 'env_step': 264000, 'total_time': 7905.7671756744385, 'episode_reward': -50.0}
+evaluate on 7967.584906578064
+{'episode': 2661, 'step': 133000, 'env_step': 266000, 'total_time': 7967.584903240204, 'episode_reward': -50.0}
+evaluate on 8029.384906768799
+{'episode': 2681, 'step': 134000, 'env_step': 268000, 'total_time': 8029.384903907776, 'episode_reward': -50.0}
+evaluate on 8091.191560506821
+{'episode': 2701, 'step': 135000, 'env_step': 270000, 'total_time': 8091.191557645798, 'episode_reward': -50.0}
+evaluate on 8153.069977521896
+{'episode': 2721, 'step': 136000, 'env_step': 272000, 'total_time': 8153.069974660873, 'episode_reward': -50.0}
+evaluate on 8215.43285560608
+{'episode': 2741, 'step': 137000, 'env_step': 274000, 'total_time': 8215.432852983475, 'episode_reward': -50.0}
+evaluate on 8277.747960567474
+{'episode': 2761, 'step': 138000, 'env_step': 276000, 'total_time': 8277.747957706451, 'episode_reward': -50.0}
+evaluate on 8340.130209684372
+{'episode': 2781, 'step': 139000, 'env_step': 278000, 'total_time': 8340.130207300186, 'episode_reward': -50.0}
+evaluate on 8402.23342037201
+{'episode': 2801, 'step': 140000, 'env_step': 280000, 'total_time': 8402.23341703415, 'episode_reward': -50.0}
+evaluate on 8464.146935462952
+{'episode': 2821, 'step': 141000, 'env_step': 282000, 'total_time': 8464.146932601929, 'episode_reward': -50.0}
+evaluate on 8525.490136146545
+{'episode': 2841, 'step': 142000, 'env_step': 284000, 'total_time': 8525.490133285522, 'episode_reward': -50.0}
+evaluate on 8587.77548623085
+{'episode': 2861, 'step': 143000, 'env_step': 286000, 'total_time': 8587.775483369827, 'episode_reward': -50.0}
+evaluate on 8650.483452558517
+{'episode': 2881, 'step': 144000, 'env_step': 288000, 'total_time': 8650.483449935913, 'episode_reward': -50.0}
+evaluate on 8711.523839235306
+{'episode': 2901, 'step': 145000, 'env_step': 290000, 'total_time': 8711.523836374283, 'episode_reward': -50.0}
+evaluate on 8772.612326145172
+{'episode': 2921, 'step': 146000, 'env_step': 292000, 'total_time': 8772.61232328415, 'episode_reward': -50.0}
+evaluate on 8833.464817523956
+{'episode': 2941, 'step': 147000, 'env_step': 294000, 'total_time': 8833.464814424515, 'episode_reward': -50.0}
+evaluate on 8894.62430691719
+{'episode': 2961, 'step': 148000, 'env_step': 296000, 'total_time': 8894.624303817749, 'episode_reward': -50.0}
+evaluate on 8956.54800081253
+{'episode': 2981, 'step': 149000, 'env_step': 298000, 'total_time': 8956.547998189926, 'episode_reward': -50.0}
+evaluate on 9019.405859470367
+{'episode': 3001, 'step': 150000, 'env_step': 300000, 'total_time': 9019.405856132507, 'episode_reward': -50.0}
+evaluate on 9079.160808086395
+{'episode': 3021, 'step': 151000, 'env_step': 302000, 'total_time': 9079.16080546379, 'episode_reward': -50.0}
+evaluate on 9141.844732999802
+{'episode': 3041, 'step': 152000, 'env_step': 304000, 'total_time': 9141.84472990036, 'episode_reward': -50.0}
+evaluate on 9203.843328237534
+{'episode': 3061, 'step': 153000, 'env_step': 306000, 'total_time': 9203.843325138092, 'episode_reward': -50.0}
+evaluate on 9266.316069841385
+{'episode': 3081, 'step': 154000, 'env_step': 308000, 'total_time': 9266.316066741943, 'episode_reward': -50.0}
+evaluate on 9328.581525564194
+{'episode': 3101, 'step': 155000, 'env_step': 310000, 'total_time': 9328.581522464752, 'episode_reward': -50.0}
+evaluate on 9389.513130426407
+{'episode': 3121, 'step': 156000, 'env_step': 312000, 'total_time': 9389.513127565384, 'episode_reward': -50.0}
+evaluate on 9450.25226855278
+{'episode': 3141, 'step': 157000, 'env_step': 314000, 'total_time': 9450.252265691757, 'episode_reward': -50.0}
+evaluate on 9512.633041143417
+{'episode': 3161, 'step': 158000, 'env_step': 316000, 'total_time': 9512.633037567139, 'episode_reward': -50.0}
+evaluate on 9575.95567035675
+{'episode': 3181, 'step': 159000, 'env_step': 318000, 'total_time': 9575.955667495728, 'episode_reward': -50.0}
+evaluate on 9639.57256269455
+{'episode': 3201, 'step': 160000, 'env_step': 320000, 'total_time': 9639.572558879852, 'episode_reward': -50.0}
+evaluate on 9701.92112493515
+{'episode': 3221, 'step': 161000, 'env_step': 322000, 'total_time': 9701.921121835709, 'episode_reward': -50.0}
+evaluate on 9764.133359670639
+{'episode': 3241, 'step': 162000, 'env_step': 324000, 'total_time': 9764.133355855942, 'episode_reward': -50.0}
+evaluate on 9823.224380493164
+{'episode': 3261, 'step': 163000, 'env_step': 326000, 'total_time': 9823.224376916885, 'episode_reward': -50.0}
+evaluate on 9884.061551809311
+{'episode': 3281, 'step': 164000, 'env_step': 328000, 'total_time': 9884.061548233032, 'episode_reward': -50.0}
+evaluate on 9945.976773500443
+{'episode': 3301, 'step': 165000, 'env_step': 330000, 'total_time': 9945.976769685745, 'episode_reward': -50.0}
+evaluate on 10008.907681465149
+{'episode': 3321, 'step': 166000, 'env_step': 332000, 'total_time': 10008.90767788887, 'episode_reward': -50.0}
+evaluate on 10070.119093418121
+{'episode': 3341, 'step': 167000, 'env_step': 334000, 'total_time': 10070.119089603424, 'episode_reward': -50.0}
+evaluate on 10130.77612066269
+{'episode': 3361, 'step': 168000, 'env_step': 336000, 'total_time': 10130.77611708641, 'episode_reward': -50.0}
+evaluate on 10193.06444978714
+{'episode': 3381, 'step': 169000, 'env_step': 338000, 'total_time': 10193.064446210861, 'episode_reward': -50.0}
+evaluate on 10253.390789747238
+{'episode': 3401, 'step': 170000, 'env_step': 340000, 'total_time': 10253.39078617096, 'episode_reward': -50.0}
+evaluate on 10313.988572359085
+{'episode': 3421, 'step': 171000, 'env_step': 342000, 'total_time': 10313.988568544388, 'episode_reward': -50.0}
+evaluate on 10376.304795742035
+{'episode': 3441, 'step': 172000, 'env_step': 344000, 'total_time': 10376.304791927338, 'episode_reward': -50.0}
+evaluate on 10438.723068237305
+{'episode': 3461, 'step': 173000, 'env_step': 346000, 'total_time': 10438.723064899445, 'episode_reward': -50.0}
+evaluate on 10500.384458303452
+{'episode': 3481, 'step': 174000, 'env_step': 348000, 'total_time': 10500.384454488754, 'episode_reward': -50.0}
+evaluate on 10561.408004760742
+{'episode': 3501, 'step': 175000, 'env_step': 350000, 'total_time': 10561.408001184464, 'episode_reward': -50.0}
+evaluate on 10624.758118867874
+{'episode': 3521, 'step': 176000, 'env_step': 352000, 'total_time': 10624.75811457634, 'episode_reward': -50.0}
+evaluate on 10682.534039974213
+{'episode': 3541, 'step': 177000, 'env_step': 354000, 'total_time': 10682.534036636353, 'episode_reward': -50.0}
+evaluate on 10743.059199810028
+{'episode': 3561, 'step': 178000, 'env_step': 356000, 'total_time': 10743.059196472168, 'episode_reward': -50.0}
+evaluate on 10804.065610647202
+{'episode': 3581, 'step': 179000, 'env_step': 358000, 'total_time': 10804.06560754776, 'episode_reward': -50.0}
+evaluate on 10865.808806657791
+{'episode': 3601, 'step': 180000, 'env_step': 360000, 'total_time': 10865.808803319931, 'episode_reward': -50.0}
+evaluate on 10928.20106458664
+{'episode': 3621, 'step': 181000, 'env_step': 362000, 'total_time': 10928.201061964035, 'episode_reward': -50.0}
+evaluate on 10990.510497808456
+{'episode': 3641, 'step': 182000, 'env_step': 364000, 'total_time': 10990.510494232178, 'episode_reward': -50.0}
+evaluate on 11052.433822870255
+{'episode': 3661, 'step': 183000, 'env_step': 366000, 'total_time': 11052.433819293976, 'episode_reward': -50.0}
+evaluate on 11116.53400015831
+{'episode': 3681, 'step': 184000, 'env_step': 368000, 'total_time': 11116.533996343613, 'episode_reward': -50.0}
+evaluate on 11178.517743110657
+{'episode': 3701, 'step': 185000, 'env_step': 370000, 'total_time': 11178.51773905754, 'episode_reward': -50.0}
+evaluate on 11240.143274307251
+{'episode': 3721, 'step': 186000, 'env_step': 372000, 'total_time': 11240.143270015717, 'episode_reward': -50.0}
+evaluate on 11302.104043960571
+{'episode': 3741, 'step': 187000, 'env_step': 374000, 'total_time': 11302.104041337967, 'episode_reward': -50.0}
+evaluate on 11365.344056129456
+{'episode': 3761, 'step': 188000, 'env_step': 376000, 'total_time': 11365.344052791595, 'episode_reward': -50.0}
+evaluate on 11427.33142542839
+{'episode': 3781, 'step': 189000, 'env_step': 378000, 'total_time': 11427.331421613693, 'episode_reward': -50.0}
+evaluate on 11490.022258758545
+{'episode': 3801, 'step': 190000, 'env_step': 380000, 'total_time': 11490.022255897522, 'episode_reward': -50.0}
+evaluate on 11552.670857667923
+{'episode': 3821, 'step': 191000, 'env_step': 382000, 'total_time': 11552.6708548069, 'episode_reward': -50.0}
+evaluate on 11613.755963802338
+{'episode': 3841, 'step': 192000, 'env_step': 384000, 'total_time': 11613.755960702896, 'episode_reward': -50.0}
+evaluate on 11676.254900932312
+{'episode': 3861, 'step': 193000, 'env_step': 386000, 'total_time': 11676.25489783287, 'episode_reward': -50.0}
+evaluate on 11738.633703947067
+{'episode': 3881, 'step': 194000, 'env_step': 388000, 'total_time': 11738.633701086044, 'episode_reward': -50.0}
+evaluate on 11800.275043964386
+{'episode': 3901, 'step': 195000, 'env_step': 390000, 'total_time': 11800.2750415802, 'episode_reward': -50.0}
+evaluate on 11862.629055261612
+{'episode': 3921, 'step': 196000, 'env_step': 392000, 'total_time': 11862.629052400589, 'episode_reward': -50.0}
+evaluate on 11925.293169498444
+{'episode': 3941, 'step': 197000, 'env_step': 394000, 'total_time': 11925.29316663742, 'episode_reward': -50.0}
+evaluate on 11987.716572999954
+{'episode': 3961, 'step': 198000, 'env_step': 396000, 'total_time': 11987.716569900513, 'episode_reward': -50.0}
+evaluate on 12050.073522090912
+{'episode': 3981, 'step': 199000, 'env_step': 398000, 'total_time': 12050.073519229889, 'episode_reward': -50.0}
+evaluate on 12111.881883859634
+{'episode': 4001, 'step': 200000, 'env_step': 400000, 'total_time': 12111.881880998611, 'episode_reward': -50.0}
+evaluate on 12173.82401752472
+{'episode': 4021, 'step': 201000, 'env_step': 402000, 'total_time': 12173.824015140533, 'episode_reward': -50.0}
+evaluate on 12233.625617265701
+{'episode': 4041, 'step': 202000, 'env_step': 404000, 'total_time': 12233.625614404678, 'episode_reward': -50.0}
+evaluate on 12296.066631317139
+{'episode': 4061, 'step': 203000, 'env_step': 406000, 'total_time': 12296.066627502441, 'episode_reward': -50.0}
+evaluate on 12358.636137485504
+{'episode': 4081, 'step': 204000, 'env_step': 408000, 'total_time': 12358.636134624481, 'episode_reward': -50.0}
+evaluate on 12420.744769573212
+{'episode': 4101, 'step': 205000, 'env_step': 410000, 'total_time': 12420.744766950607, 'episode_reward': -50.0}
+evaluate on 12482.762216329575
+{'episode': 4121, 'step': 206000, 'env_step': 412000, 'total_time': 12482.762212991714, 'episode_reward': -50.0}
+evaluate on 12545.66552901268
+{'episode': 4141, 'step': 207000, 'env_step': 414000, 'total_time': 12545.665526151657, 'episode_reward': -50.0}
+evaluate on 12608.736075401306
+{'episode': 4161, 'step': 208000, 'env_step': 416000, 'total_time': 12608.736072540283, 'episode_reward': -50.0}
+evaluate on 12672.04810166359
+{'episode': 4181, 'step': 209000, 'env_step': 418000, 'total_time': 12672.048098802567, 'episode_reward': -50.0}
+evaluate on 12734.856778383255
+{'episode': 4201, 'step': 210000, 'env_step': 420000, 'total_time': 12734.85677576065, 'episode_reward': -50.0}
+evaluate on 12797.965928077698
+{'episode': 4221, 'step': 211000, 'env_step': 422000, 'total_time': 12797.965924978256, 'episode_reward': -50.0}
+evaluate on 12860.161928653717
+{'episode': 4241, 'step': 212000, 'env_step': 424000, 'total_time': 12860.161925554276, 'episode_reward': -50.0}
+evaluate on 12922.182391166687
+{'episode': 4261, 'step': 213000, 'env_step': 426000, 'total_time': 12922.182388544083, 'episode_reward': -50.0}
+evaluate on 12983.27242565155
+{'episode': 4281, 'step': 214000, 'env_step': 428000, 'total_time': 12983.272422552109, 'episode_reward': -50.0}
+evaluate on 13046.574436426163
+{'episode': 4301, 'step': 215000, 'env_step': 430000, 'total_time': 13046.57443356514, 'episode_reward': -50.0}
+evaluate on 13109.22946858406
+{'episode': 4321, 'step': 216000, 'env_step': 432000, 'total_time': 13109.229465723038, 'episode_reward': -50.0}
+evaluate on 13172.428688526154
+{'episode': 4341, 'step': 217000, 'env_step': 434000, 'total_time': 13172.428686141968, 'episode_reward': -50.0}
+evaluate on 13233.94522190094
+{'episode': 4361, 'step': 218000, 'env_step': 436000, 'total_time': 13233.945219039917, 'episode_reward': -50.0}
+evaluate on 13296.69949555397
+{'episode': 4381, 'step': 219000, 'env_step': 438000, 'total_time': 13296.699492692947, 'episode_reward': -50.0}
+evaluate on 13356.202819824219
+{'episode': 4401, 'step': 220000, 'env_step': 440000, 'total_time': 13356.202816486359, 'episode_reward': -50.0}
+evaluate on 13417.080155134201
+{'episode': 4421, 'step': 221000, 'env_step': 442000, 'total_time': 13417.080151319504, 'episode_reward': -50.0}
+evaluate on 13477.132184267044
+{'episode': 4441, 'step': 222000, 'env_step': 444000, 'total_time': 13477.132179498672, 'episode_reward': -50.0}
+evaluate on 13537.53615450859
+{'episode': 4461, 'step': 223000, 'env_step': 446000, 'total_time': 13537.536150932312, 'episode_reward': -50.0}
+evaluate on 13599.923574209213
+{'episode': 4481, 'step': 224000, 'env_step': 448000, 'total_time': 13599.92357134819, 'episode_reward': -50.0}
+evaluate on 13662.96988606453
+{'episode': 4501, 'step': 225000, 'env_step': 450000, 'total_time': 13662.969882965088, 'episode_reward': -50.0}
+evaluate on 13724.972162246704
+{'episode': 4521, 'step': 226000, 'env_step': 452000, 'total_time': 13724.972159385681, 'episode_reward': -50.0}
+evaluate on 13786.406819343567
+{'episode': 4541, 'step': 227000, 'env_step': 454000, 'total_time': 13786.406816005707, 'episode_reward': -50.0}
+evaluate on 13850.612615346909
+{'episode': 4561, 'step': 228000, 'env_step': 456000, 'total_time': 13850.612612009048, 'episode_reward': -50.0}
+evaluate on 13914.84275317192
+{'episode': 4581, 'step': 229000, 'env_step': 458000, 'total_time': 13914.842749595642, 'episode_reward': -50.0}
+evaluate on 13979.061701774597
+{'episode': 4601, 'step': 230000, 'env_step': 460000, 'total_time': 13979.061698198318, 'episode_reward': -50.0}
+evaluate on 14041.139788866043
+{'episode': 4621, 'step': 231000, 'env_step': 462000, 'total_time': 14041.139785051346, 'episode_reward': -50.0}
+evaluate on 14102.45252609253
+{'episode': 4641, 'step': 232000, 'env_step': 464000, 'total_time': 14102.45252251625, 'episode_reward': -50.0}
+evaluate on 14164.003208637238
+{'episode': 4661, 'step': 233000, 'env_step': 466000, 'total_time': 14164.003205060959, 'episode_reward': -50.0}
+evaluate on 14228.43155169487
+{'episode': 4681, 'step': 234000, 'env_step': 468000, 'total_time': 14228.431547880173, 'episode_reward': -50.0}
+evaluate on 14289.81416630745
+{'episode': 4701, 'step': 235000, 'env_step': 470000, 'total_time': 14289.81416273117, 'episode_reward': -50.0}
+evaluate on 14353.190251350403
+{'episode': 4721, 'step': 236000, 'env_step': 472000, 'total_time': 14353.190247297287, 'episode_reward': -50.0}
+evaluate on 14415.622662067413
+{'episode': 4741, 'step': 237000, 'env_step': 474000, 'total_time': 14415.622658491135, 'episode_reward': -50.0}
+evaluate on 14476.792137622833
+{'episode': 4761, 'step': 238000, 'env_step': 476000, 'total_time': 14476.792133808136, 'episode_reward': -50.0}
+evaluate on 14535.671728134155
+{'episode': 4781, 'step': 239000, 'env_step': 478000, 'total_time': 14535.67172408104, 'episode_reward': -50.0}
+evaluate on 14595.82171177864
+{'episode': 4801, 'step': 240000, 'env_step': 480000, 'total_time': 14595.821708202362, 'episode_reward': -50.0}
+evaluate on 14658.37832570076
+{'episode': 4821, 'step': 241000, 'env_step': 482000, 'total_time': 14658.378321647644, 'episode_reward': -50.0}
+evaluate on 14721.186025857925
+{'episode': 4841, 'step': 242000, 'env_step': 484000, 'total_time': 14721.186022043228, 'episode_reward': -50.0}
+evaluate on 14783.26902961731
+{'episode': 4861, 'step': 243000, 'env_step': 486000, 'total_time': 14783.26902604103, 'episode_reward': -50.0}
+evaluate on 14841.05836391449
+{'episode': 4881, 'step': 244000, 'env_step': 488000, 'total_time': 14841.058360338211, 'episode_reward': -50.0}
+evaluate on 14900.868691205978
+{'episode': 4901, 'step': 245000, 'env_step': 490000, 'total_time': 14900.8686876297, 'episode_reward': -50.0}
+evaluate on 14962.461217403412
+{'episode': 4921, 'step': 246000, 'env_step': 492000, 'total_time': 14962.461213588715, 'episode_reward': -50.0}
+evaluate on 15025.695856809616
+{'episode': 4941, 'step': 247000, 'env_step': 494000, 'total_time': 15025.695852994919, 'episode_reward': -50.0}
+evaluate on 15088.741021871567
+{'episode': 4961, 'step': 248000, 'env_step': 496000, 'total_time': 15088.74101805687, 'episode_reward': -50.0}
+evaluate on 15150.843485116959
+{'episode': 4981, 'step': 249000, 'env_step': 498000, 'total_time': 15150.843482255936, 'episode_reward': -50.0}
+evaluate on 15213.660724878311
+{'episode': 5001, 'step': 250000, 'env_step': 500000, 'total_time': 15213.660721302032, 'episode_reward': -50.0}
+evaluate on 15277.408357858658
+{'episode': 5021, 'step': 251000, 'env_step': 502000, 'total_time': 15277.40835404396, 'episode_reward': -50.0}
+evaluate on 15339.29356098175
+{'episode': 5041, 'step': 252000, 'env_step': 504000, 'total_time': 15339.293557405472, 'episode_reward': -50.0}
+evaluate on 15401.79799413681
+{'episode': 5061, 'step': 253000, 'env_step': 506000, 'total_time': 15401.797989845276, 'episode_reward': -50.0}
+evaluate on 15462.514793872833
+{'episode': 5081, 'step': 254000, 'env_step': 508000, 'total_time': 15462.514790296555, 'episode_reward': -50.0}
+evaluate on 15525.267991542816
+{'episode': 5101, 'step': 255000, 'env_step': 510000, 'total_time': 15525.267988681793, 'episode_reward': -50.0}
+evaluate on 15587.375138998032
+{'episode': 5121, 'step': 256000, 'env_step': 512000, 'total_time': 15587.37513589859, 'episode_reward': -50.0}
+evaluate on 15650.17540025711
+{'episode': 5141, 'step': 257000, 'env_step': 514000, 'total_time': 15650.175397396088, 'episode_reward': -50.0}
+evaluate on 15712.986786842346
+{'episode': 5161, 'step': 258000, 'env_step': 516000, 'total_time': 15712.986783742905, 'episode_reward': -50.0}
+evaluate on 15776.006295681
+{'episode': 5181, 'step': 259000, 'env_step': 518000, 'total_time': 15776.006293058395, 'episode_reward': -50.0}
+evaluate on 15835.944254875183
+{'episode': 5201, 'step': 260000, 'env_step': 520000, 'total_time': 15835.944251775742, 'episode_reward': -50.0}
+evaluate on 15897.517288446426
+{'episode': 5221, 'step': 261000, 'env_step': 522000, 'total_time': 15897.517285346985, 'episode_reward': -50.0}
+evaluate on 15960.792142868042
+{'episode': 5241, 'step': 262000, 'env_step': 524000, 'total_time': 15960.7921397686, 'episode_reward': -50.0}
+evaluate on 16023.266530752182
+{'episode': 5261, 'step': 263000, 'env_step': 526000, 'total_time': 16023.26652765274, 'episode_reward': -50.0}
+evaluate on 16085.484597921371
+{'episode': 5281, 'step': 264000, 'env_step': 528000, 'total_time': 16085.48459482193, 'episode_reward': -50.0}
+evaluate on 16148.995528936386
+{'episode': 5301, 'step': 265000, 'env_step': 530000, 'total_time': 16148.995526313782, 'episode_reward': -50.0}
+evaluate on 16211.175035953522
+{'episode': 5321, 'step': 266000, 'env_step': 532000, 'total_time': 16211.17503285408, 'episode_reward': -50.0}
+evaluate on 16272.971814393997
+{'episode': 5341, 'step': 267000, 'env_step': 534000, 'total_time': 16272.971811056137, 'episode_reward': -50.0}
+evaluate on 16335.118985176086
+{'episode': 5361, 'step': 268000, 'env_step': 536000, 'total_time': 16335.118982076645, 'episode_reward': -50.0}
+evaluate on 16396.962165117264
+{'episode': 5381, 'step': 269000, 'env_step': 538000, 'total_time': 16396.96216225624, 'episode_reward': -50.0}
+evaluate on 16458.71012020111
+{'episode': 5401, 'step': 270000, 'env_step': 540000, 'total_time': 16458.71011686325, 'episode_reward': -50.0}
+evaluate on 16521.163524389267
+{'episode': 5421, 'step': 271000, 'env_step': 542000, 'total_time': 16521.163521528244, 'episode_reward': -50.0}
+evaluate on 16583.440697431564
+{'episode': 5441, 'step': 272000, 'env_step': 544000, 'total_time': 16583.44069457054, 'episode_reward': -50.0}
+evaluate on 16645.070049524307
+{'episode': 5461, 'step': 273000, 'env_step': 546000, 'total_time': 16645.070046901703, 'episode_reward': -50.0}
+evaluate on 16707.108196496964
+{'episode': 5481, 'step': 274000, 'env_step': 548000, 'total_time': 16707.10819387436, 'episode_reward': -50.0}
+evaluate on 16768.750998973846
+{'episode': 5501, 'step': 275000, 'env_step': 550000, 'total_time': 16768.750996112823, 'episode_reward': -50.0}
+evaluate on 16830.09305524826
+{'episode': 5521, 'step': 276000, 'env_step': 552000, 'total_time': 16830.09305214882, 'episode_reward': -50.0}
+evaluate on 16891.361951351166
+{'episode': 5541, 'step': 277000, 'env_step': 554000, 'total_time': 16891.36194872856, 'episode_reward': -50.0}
+evaluate on 16952.40012526512
+{'episode': 5561, 'step': 278000, 'env_step': 556000, 'total_time': 16952.400120973587, 'episode_reward': -50.0}
+evaluate on 17014.06131029129
+{'episode': 5581, 'step': 279000, 'env_step': 558000, 'total_time': 17014.06130719185, 'episode_reward': -50.0}
+evaluate on 17076.14014649391
+{'episode': 5601, 'step': 280000, 'env_step': 560000, 'total_time': 17076.14014363289, 'episode_reward': -50.0}
+evaluate on 17139.177287101746
+{'episode': 5621, 'step': 281000, 'env_step': 562000, 'total_time': 17139.177284240723, 'episode_reward': -50.0}
+evaluate on 17201.066799402237
+{'episode': 5641, 'step': 282000, 'env_step': 564000, 'total_time': 17201.066796541214, 'episode_reward': -50.0}
+evaluate on 17263.29159474373
+{'episode': 5661, 'step': 283000, 'env_step': 566000, 'total_time': 17263.29159140587, 'episode_reward': -50.0}
+evaluate on 17325.40831065178
+{'episode': 5681, 'step': 284000, 'env_step': 568000, 'total_time': 17325.408307790756, 'episode_reward': -50.0}
+evaluate on 17387.581412553787
+{'episode': 5701, 'step': 285000, 'env_step': 570000, 'total_time': 17387.581409454346, 'episode_reward': -50.0}
+evaluate on 17449.05807375908
+{'episode': 5721, 'step': 286000, 'env_step': 572000, 'total_time': 17449.058070659637, 'episode_reward': -50.0}
+evaluate on 17510.64669394493
+{'episode': 5741, 'step': 287000, 'env_step': 574000, 'total_time': 17510.64669084549, 'episode_reward': -50.0}
+evaluate on 17572.092245817184
+{'episode': 5761, 'step': 288000, 'env_step': 576000, 'total_time': 17572.092242717743, 'episode_reward': -50.0}
+evaluate on 17633.014971256256
+{'episode': 5781, 'step': 289000, 'env_step': 578000, 'total_time': 17633.01496863365, 'episode_reward': -50.0}
+evaluate on 17693.961193799973
+{'episode': 5801, 'step': 290000, 'env_step': 580000, 'total_time': 17693.96119093895, 'episode_reward': -50.0}
+evaluate on 17754.831977128983
+{'episode': 5821, 'step': 291000, 'env_step': 582000, 'total_time': 17754.83197426796, 'episode_reward': -50.0}
+evaluate on 17816.12530708313
+{'episode': 5841, 'step': 292000, 'env_step': 584000, 'total_time': 17816.125304222107, 'episode_reward': -50.0}
+evaluate on 17877.181055784225
+{'episode': 5861, 'step': 293000, 'env_step': 586000, 'total_time': 17877.181052684784, 'episode_reward': -50.0}
+evaluate on 17938.760615587234
+{'episode': 5881, 'step': 294000, 'env_step': 588000, 'total_time': 17938.760612249374, 'episode_reward': -50.0}
+evaluate on 18000.730379343033
+{'episode': 5901, 'step': 295000, 'env_step': 590000, 'total_time': 18000.73037624359, 'episode_reward': -50.0}
+evaluate on 18064.593070030212
+{'episode': 5921, 'step': 296000, 'env_step': 592000, 'total_time': 18064.593066215515, 'episode_reward': -50.0}
+evaluate on 18127.018094062805
+{'episode': 5941, 'step': 297000, 'env_step': 594000, 'total_time': 18127.018090248108, 'episode_reward': -50.0}
+evaluate on 18191.351401805878
+{'episode': 5961, 'step': 298000, 'env_step': 596000, 'total_time': 18191.351397752762, 'episode_reward': -50.0}
+evaluate on 18251.724752664566
+{'episode': 5981, 'step': 299000, 'env_step': 598000, 'total_time': 18251.724749565125, 'episode_reward': -50.0}
+evaluate on 18316.194611549377
+{'episode': 6001, 'step': 300000, 'env_step': 600000, 'total_time': 18316.19460773468, 'episode_reward': -50.0}
+evaluate on 18378.81045484543
+{'episode': 6021, 'step': 301000, 'env_step': 602000, 'total_time': 18378.81045126915, 'episode_reward': -50.0}
+evaluate on 18436.72129535675
+{'episode': 6041, 'step': 302000, 'env_step': 604000, 'total_time': 18436.72129178047, 'episode_reward': -50.0}
+evaluate on 18497.196312904358
+{'episode': 6061, 'step': 303000, 'env_step': 606000, 'total_time': 18497.196309566498, 'episode_reward': -50.0}
+evaluate on 18560.51615691185
+{'episode': 6081, 'step': 304000, 'env_step': 608000, 'total_time': 18560.51615333557, 'episode_reward': -50.0}
+evaluate on 18621.34829044342
+{'episode': 6101, 'step': 305000, 'env_step': 610000, 'total_time': 18621.34828686714, 'episode_reward': -50.0}
+evaluate on 18683.122030496597
+{'episode': 6121, 'step': 306000, 'env_step': 612000, 'total_time': 18683.122027158737, 'episode_reward': -50.0}
+evaluate on 18744.014168977737
+{'episode': 6141, 'step': 307000, 'env_step': 614000, 'total_time': 18744.014164447784, 'episode_reward': -50.0}
+evaluate on 18805.109289884567
+{'episode': 6161, 'step': 308000, 'env_step': 616000, 'total_time': 18805.109286546707, 'episode_reward': -50.0}
+evaluate on 18868.945212364197
+{'episode': 6181, 'step': 309000, 'env_step': 618000, 'total_time': 18868.9452085495, 'episode_reward': -50.0}
+evaluate on 18933.59800195694
+{'episode': 6201, 'step': 310000, 'env_step': 620000, 'total_time': 18933.597998142242, 'episode_reward': -50.0}
+evaluate on 18998.08147931099
+{'episode': 6221, 'step': 311000, 'env_step': 622000, 'total_time': 18998.08147597313, 'episode_reward': -50.0}
+evaluate on 19059.46909427643
+{'episode': 6241, 'step': 312000, 'env_step': 624000, 'total_time': 19059.46909070015, 'episode_reward': -50.0}
+evaluate on 19120.901826620102
+{'episode': 6261, 'step': 313000, 'env_step': 626000, 'total_time': 19120.901822805405, 'episode_reward': -50.0}
+evaluate on 19185.13016986847
+{'episode': 6281, 'step': 314000, 'env_step': 628000, 'total_time': 19185.13016629219, 'episode_reward': -50.0}
+evaluate on 19248.65128016472
+{'episode': 6301, 'step': 315000, 'env_step': 630000, 'total_time': 19248.65127658844, 'episode_reward': -50.0}
+evaluate on 19312.055675268173
+{'episode': 6321, 'step': 316000, 'env_step': 632000, 'total_time': 19312.055671453476, 'episode_reward': -50.0}
+evaluate on 19375.996558904648
+{'episode': 6341, 'step': 317000, 'env_step': 634000, 'total_time': 19375.996555566788, 'episode_reward': -50.0}
+evaluate on 19436.877712726593
+{'episode': 6361, 'step': 318000, 'env_step': 636000, 'total_time': 19436.87770843506, 'episode_reward': -50.0}
+evaluate on 19499.905314445496
+{'episode': 6381, 'step': 319000, 'env_step': 638000, 'total_time': 19499.90531039238, 'episode_reward': -50.0}
+evaluate on 19562.008041381836
+{'episode': 6401, 'step': 320000, 'env_step': 640000, 'total_time': 19562.008038043976, 'episode_reward': -50.0}
+evaluate on 19623.95694541931
+{'episode': 6421, 'step': 321000, 'env_step': 642000, 'total_time': 19623.956941843033, 'episode_reward': -50.0}
+evaluate on 19686.043424606323
+{'episode': 6441, 'step': 322000, 'env_step': 644000, 'total_time': 19686.043420553207, 'episode_reward': -50.0}
+evaluate on 19747.766144514084
+{'episode': 6461, 'step': 323000, 'env_step': 646000, 'total_time': 19747.766140699387, 'episode_reward': -50.0}
+evaluate on 19812.379655122757
+{'episode': 6481, 'step': 324000, 'env_step': 648000, 'total_time': 19812.37965154648, 'episode_reward': -50.0}
+evaluate on 19873.412760972977
+{'episode': 6501, 'step': 325000, 'env_step': 650000, 'total_time': 19873.41275691986, 'episode_reward': -50.0}
+evaluate on 19936.58964586258
+{'episode': 6521, 'step': 326000, 'env_step': 652000, 'total_time': 19936.589642047882, 'episode_reward': -50.0}
+evaluate on 19998.576498746872
+{'episode': 6541, 'step': 327000, 'env_step': 654000, 'total_time': 19998.576495170593, 'episode_reward': -50.0}
+evaluate on 20060.204242944717
+{'episode': 6561, 'step': 328000, 'env_step': 656000, 'total_time': 20060.20423936844, 'episode_reward': -50.0}
+evaluate on 20122.70200252533
+{'episode': 6581, 'step': 329000, 'env_step': 658000, 'total_time': 20122.70199918747, 'episode_reward': -50.0}
+evaluate on 20186.758339881897
+{'episode': 6601, 'step': 330000, 'env_step': 660000, 'total_time': 20186.75833630562, 'episode_reward': -50.0}
+evaluate on 20250.26996231079
+{'episode': 6621, 'step': 331000, 'env_step': 662000, 'total_time': 20250.269958734512, 'episode_reward': -50.0}
+evaluate on 20313.22232055664
+{'episode': 6641, 'step': 332000, 'env_step': 664000, 'total_time': 20313.22231721878, 'episode_reward': -50.0}
+evaluate on 20374.358404397964
+{'episode': 6661, 'step': 333000, 'env_step': 666000, 'total_time': 20374.358401298523, 'episode_reward': -50.0}
+evaluate on 20437.851548433304
+{'episode': 6681, 'step': 334000, 'env_step': 668000, 'total_time': 20437.851544618607, 'episode_reward': -50.0}
+evaluate on 20501.632267951965
+{'episode': 6701, 'step': 335000, 'env_step': 670000, 'total_time': 20501.632263422012, 'episode_reward': -50.0}
+evaluate on 20564.835419654846
+{'episode': 6721, 'step': 336000, 'env_step': 672000, 'total_time': 20564.835416793823, 'episode_reward': -50.0}
+evaluate on 20629.280000448227
+{'episode': 6741, 'step': 337000, 'env_step': 674000, 'total_time': 20629.279997348785, 'episode_reward': -50.0}
+evaluate on 20693.173139333725
+{'episode': 6761, 'step': 338000, 'env_step': 676000, 'total_time': 20693.173136472702, 'episode_reward': -50.0}
+evaluate on 20754.23948097229
+{'episode': 6781, 'step': 339000, 'env_step': 678000, 'total_time': 20754.239477157593, 'episode_reward': -50.0}
+evaluate on 20814.007897138596
+{'episode': 6801, 'step': 340000, 'env_step': 680000, 'total_time': 20814.007893800735, 'episode_reward': -50.0}
+evaluate on 20876.65657043457
+{'episode': 6821, 'step': 341000, 'env_step': 682000, 'total_time': 20876.65656685829, 'episode_reward': -50.0}
+evaluate on 20939.661303520203
+{'episode': 6841, 'step': 342000, 'env_step': 684000, 'total_time': 20939.66130065918, 'episode_reward': -50.0}
+evaluate on 21002.82443165779
+{'episode': 6861, 'step': 343000, 'env_step': 686000, 'total_time': 21002.824427843094, 'episode_reward': -50.0}
+evaluate on 21066.438618421555
+{'episode': 6881, 'step': 344000, 'env_step': 688000, 'total_time': 21066.438615083694, 'episode_reward': -50.0}
+evaluate on 21130.12352848053
+{'episode': 6901, 'step': 345000, 'env_step': 690000, 'total_time': 21130.123525619507, 'episode_reward': -50.0}
+evaluate on 21193.592195749283
+{'episode': 6921, 'step': 346000, 'env_step': 692000, 'total_time': 21193.59219264984, 'episode_reward': -50.0}
+evaluate on 21256.849818706512
+{'episode': 6941, 'step': 347000, 'env_step': 694000, 'total_time': 21256.84981560707, 'episode_reward': -50.0}
+evaluate on 21321.20661020279
+{'episode': 6961, 'step': 348000, 'env_step': 696000, 'total_time': 21321.206607341766, 'episode_reward': -50.0}
+evaluate on 21385.05002760887
+{'episode': 6981, 'step': 349000, 'env_step': 698000, 'total_time': 21385.05002427101, 'episode_reward': -50.0}
+evaluate on 21448.906072854996
+{'episode': 7001, 'step': 350000, 'env_step': 700000, 'total_time': 21448.906069755554, 'episode_reward': -50.0}
+evaluate on 21512.40518283844
+{'episode': 7021, 'step': 351000, 'env_step': 702000, 'total_time': 21512.405179977417, 'episode_reward': -50.0}
+evaluate on 21574.864299058914
+{'episode': 7041, 'step': 352000, 'env_step': 704000, 'total_time': 21574.864295482635, 'episode_reward': -50.0}
+evaluate on 21636.253021478653
+{'episode': 7061, 'step': 353000, 'env_step': 706000, 'total_time': 21636.253018140793, 'episode_reward': -50.0}
+evaluate on 21699.172074317932
+{'episode': 7081, 'step': 354000, 'env_step': 708000, 'total_time': 21699.172070980072, 'episode_reward': -50.0}
+evaluate on 21762.21436357498
+{'episode': 7101, 'step': 355000, 'env_step': 710000, 'total_time': 21762.21436071396, 'episode_reward': -50.0}
+evaluate on 21824.394470214844
+{'episode': 7121, 'step': 356000, 'env_step': 712000, 'total_time': 21824.39446234703, 'episode_reward': -50.0}
+evaluate on 21888.541165351868
+{'episode': 7141, 'step': 357000, 'env_step': 714000, 'total_time': 21888.541162490845, 'episode_reward': -50.0}
+evaluate on 21951.741423130035
+{'episode': 7161, 'step': 358000, 'env_step': 716000, 'total_time': 21951.741420030594, 'episode_reward': -50.0}
+evaluate on 22015.71862578392
+{'episode': 7181, 'step': 359000, 'env_step': 718000, 'total_time': 22015.718622922897, 'episode_reward': -50.0}
+evaluate on 22079.610667943954
+{'episode': 7201, 'step': 360000, 'env_step': 720000, 'total_time': 22079.610664844513, 'episode_reward': -50.0}
+evaluate on 22143.015229463577
+{'episode': 7221, 'step': 361000, 'env_step': 722000, 'total_time': 22143.015226602554, 'episode_reward': -50.0}
+evaluate on 22206.693534612656
+{'episode': 7241, 'step': 362000, 'env_step': 724000, 'total_time': 22206.693531513214, 'episode_reward': -50.0}
+evaluate on 22268.892092227936
+{'episode': 7261, 'step': 363000, 'env_step': 726000, 'total_time': 22268.892089128494, 'episode_reward': -50.0}
+evaluate on 22332.694939136505
+{'episode': 7281, 'step': 364000, 'env_step': 728000, 'total_time': 22332.694935798645, 'episode_reward': -50.0}
+evaluate on 22396.879868507385
+{'episode': 7301, 'step': 365000, 'env_step': 730000, 'total_time': 22396.879865646362, 'episode_reward': -50.0}
+evaluate on 22459.61066007614
+{'episode': 7321, 'step': 366000, 'env_step': 732000, 'total_time': 22459.61065721512, 'episode_reward': -50.0}
+evaluate on 22522.4493765831
+{'episode': 7341, 'step': 367000, 'env_step': 734000, 'total_time': 22522.449373722076, 'episode_reward': -50.0}
+evaluate on 22584.78237104416
+{'episode': 7361, 'step': 368000, 'env_step': 736000, 'total_time': 22584.7823677063, 'episode_reward': -50.0}
+evaluate on 22648.05715060234
+{'episode': 7381, 'step': 369000, 'env_step': 738000, 'total_time': 22648.057147979736, 'episode_reward': -50.0}
+evaluate on 22711.120483636856
+{'episode': 7401, 'step': 370000, 'env_step': 740000, 'total_time': 22711.120480537415, 'episode_reward': -50.0}
+evaluate on 22774.403650522232
+{'episode': 7421, 'step': 371000, 'env_step': 742000, 'total_time': 22774.40364742279, 'episode_reward': -50.0}
+evaluate on 22837.168390989304
+{'episode': 7441, 'step': 372000, 'env_step': 744000, 'total_time': 22837.168387889862, 'episode_reward': -50.0}
+evaluate on 22898.44062924385
+{'episode': 7461, 'step': 373000, 'env_step': 746000, 'total_time': 22898.440625190735, 'episode_reward': -50.0}
+evaluate on 22961.3002679348
+{'episode': 7481, 'step': 374000, 'env_step': 748000, 'total_time': 22961.300265073776, 'episode_reward': -50.0}
+evaluate on 23024.18512058258
+{'episode': 7501, 'step': 375000, 'env_step': 750000, 'total_time': 23024.185117721558, 'episode_reward': -50.0}
+evaluate on 23086.112963676453
+{'episode': 7521, 'step': 376000, 'env_step': 752000, 'total_time': 23086.11296057701, 'episode_reward': -50.0}
+evaluate on 23148.178306102753
+{'episode': 7541, 'step': 377000, 'env_step': 754000, 'total_time': 23148.17830324173, 'episode_reward': -50.0}
+evaluate on 23210.455877780914
+{'episode': 7561, 'step': 378000, 'env_step': 756000, 'total_time': 23210.455874681473, 'episode_reward': -50.0}
+evaluate on 23272.494487047195
+{'episode': 7581, 'step': 379000, 'env_step': 758000, 'total_time': 23272.494484186172, 'episode_reward': -50.0}
+evaluate on 23335.08782863617
+{'episode': 7601, 'step': 380000, 'env_step': 760000, 'total_time': 23335.08782505989, 'episode_reward': -50.0}
+evaluate on 23397.878342866898
+{'episode': 7621, 'step': 381000, 'env_step': 762000, 'total_time': 23397.878340005875, 'episode_reward': -50.0}
+evaluate on 23460.71678709984
+{'episode': 7641, 'step': 382000, 'env_step': 764000, 'total_time': 23460.716784000397, 'episode_reward': -50.0}
+evaluate on 23523.562961101532
+{'episode': 7661, 'step': 383000, 'env_step': 766000, 'total_time': 23523.562957763672, 'episode_reward': -50.0}
+evaluate on 23586.541874170303
+{'episode': 7681, 'step': 384000, 'env_step': 768000, 'total_time': 23586.54187107086, 'episode_reward': -50.0}
+evaluate on 23648.759273290634
+{'episode': 7701, 'step': 385000, 'env_step': 770000, 'total_time': 23648.759270191193, 'episode_reward': -50.0}
+evaluate on 23712.375054836273
+{'episode': 7721, 'step': 386000, 'env_step': 772000, 'total_time': 23712.37505221367, 'episode_reward': -50.0}
+evaluate on 23775.041933774948
+{'episode': 7741, 'step': 387000, 'env_step': 774000, 'total_time': 23775.041930913925, 'episode_reward': -50.0}
+evaluate on 23836.991973161697
+{'episode': 7761, 'step': 388000, 'env_step': 776000, 'total_time': 23836.991970062256, 'episode_reward': -50.0}
+evaluate on 23900.505200624466
+{'episode': 7781, 'step': 389000, 'env_step': 778000, 'total_time': 23900.505197525024, 'episode_reward': -50.0}
+evaluate on 23962.143147945404
+{'episode': 7801, 'step': 390000, 'env_step': 780000, 'total_time': 23962.143144607544, 'episode_reward': -50.0}
+evaluate on 24021.260568857193
+{'episode': 7821, 'step': 391000, 'env_step': 782000, 'total_time': 24021.26056575775, 'episode_reward': -50.0}
+evaluate on 24084.165172100067
+{'episode': 7841, 'step': 392000, 'env_step': 784000, 'total_time': 24084.165169239044, 'episode_reward': -50.0}
+evaluate on 24145.476603269577
+{'episode': 7861, 'step': 393000, 'env_step': 786000, 'total_time': 24145.47659921646, 'episode_reward': -50.0}
+evaluate on 24207.159666776657
+{'episode': 7881, 'step': 394000, 'env_step': 788000, 'total_time': 24207.15966272354, 'episode_reward': -50.0}
+evaluate on 24269.310651540756
+{'episode': 7901, 'step': 395000, 'env_step': 790000, 'total_time': 24269.310647964478, 'episode_reward': -50.0}
+evaluate on 24333.587170124054
+{'episode': 7921, 'step': 396000, 'env_step': 792000, 'total_time': 24333.587166070938, 'episode_reward': -50.0}
+evaluate on 24398.231521606445
+{'episode': 7941, 'step': 397000, 'env_step': 794000, 'total_time': 24398.231518268585, 'episode_reward': -50.0}
+evaluate on 24461.12818837166
+{'episode': 7961, 'step': 398000, 'env_step': 796000, 'total_time': 24461.1281850338, 'episode_reward': -50.0}
+evaluate on 24525.41687321663
+{'episode': 7981, 'step': 399000, 'env_step': 798000, 'total_time': 24525.41686964035, 'episode_reward': -50.0}
+evaluate on 24587.516564130783
+{'episode': 8001, 'step': 400000, 'env_step': 800000, 'total_time': 24587.516560077667, 'episode_reward': -50.0}
+evaluate on 24652.330462932587
+{'episode': 8021, 'step': 401000, 'env_step': 802000, 'total_time': 24652.33045911789, 'episode_reward': -50.0}
+evaluate on 24716.451963424683
+{'episode': 8041, 'step': 402000, 'env_step': 804000, 'total_time': 24716.451959609985, 'episode_reward': -50.0}
+evaluate on 24780.145239830017
+{'episode': 8061, 'step': 403000, 'env_step': 806000, 'total_time': 24780.145236492157, 'episode_reward': -50.0}
+evaluate on 24843.08746099472
+{'episode': 8081, 'step': 404000, 'env_step': 808000, 'total_time': 24843.087458372116, 'episode_reward': -50.0}
+evaluate on 24906.47797560692
+{'episode': 8101, 'step': 405000, 'env_step': 810000, 'total_time': 24906.47797203064, 'episode_reward': -50.0}
+evaluate on 24970.897738218307
+{'episode': 8121, 'step': 406000, 'env_step': 812000, 'total_time': 24970.89773416519, 'episode_reward': -50.0}
+evaluate on 25034.901321411133
+{'episode': 8141, 'step': 407000, 'env_step': 814000, 'total_time': 25034.901317834854, 'episode_reward': -50.0}
+evaluate on 25099.757652521133
+{'episode': 8161, 'step': 408000, 'env_step': 816000, 'total_time': 25099.757648706436, 'episode_reward': -50.0}
+evaluate on 25163.12373971939
+{'episode': 8181, 'step': 409000, 'env_step': 818000, 'total_time': 25163.123736143112, 'episode_reward': -50.0}
+evaluate on 25227.321081876755
+{'episode': 8201, 'step': 410000, 'env_step': 820000, 'total_time': 25227.32107782364, 'episode_reward': -50.0}
+evaluate on 25292.899822473526
+{'episode': 8221, 'step': 411000, 'env_step': 822000, 'total_time': 25292.89981842041, 'episode_reward': -50.0}
+evaluate on 25357.463471651077
+{'episode': 8241, 'step': 412000, 'env_step': 824000, 'total_time': 25357.4634680748, 'episode_reward': -50.0}
+evaluate on 25418.110108852386
+{'episode': 8261, 'step': 413000, 'env_step': 826000, 'total_time': 25418.110105752945, 'episode_reward': -50.0}
+evaluate on 25480.80166363716
+{'episode': 8281, 'step': 414000, 'env_step': 828000, 'total_time': 25480.801659584045, 'episode_reward': -50.0}
+evaluate on 25545.27261185646
+{'episode': 8301, 'step': 415000, 'env_step': 830000, 'total_time': 25545.272608995438, 'episode_reward': -50.0}
+evaluate on 25607.513142824173
+{'episode': 8321, 'step': 416000, 'env_step': 832000, 'total_time': 25607.513139247894, 'episode_reward': -50.0}
+evaluate on 25670.456711292267
+{'episode': 8341, 'step': 417000, 'env_step': 834000, 'total_time': 25670.45670747757, 'episode_reward': -50.0}
+evaluate on 25733.426871299744
+{'episode': 8361, 'step': 418000, 'env_step': 836000, 'total_time': 25733.42686843872, 'episode_reward': -50.0}
+evaluate on 25797.751557826996
+{'episode': 8381, 'step': 419000, 'env_step': 838000, 'total_time': 25797.751554489136, 'episode_reward': -50.0}
+evaluate on 25862.5812997818
+{'episode': 8401, 'step': 420000, 'env_step': 840000, 'total_time': 25862.58129644394, 'episode_reward': -50.0}
+evaluate on 25927.354605913162
+{'episode': 8421, 'step': 421000, 'env_step': 842000, 'total_time': 25927.354602575302, 'episode_reward': -50.0}
+evaluate on 25991.378173828125
+{'episode': 8441, 'step': 422000, 'env_step': 844000, 'total_time': 25991.378170490265, 'episode_reward': -50.0}
+evaluate on 26051.690732955933
+{'episode': 8461, 'step': 423000, 'env_step': 846000, 'total_time': 26051.690730571747, 'episode_reward': -50.0}
+evaluate on 26111.239787340164
+{'episode': 8481, 'step': 424000, 'env_step': 848000, 'total_time': 26111.239784240723, 'episode_reward': -50.0}
+evaluate on 26175.85115647316
+{'episode': 8501, 'step': 425000, 'env_step': 850000, 'total_time': 26175.85115337372, 'episode_reward': -50.0}
+evaluate on 26240.282195091248
+{'episode': 8521, 'step': 426000, 'env_step': 852000, 'total_time': 26240.282191991806, 'episode_reward': -50.0}
+evaluate on 26304.720153808594
+{'episode': 8541, 'step': 427000, 'env_step': 854000, 'total_time': 26304.720150709152, 'episode_reward': -50.0}
+evaluate on 26369.490448474884
+{'episode': 8561, 'step': 428000, 'env_step': 856000, 'total_time': 26369.49044442177, 'episode_reward': -50.0}
+evaluate on 26434.130034446716
+{'episode': 8581, 'step': 429000, 'env_step': 858000, 'total_time': 26434.130031347275, 'episode_reward': -50.0}
+evaluate on 26498.845932245255
+{'episode': 8601, 'step': 430000, 'env_step': 860000, 'total_time': 26498.845929145813, 'episode_reward': -50.0}
+evaluate on 26562.326799869537
+{'episode': 8621, 'step': 431000, 'env_step': 862000, 'total_time': 26562.326796770096, 'episode_reward': -50.0}
+evaluate on 26627.612377643585
+{'episode': 8641, 'step': 432000, 'env_step': 864000, 'total_time': 26627.612374782562, 'episode_reward': -50.0}
+evaluate on 26689.836684703827
+{'episode': 8661, 'step': 433000, 'env_step': 866000, 'total_time': 26689.836681604385, 'episode_reward': -50.0}
+evaluate on 26755.43690109253
+{'episode': 8681, 'step': 434000, 'env_step': 868000, 'total_time': 26755.436898231506, 'episode_reward': -50.0}
+evaluate on 26818.816981315613
+{'episode': 8701, 'step': 435000, 'env_step': 870000, 'total_time': 26818.81697845459, 'episode_reward': -50.0}
+evaluate on 26881.792239189148
+{'episode': 8721, 'step': 436000, 'env_step': 872000, 'total_time': 26881.792236328125, 'episode_reward': -50.0}
+evaluate on 26945.592263698578
+{'episode': 8741, 'step': 437000, 'env_step': 874000, 'total_time': 26945.592260360718, 'episode_reward': -50.0}
+evaluate on 27010.79949259758
+{'episode': 8761, 'step': 438000, 'env_step': 876000, 'total_time': 27010.799489736557, 'episode_reward': -50.0}
+evaluate on 27074.97580075264
+{'episode': 8781, 'step': 439000, 'env_step': 878000, 'total_time': 27074.975798130035, 'episode_reward': -50.0}
+evaluate on 27139.22498869896
+{'episode': 8801, 'step': 440000, 'env_step': 880000, 'total_time': 27139.224984407425, 'episode_reward': -50.0}
+evaluate on 27204.710532665253
+{'episode': 8821, 'step': 441000, 'env_step': 882000, 'total_time': 27204.710529327393, 'episode_reward': -50.0}
+evaluate on 27269.412420749664
+{'episode': 8841, 'step': 442000, 'env_step': 884000, 'total_time': 27269.412417650223, 'episode_reward': -50.0}
+evaluate on 27333.02461385727
+{'episode': 8861, 'step': 443000, 'env_step': 886000, 'total_time': 27333.024610996246, 'episode_reward': -50.0}
+evaluate on 27396.005029678345
+{'episode': 8881, 'step': 444000, 'env_step': 888000, 'total_time': 27396.005024433136, 'episode_reward': -50.0}
+evaluate on 27461.163917779922
+{'episode': 8901, 'step': 445000, 'env_step': 890000, 'total_time': 27461.163914442062, 'episode_reward': -50.0}
+evaluate on 27524.578580141068
+{'episode': 8921, 'step': 446000, 'env_step': 892000, 'total_time': 27524.57857656479, 'episode_reward': -50.0}
+evaluate on 27588.15890455246
+{'episode': 8941, 'step': 447000, 'env_step': 894000, 'total_time': 27588.158900737762, 'episode_reward': -50.0}
+evaluate on 27649.411682367325
+{'episode': 8961, 'step': 448000, 'env_step': 896000, 'total_time': 27649.411679267883, 'episode_reward': -50.0}
+evaluate on 27714.15982580185
+{'episode': 8981, 'step': 449000, 'env_step': 898000, 'total_time': 27714.159821987152, 'episode_reward': -50.0}
+evaluate on 27779.18785238266
+{'episode': 9001, 'step': 450000, 'env_step': 900000, 'total_time': 27779.187848567963, 'episode_reward': -50.0}
+evaluate on 27844.29253387451
+{'episode': 9021, 'step': 451000, 'env_step': 902000, 'total_time': 27844.292530298233, 'episode_reward': -50.0}
+evaluate on 27908.493486166
+{'episode': 9041, 'step': 452000, 'env_step': 904000, 'total_time': 27908.49348282814, 'episode_reward': -50.0}
+evaluate on 27972.680317878723
+{'episode': 9061, 'step': 453000, 'env_step': 906000, 'total_time': 27972.680314302444, 'episode_reward': -50.0}
+evaluate on 28033.335381507874
+{'episode': 9081, 'step': 454000, 'env_step': 908000, 'total_time': 28033.335377693176, 'episode_reward': -50.0}
+evaluate on 28097.919310569763
+{'episode': 9101, 'step': 455000, 'env_step': 910000, 'total_time': 28097.919307231903, 'episode_reward': -50.0}
+evaluate on 28160.216365337372
+{'episode': 9121, 'step': 456000, 'env_step': 912000, 'total_time': 28160.21636199951, 'episode_reward': -50.0}
+evaluate on 28224.30898976326
+{'episode': 9141, 'step': 457000, 'env_step': 914000, 'total_time': 28224.3089864254, 'episode_reward': -50.0}
+evaluate on 28287.323001861572
+{'episode': 9161, 'step': 458000, 'env_step': 916000, 'total_time': 28287.322998046875, 'episode_reward': -50.0}
+evaluate on 28350.79407596588
+{'episode': 9181, 'step': 459000, 'env_step': 918000, 'total_time': 28350.794071674347, 'episode_reward': -50.0}
+evaluate on 28415.435688257217
+{'episode': 9201, 'step': 460000, 'env_step': 920000, 'total_time': 28415.435684919357, 'episode_reward': -50.0}
+evaluate on 28480.90860724449
+{'episode': 9221, 'step': 461000, 'env_step': 922000, 'total_time': 28480.90860438347, 'episode_reward': -50.0}
+evaluate on 28542.965929985046
+{'episode': 9241, 'step': 462000, 'env_step': 924000, 'total_time': 28542.96592617035, 'episode_reward': -50.0}
+evaluate on 28608.283878564835
+{'episode': 9261, 'step': 463000, 'env_step': 926000, 'total_time': 28608.283874988556, 'episode_reward': -50.0}
+evaluate on 28671.732838869095
+{'episode': 9281, 'step': 464000, 'env_step': 928000, 'total_time': 28671.732835054398, 'episode_reward': -50.0}
+evaluate on 28736.073604106903
+{'episode': 9301, 'step': 465000, 'env_step': 930000, 'total_time': 28736.073600769043, 'episode_reward': -50.0}
+evaluate on 28801.369285821915
+{'episode': 9321, 'step': 466000, 'env_step': 932000, 'total_time': 28801.369282007217, 'episode_reward': -50.0}
+evaluate on 28866.159867286682
+{'episode': 9341, 'step': 467000, 'env_step': 934000, 'total_time': 28866.159863948822, 'episode_reward': -50.0}
+evaluate on 28930.09007024765
+{'episode': 9361, 'step': 468000, 'env_step': 936000, 'total_time': 28930.090066432953, 'episode_reward': -50.0}
+evaluate on 28993.83264231682
+{'episode': 9381, 'step': 469000, 'env_step': 938000, 'total_time': 28993.832638978958, 'episode_reward': -50.0}
+evaluate on 29056.532951831818
+{'episode': 9401, 'step': 470000, 'env_step': 940000, 'total_time': 29056.53294825554, 'episode_reward': -50.0}
+evaluate on 29121.82435274124
+{'episode': 9421, 'step': 471000, 'env_step': 942000, 'total_time': 29121.82434988022, 'episode_reward': -50.0}
+evaluate on 29186.42401075363
+{'episode': 9441, 'step': 472000, 'env_step': 944000, 'total_time': 29186.42400741577, 'episode_reward': -50.0}
+evaluate on 29251.554500818253
+{'episode': 9461, 'step': 473000, 'env_step': 946000, 'total_time': 29251.55449771881, 'episode_reward': -50.0}
+evaluate on 29316.45476078987
+{'episode': 9481, 'step': 474000, 'env_step': 948000, 'total_time': 29316.454756498337, 'episode_reward': -50.0}
+evaluate on 29381.89116048813
+{'episode': 9501, 'step': 475000, 'env_step': 950000, 'total_time': 29381.891157627106, 'episode_reward': -50.0}
+evaluate on 29447.60404419899
+{'episode': 9521, 'step': 476000, 'env_step': 952000, 'total_time': 29447.60404109955, 'episode_reward': -50.0}
+evaluate on 29512.79686498642
+{'episode': 9541, 'step': 477000, 'env_step': 954000, 'total_time': 29512.796862125397, 'episode_reward': -50.0}
+evaluate on 29576.609407186508
+{'episode': 9561, 'step': 478000, 'env_step': 956000, 'total_time': 29576.609404325485, 'episode_reward': -50.0}
+evaluate on 29641.461882591248
+{'episode': 9581, 'step': 479000, 'env_step': 958000, 'total_time': 29641.461879730225, 'episode_reward': -50.0}
+evaluate on 29705.583757400513
+{'episode': 9601, 'step': 480000, 'env_step': 960000, 'total_time': 29705.58375453949, 'episode_reward': -50.0}
+evaluate on 29769.933601617813
+{'episode': 9621, 'step': 481000, 'env_step': 962000, 'total_time': 29769.93359875679, 'episode_reward': -50.0}
+evaluate on 29835.72429394722
+{'episode': 9641, 'step': 482000, 'env_step': 964000, 'total_time': 29835.72429084778, 'episode_reward': -50.0}
+evaluate on 29900.52961564064
+{'episode': 9661, 'step': 483000, 'env_step': 966000, 'total_time': 29900.529612779617, 'episode_reward': -50.0}
+evaluate on 29964.96940636635
+{'episode': 9681, 'step': 484000, 'env_step': 968000, 'total_time': 29964.969403505325, 'episode_reward': -50.0}
+evaluate on 30024.9035050869
+{'episode': 9701, 'step': 485000, 'env_step': 970000, 'total_time': 30024.903502225876, 'episode_reward': -50.0}
+evaluate on 30089.58044362068
+{'episode': 9721, 'step': 486000, 'env_step': 972000, 'total_time': 30089.58044052124, 'episode_reward': -50.0}
+evaluate on 30154.578822135925
+{'episode': 9741, 'step': 487000, 'env_step': 974000, 'total_time': 30154.578819036484, 'episode_reward': -50.0}
+evaluate on 30218.3976893425
+{'episode': 9761, 'step': 488000, 'env_step': 976000, 'total_time': 30218.397686481476, 'episode_reward': -50.0}
+evaluate on 30282.164046049118
+{'episode': 9781, 'step': 489000, 'env_step': 978000, 'total_time': 30282.164042949677, 'episode_reward': -50.0}
+evaluate on 30346.086390972137
+{'episode': 9801, 'step': 490000, 'env_step': 980000, 'total_time': 30346.086387634277, 'episode_reward': -50.0}
+evaluate on 30411.132934093475
+{'episode': 9821, 'step': 491000, 'env_step': 982000, 'total_time': 30411.132931232452, 'episode_reward': -50.0}
+evaluate on 30475.974411964417
+{'episode': 9841, 'step': 492000, 'env_step': 984000, 'total_time': 30475.974409103394, 'episode_reward': -50.0}
+evaluate on 30541.006771087646
+{'episode': 9861, 'step': 493000, 'env_step': 986000, 'total_time': 30541.006768465042, 'episode_reward': -50.0}
+evaluate on 30606.07322716713
+{'episode': 9881, 'step': 494000, 'env_step': 988000, 'total_time': 30606.073224306107, 'episode_reward': -50.0}
+evaluate on 30670.654423475266
+{'episode': 9901, 'step': 495000, 'env_step': 990000, 'total_time': 30670.654420137405, 'episode_reward': -50.0}
+evaluate on 30734.875106573105
+{'episode': 9921, 'step': 496000, 'env_step': 992000, 'total_time': 30734.875103712082, 'episode_reward': -50.0}
+evaluate on 30798.898797750473
+{'episode': 9941, 'step': 497000, 'env_step': 994000, 'total_time': 30798.89879488945, 'episode_reward': -50.0}
+evaluate on 30862.998582601547
+{'episode': 9961, 'step': 498000, 'env_step': 996000, 'total_time': 30862.998579263687, 'episode_reward': -50.0}
+evaluate on 30927.32043170929
+{'episode': 9981, 'step': 499000, 'env_step': 998000, 'total_time': 30927.320429086685, 'episode_reward': -50.0}
+evaluate on 30991.667382240295
+{'episode': 10001, 'step': 500000, 'env_step': 1000000, 'total_time': 30991.667379379272, 'episode_reward': -50.0}
+evaluate on 31056.432325839996
+{'episode': 10021, 'step': 501000, 'env_step': 1002000, 'total_time': 31056.432322978973, 'episode_reward': -50.0}
+evaluate on 31121.24969100952
+{'episode': 10041, 'step': 502000, 'env_step': 1004000, 'total_time': 31121.24968767166, 'episode_reward': -50.0}
+evaluate on 31185.71764111519
+{'episode': 10061, 'step': 503000, 'env_step': 1006000, 'total_time': 31185.717638492584, 'episode_reward': -50.0}
+evaluate on 31250.22015976906
+{'episode': 10081, 'step': 504000, 'env_step': 1008000, 'total_time': 31250.220157146454, 'episode_reward': -50.0}
+evaluate on 31314.661736488342
+{'episode': 10101, 'step': 505000, 'env_step': 1010000, 'total_time': 31314.66173362732, 'episode_reward': -50.0}
+evaluate on 31379.80994105339
+{'episode': 10121, 'step': 506000, 'env_step': 1012000, 'total_time': 31379.80993771553, 'episode_reward': -50.0}
+evaluate on 31445.143991708755
+{'episode': 10141, 'step': 507000, 'env_step': 1014000, 'total_time': 31445.14398908615, 'episode_reward': -50.0}
+evaluate on 31511.147189617157
+{'episode': 10161, 'step': 508000, 'env_step': 1016000, 'total_time': 31511.14718580246, 'episode_reward': -50.0}
+evaluate on 31577.509492635727
+{'episode': 10181, 'step': 509000, 'env_step': 1018000, 'total_time': 31577.509490013123, 'episode_reward': -50.0}
+evaluate on 31642.929128170013
+{'episode': 10201, 'step': 510000, 'env_step': 1020000, 'total_time': 31642.929125070572, 'episode_reward': -50.0}
+evaluate on 31707.72486114502
+{'episode': 10221, 'step': 511000, 'env_step': 1022000, 'total_time': 31707.72485756874, 'episode_reward': -50.0}
+evaluate on 31772.448113679886
+{'episode': 10241, 'step': 512000, 'env_step': 1024000, 'total_time': 31772.448110818863, 'episode_reward': -50.0}
+evaluate on 31838.658849477768
+{'episode': 10261, 'step': 513000, 'env_step': 1026000, 'total_time': 31838.658846616745, 'episode_reward': -50.0}
+evaluate on 31904.416551589966
+{'episode': 10281, 'step': 514000, 'env_step': 1028000, 'total_time': 31904.416548728943, 'episode_reward': -50.0}
+evaluate on 31970.560077905655
+{'episode': 10301, 'step': 515000, 'env_step': 1030000, 'total_time': 31970.560074806213, 'episode_reward': -50.0}
+evaluate on 32035.506096839905
+{'episode': 10321, 'step': 516000, 'env_step': 1032000, 'total_time': 32035.506093978882, 'episode_reward': -50.0}
+evaluate on 32101.373133659363
+{'episode': 10341, 'step': 517000, 'env_step': 1034000, 'total_time': 32101.373130321503, 'episode_reward': -50.0}
+evaluate on 32166.49826478958
+{'episode': 10361, 'step': 518000, 'env_step': 1036000, 'total_time': 32166.49826169014, 'episode_reward': -50.0}
+evaluate on 32232.01408147812
+{'episode': 10381, 'step': 519000, 'env_step': 1038000, 'total_time': 32232.014078378677, 'episode_reward': -50.0}
+evaluate on 32298.58950972557
+{'episode': 10401, 'step': 520000, 'env_step': 1040000, 'total_time': 32298.58950638771, 'episode_reward': -50.0}
+evaluate on 32364.458157777786
+{'episode': 10421, 'step': 521000, 'env_step': 1042000, 'total_time': 32364.458154678345, 'episode_reward': -50.0}
+evaluate on 32431.738503932953
+{'episode': 10441, 'step': 522000, 'env_step': 1044000, 'total_time': 32431.73850083351, 'episode_reward': -50.0}
+evaluate on 32498.20530462265
+{'episode': 10461, 'step': 523000, 'env_step': 1046000, 'total_time': 32498.20530152321, 'episode_reward': -50.0}
+evaluate on 32565.374511241913
+{'episode': 10481, 'step': 524000, 'env_step': 1048000, 'total_time': 32565.37450861931, 'episode_reward': -50.0}
+evaluate on 32631.61739373207
+{'episode': 10501, 'step': 525000, 'env_step': 1050000, 'total_time': 32631.61739063263, 'episode_reward': -50.0}
+evaluate on 32697.0281457901
+{'episode': 10521, 'step': 526000, 'env_step': 1052000, 'total_time': 32697.02814245224, 'episode_reward': -50.0}
+evaluate on 32764.19970870018
+{'episode': 10541, 'step': 527000, 'env_step': 1054000, 'total_time': 32764.199704885483, 'episode_reward': -50.0}
+evaluate on 32830.05315852165
+{'episode': 10561, 'step': 528000, 'env_step': 1056000, 'total_time': 32830.05315589905, 'episode_reward': -50.0}
+evaluate on 32895.7940056324
+{'episode': 10581, 'step': 529000, 'env_step': 1058000, 'total_time': 32895.794003009796, 'episode_reward': -50.0}
+evaluate on 32960.84139227867
+{'episode': 10601, 'step': 530000, 'env_step': 1060000, 'total_time': 32960.84138965607, 'episode_reward': -50.0}
+evaluate on 33026.92574286461
+{'episode': 10621, 'step': 531000, 'env_step': 1062000, 'total_time': 33026.92573952675, 'episode_reward': -50.0}
+evaluate on 33093.14884638786
+{'episode': 10641, 'step': 532000, 'env_step': 1064000, 'total_time': 33093.14884328842, 'episode_reward': -50.0}
+evaluate on 33158.51613521576
+{'episode': 10661, 'step': 533000, 'env_step': 1066000, 'total_time': 33158.516132354736, 'episode_reward': -50.0}
+evaluate on 33223.6624789238
+{'episode': 10681, 'step': 534000, 'env_step': 1068000, 'total_time': 33223.66247534752, 'episode_reward': -50.0}
+evaluate on 33289.98808836937
+{'episode': 10701, 'step': 535000, 'env_step': 1070000, 'total_time': 33289.98808479309, 'episode_reward': -50.0}
+evaluate on 33355.883420705795
+{'episode': 10721, 'step': 536000, 'env_step': 1072000, 'total_time': 33355.88341665268, 'episode_reward': -50.0}
+evaluate on 33421.37872123718
+{'episode': 10741, 'step': 537000, 'env_step': 1074000, 'total_time': 33421.378717660904, 'episode_reward': -50.0}
+evaluate on 33487.70252275467
+{'episode': 10761, 'step': 538000, 'env_step': 1076000, 'total_time': 33487.70251941681, 'episode_reward': -50.0}
+evaluate on 33552.17157077789
+{'episode': 10781, 'step': 539000, 'env_step': 1078000, 'total_time': 33552.171566963196, 'episode_reward': -50.0}
+evaluate on 33617.46226668358
+{'episode': 10801, 'step': 540000, 'env_step': 1080000, 'total_time': 33617.46226358414, 'episode_reward': -50.0}
+evaluate on 33683.301275253296
+{'episode': 10821, 'step': 541000, 'env_step': 1082000, 'total_time': 33683.301272153854, 'episode_reward': -50.0}
+evaluate on 33745.994918346405
+{'episode': 10841, 'step': 542000, 'env_step': 1084000, 'total_time': 33745.994914770126, 'episode_reward': -50.0}
+evaluate on 33813.22319817543
+{'episode': 10861, 'step': 543000, 'env_step': 1086000, 'total_time': 33813.22319459915, 'episode_reward': -50.0}
+evaluate on 33879.66846871376
+{'episode': 10881, 'step': 544000, 'env_step': 1088000, 'total_time': 33879.66846513748, 'episode_reward': -50.0}
+evaluate on 33946.09094238281
+{'episode': 10901, 'step': 545000, 'env_step': 1090000, 'total_time': 33946.090938568115, 'episode_reward': -50.0}
+evaluate on 34011.394255399704
+{'episode': 10921, 'step': 546000, 'env_step': 1092000, 'total_time': 34011.394251823425, 'episode_reward': -50.0}
+evaluate on 34077.40694522858
+{'episode': 10941, 'step': 547000, 'env_step': 1094000, 'total_time': 34077.406942129135, 'episode_reward': -50.0}
+evaluate on 34143.642666101456
+{'episode': 10961, 'step': 548000, 'env_step': 1096000, 'total_time': 34143.64266324043, 'episode_reward': -50.0}
+evaluate on 34208.43700861931
+{'episode': 10981, 'step': 549000, 'env_step': 1098000, 'total_time': 34208.437005758286, 'episode_reward': -50.0}
+evaluate on 34272.82031440735
+{'episode': 11001, 'step': 550000, 'env_step': 1100000, 'total_time': 34272.82031106949, 'episode_reward': -50.0}
+evaluate on 34336.380533218384
+{'episode': 11021, 'step': 551000, 'env_step': 1102000, 'total_time': 34336.38053035736, 'episode_reward': -50.0}
+evaluate on 34400.809057474136
+{'episode': 11041, 'step': 552000, 'env_step': 1104000, 'total_time': 34400.80905461311, 'episode_reward': -50.0}
+evaluate on 34467.56984400749
+{'episode': 11061, 'step': 553000, 'env_step': 1106000, 'total_time': 34467.56984114647, 'episode_reward': -50.0}
+evaluate on 34533.303383111954
+{'episode': 11081, 'step': 554000, 'env_step': 1108000, 'total_time': 34533.30337882042, 'episode_reward': -50.0}
+evaluate on 34598.178778886795
+{'episode': 11101, 'step': 555000, 'env_step': 1110000, 'total_time': 34598.178775548935, 'episode_reward': -50.0}
+evaluate on 34662.948347091675
+{'episode': 11121, 'step': 556000, 'env_step': 1112000, 'total_time': 34662.94834423065, 'episode_reward': -50.0}
+evaluate on 34727.50094461441
+{'episode': 11141, 'step': 557000, 'env_step': 1114000, 'total_time': 34727.50094127655, 'episode_reward': -50.0}
+evaluate on 34793.4026362896
+{'episode': 11161, 'step': 558000, 'env_step': 1116000, 'total_time': 34793.40263271332, 'episode_reward': -50.0}
+evaluate on 34858.15110015869
+{'episode': 11181, 'step': 559000, 'env_step': 1118000, 'total_time': 34858.15109705925, 'episode_reward': -50.0}
+evaluate on 34924.24607658386
+{'episode': 11201, 'step': 560000, 'env_step': 1120000, 'total_time': 34924.24607348442, 'episode_reward': -50.0}
+evaluate on 34990.548880815506
+{'episode': 11221, 'step': 561000, 'env_step': 1122000, 'total_time': 34990.54887795448, 'episode_reward': -50.0}
+evaluate on 35056.20118832588
+{'episode': 11241, 'step': 562000, 'env_step': 1124000, 'total_time': 35056.20118522644, 'episode_reward': -50.0}
+evaluate on 35120.875712156296
+{'episode': 11261, 'step': 563000, 'env_step': 1126000, 'total_time': 35120.875708818436, 'episode_reward': -50.0}
+evaluate on 35186.957611083984
+{'episode': 11281, 'step': 564000, 'env_step': 1128000, 'total_time': 35186.95760822296, 'episode_reward': -50.0}
+evaluate on 35251.41866493225
+{'episode': 11301, 'step': 565000, 'env_step': 1130000, 'total_time': 35251.41866183281, 'episode_reward': -50.0}
+evaluate on 35316.25838112831
+{'episode': 11321, 'step': 566000, 'env_step': 1132000, 'total_time': 35316.25837850571, 'episode_reward': -50.0}
+evaluate on 35381.579075336456
+{'episode': 11341, 'step': 567000, 'env_step': 1134000, 'total_time': 35381.57907247543, 'episode_reward': -50.0}
+evaluate on 35447.65230965614
+{'episode': 11361, 'step': 568000, 'env_step': 1136000, 'total_time': 35447.65230631828, 'episode_reward': -50.0}
+evaluate on 35514.1434276104
+{'episode': 11381, 'step': 569000, 'env_step': 1138000, 'total_time': 35514.14342331886, 'episode_reward': -50.0}
+evaluate on 35582.10881567001
+{'episode': 11401, 'step': 570000, 'env_step': 1140000, 'total_time': 35582.10881233215, 'episode_reward': -50.0}
+evaluate on 35649.268832206726
+{'episode': 11421, 'step': 571000, 'env_step': 1142000, 'total_time': 35649.268828868866, 'episode_reward': -50.0}
+evaluate on 35712.15976405144
+{'episode': 11441, 'step': 572000, 'env_step': 1144000, 'total_time': 35712.159761190414, 'episode_reward': -50.0}
+evaluate on 35778.2872569561
+{'episode': 11461, 'step': 573000, 'env_step': 1146000, 'total_time': 35778.2872531414, 'episode_reward': -50.0}
+evaluate on 35843.89418411255
+{'episode': 11481, 'step': 574000, 'env_step': 1148000, 'total_time': 35843.89418053627, 'episode_reward': -50.0}
+evaluate on 35909.517852544785
+{'episode': 11501, 'step': 575000, 'env_step': 1150000, 'total_time': 35909.51784849167, 'episode_reward': -50.0}
+evaluate on 35977.104504585266
+{'episode': 11521, 'step': 576000, 'env_step': 1152000, 'total_time': 35977.104501247406, 'episode_reward': -50.0}
+evaluate on 36043.607674360275
+{'episode': 11541, 'step': 577000, 'env_step': 1154000, 'total_time': 36043.607671260834, 'episode_reward': -50.0}
+evaluate on 36110.30329871178
+{'episode': 11561, 'step': 578000, 'env_step': 1156000, 'total_time': 36110.30329489708, 'episode_reward': -50.0}
+evaluate on 36178.2635281086
+{'episode': 11581, 'step': 579000, 'env_step': 1158000, 'total_time': 36178.263525009155, 'episode_reward': -50.0}
+evaluate on 36245.497740745544
+{'episode': 11601, 'step': 580000, 'env_step': 1160000, 'total_time': 36245.497737169266, 'episode_reward': -50.0}
+evaluate on 36310.50318145752
+{'episode': 11621, 'step': 581000, 'env_step': 1162000, 'total_time': 36310.50317835808, 'episode_reward': -50.0}
+evaluate on 36374.983103990555
+{'episode': 11641, 'step': 582000, 'env_step': 1164000, 'total_time': 36374.98310017586, 'episode_reward': -50.0}
+evaluate on 36439.69051361084
+{'episode': 11661, 'step': 583000, 'env_step': 1166000, 'total_time': 36439.69050908089, 'episode_reward': -50.0}
+evaluate on 36505.56458187103
+{'episode': 11681, 'step': 584000, 'env_step': 1168000, 'total_time': 36505.564578294754, 'episode_reward': -50.0}
+evaluate on 36567.52234458923
+{'episode': 11701, 'step': 585000, 'env_step': 1170000, 'total_time': 36567.522341012955, 'episode_reward': -50.0}
+evaluate on 36631.17657780647
+{'episode': 11721, 'step': 586000, 'env_step': 1172000, 'total_time': 36631.176573991776, 'episode_reward': -50.0}
+evaluate on 36698.453122377396
+{'episode': 11741, 'step': 587000, 'env_step': 1174000, 'total_time': 36698.45311880112, 'episode_reward': -50.0}
+evaluate on 36764.84372496605
+{'episode': 11761, 'step': 588000, 'env_step': 1176000, 'total_time': 36764.84372162819, 'episode_reward': -50.0}
+evaluate on 36830.42380428314
+{'episode': 11781, 'step': 589000, 'env_step': 1178000, 'total_time': 36830.42380094528, 'episode_reward': -50.0}
+evaluate on 36897.615351200104
+{'episode': 11801, 'step': 590000, 'env_step': 1180000, 'total_time': 36897.61534714699, 'episode_reward': -50.0}
+evaluate on 36963.50192952156
+{'episode': 11821, 'step': 591000, 'env_step': 1182000, 'total_time': 36963.50192594528, 'episode_reward': -50.0}
+evaluate on 37029.69784164429
+{'episode': 11841, 'step': 592000, 'env_step': 1184000, 'total_time': 37029.69783782959, 'episode_reward': -50.0}
+evaluate on 37096.12700819969
+{'episode': 11861, 'step': 593000, 'env_step': 1186000, 'total_time': 37096.12700510025, 'episode_reward': -50.0}
+evaluate on 37162.81379365921
+{'episode': 11881, 'step': 594000, 'env_step': 1188000, 'total_time': 37162.81379079819, 'episode_reward': -50.0}
+evaluate on 37228.77669477463
+{'episode': 11901, 'step': 595000, 'env_step': 1190000, 'total_time': 37228.776691913605, 'episode_reward': -50.0}
+evaluate on 37294.294833898544
+{'episode': 11921, 'step': 596000, 'env_step': 1192000, 'total_time': 37294.2948307991, 'episode_reward': -50.0}
+evaluate on 37359.84307765961
+{'episode': 11941, 'step': 597000, 'env_step': 1194000, 'total_time': 37359.843075037, 'episode_reward': -50.0}
+evaluate on 37425.716836214066
+{'episode': 11961, 'step': 598000, 'env_step': 1196000, 'total_time': 37425.71683335304, 'episode_reward': -50.0}
+evaluate on 37491.23803472519
+{'episode': 11981, 'step': 599000, 'env_step': 1198000, 'total_time': 37491.23803162575, 'episode_reward': -50.0}
+evaluate on 37557.66454052925
+{'episode': 12001, 'step': 600000, 'env_step': 1200000, 'total_time': 37557.66453742981, 'episode_reward': -50.0}
+evaluate on 37623.34030723572
+{'episode': 12021, 'step': 601000, 'env_step': 1202000, 'total_time': 37623.340304374695, 'episode_reward': -50.0}
+evaluate on 37689.40855669975
+{'episode': 12041, 'step': 602000, 'env_step': 1204000, 'total_time': 37689.40855431557, 'episode_reward': -50.0}
+evaluate on 37755.576651096344
+{'episode': 12061, 'step': 603000, 'env_step': 1206000, 'total_time': 37755.57664847374, 'episode_reward': -50.0}
+evaluate on 37821.692185878754
+{'episode': 12081, 'step': 604000, 'env_step': 1208000, 'total_time': 37821.69218277931, 'episode_reward': -50.0}
+evaluate on 37887.75551176071
+{'episode': 12101, 'step': 605000, 'env_step': 1210000, 'total_time': 37887.75550818443, 'episode_reward': -50.0}
+evaluate on 37954.296045064926
+{'episode': 12121, 'step': 606000, 'env_step': 1212000, 'total_time': 37954.296041965485, 'episode_reward': -50.0}
+evaluate on 38020.30116271973
+{'episode': 12141, 'step': 607000, 'env_step': 1214000, 'total_time': 38020.30115914345, 'episode_reward': -50.0}
+evaluate on 38086.199774980545
+{'episode': 12161, 'step': 608000, 'env_step': 1216000, 'total_time': 38086.19977211952, 'episode_reward': -50.0}
+evaluate on 38151.588930130005
+{'episode': 12181, 'step': 609000, 'env_step': 1218000, 'total_time': 38151.5889275074, 'episode_reward': -50.0}
+evaluate on 38216.66358137131
+{'episode': 12201, 'step': 610000, 'env_step': 1220000, 'total_time': 38216.663578271866, 'episode_reward': -50.0}
+evaluate on 38283.330792188644
+{'episode': 12221, 'step': 611000, 'env_step': 1222000, 'total_time': 38283.3307890892, 'episode_reward': -50.0}
+evaluate on 38349.35778236389
+{'episode': 12241, 'step': 612000, 'env_step': 1224000, 'total_time': 38349.35777974129, 'episode_reward': -50.0}
+evaluate on 38415.00305056572
+{'episode': 12261, 'step': 613000, 'env_step': 1226000, 'total_time': 38415.0030477047, 'episode_reward': -50.0}
+evaluate on 38480.02159285545
+{'episode': 12281, 'step': 614000, 'env_step': 1228000, 'total_time': 38480.02158975601, 'episode_reward': -50.0}
+evaluate on 38546.04222989082
+{'episode': 12301, 'step': 615000, 'env_step': 1230000, 'total_time': 38546.04222726822, 'episode_reward': -50.0}
+evaluate on 38612.407787323
+{'episode': 12321, 'step': 616000, 'env_step': 1232000, 'total_time': 38612.40778422356, 'episode_reward': -50.0}
+evaluate on 38676.67288661003
+{'episode': 12341, 'step': 617000, 'env_step': 1234000, 'total_time': 38676.67288327217, 'episode_reward': -50.0}
+evaluate on 38742.080253362656
+{'episode': 12361, 'step': 618000, 'env_step': 1236000, 'total_time': 38742.08025050163, 'episode_reward': -50.0}
+evaluate on 38808.743106126785
+{'episode': 12381, 'step': 619000, 'env_step': 1238000, 'total_time': 38808.743103027344, 'episode_reward': -50.0}
+evaluate on 38875.54724287987
+{'episode': 12401, 'step': 620000, 'env_step': 1240000, 'total_time': 38875.547240018845, 'episode_reward': -50.0}
+evaluate on 38942.539044857025
+{'episode': 12421, 'step': 621000, 'env_step': 1242000, 'total_time': 38942.53904223442, 'episode_reward': -50.0}
+evaluate on 39009.48848390579
+{'episode': 12441, 'step': 622000, 'env_step': 1244000, 'total_time': 39009.488480091095, 'episode_reward': -50.0}
+evaluate on 39076.569353342056
+{'episode': 12461, 'step': 623000, 'env_step': 1246000, 'total_time': 39076.56935071945, 'episode_reward': -50.0}
+evaluate on 39143.31953859329
+{'episode': 12481, 'step': 624000, 'env_step': 1248000, 'total_time': 39143.31953525543, 'episode_reward': -50.0}
+evaluate on 39210.402861356735
+{'episode': 12501, 'step': 625000, 'env_step': 1250000, 'total_time': 39210.402858018875, 'episode_reward': -50.0}
+evaluate on 39272.3998234272
+{'episode': 12521, 'step': 626000, 'env_step': 1252000, 'total_time': 39272.39982008934, 'episode_reward': -50.0}
+evaluate on 39338.059749126434
+{'episode': 12541, 'step': 627000, 'env_step': 1254000, 'total_time': 39338.059745788574, 'episode_reward': -50.0}
+evaluate on 39404.786304950714
+{'episode': 12561, 'step': 628000, 'env_step': 1256000, 'total_time': 39404.786301374435, 'episode_reward': -50.0}
+evaluate on 39468.00394535065
+{'episode': 12581, 'step': 629000, 'env_step': 1258000, 'total_time': 39468.00394201279, 'episode_reward': -50.0}
+evaluate on 39533.76265311241
+{'episode': 12601, 'step': 630000, 'env_step': 1260000, 'total_time': 39533.76264977455, 'episode_reward': -50.0}
+evaluate on 39596.68890976906
+{'episode': 12621, 'step': 631000, 'env_step': 1262000, 'total_time': 39596.68890619278, 'episode_reward': -50.0}
+evaluate on 39663.17007303238
+{'episode': 12641, 'step': 632000, 'env_step': 1264000, 'total_time': 39663.17006969452, 'episode_reward': -50.0}
+evaluate on 39730.12319231033
+{'episode': 12661, 'step': 633000, 'env_step': 1266000, 'total_time': 39730.123188495636, 'episode_reward': -50.0}
+evaluate on 39794.897824048996
+{'episode': 12681, 'step': 634000, 'env_step': 1268000, 'total_time': 39794.89781951904, 'episode_reward': -50.0}
+evaluate on 39861.44113731384
+{'episode': 12701, 'step': 635000, 'env_step': 1270000, 'total_time': 39861.441133737564, 'episode_reward': -50.0}
+evaluate on 39926.80081796646
+{'episode': 12721, 'step': 636000, 'env_step': 1272000, 'total_time': 39926.800813913345, 'episode_reward': -50.0}
+evaluate on 39994.278329372406
+{'episode': 12741, 'step': 637000, 'env_step': 1274000, 'total_time': 39994.278326034546, 'episode_reward': -50.0}
+evaluate on 40061.258046627045
+{'episode': 12761, 'step': 638000, 'env_step': 1276000, 'total_time': 40061.258043289185, 'episode_reward': -50.0}
+evaluate on 40128.804079294205
+{'episode': 12781, 'step': 639000, 'env_step': 1278000, 'total_time': 40128.8040766716, 'episode_reward': -50.0}
+evaluate on 40195.99913549423
+{'episode': 12801, 'step': 640000, 'env_step': 1280000, 'total_time': 40195.99913239479, 'episode_reward': -50.0}
+evaluate on 40261.716952085495
+{'episode': 12821, 'step': 641000, 'env_step': 1282000, 'total_time': 40261.71694922447, 'episode_reward': -50.0}
+evaluate on 40328.23757100105
+{'episode': 12841, 'step': 642000, 'env_step': 1284000, 'total_time': 40328.23756790161, 'episode_reward': -50.0}
+evaluate on 40395.00573825836
+{'episode': 12861, 'step': 643000, 'env_step': 1286000, 'total_time': 40395.00573539734, 'episode_reward': -50.0}
+evaluate on 40461.442514657974
+{'episode': 12881, 'step': 644000, 'env_step': 1288000, 'total_time': 40461.44251155853, 'episode_reward': -50.0}
+evaluate on 40526.783420324326
+{'episode': 12901, 'step': 645000, 'env_step': 1290000, 'total_time': 40526.7834174633, 'episode_reward': -50.0}
+evaluate on 40593.33958506584
+{'episode': 12921, 'step': 646000, 'env_step': 1292000, 'total_time': 40593.3395819664, 'episode_reward': -50.0}
+evaluate on 40660.26104903221
+{'episode': 12941, 'step': 647000, 'env_step': 1294000, 'total_time': 40660.26104593277, 'episode_reward': -50.0}
+evaluate on 40726.73915028572
+{'episode': 12961, 'step': 648000, 'env_step': 1296000, 'total_time': 40726.73914694786, 'episode_reward': -50.0}
+evaluate on 40792.21649456024
+{'episode': 12981, 'step': 649000, 'env_step': 1298000, 'total_time': 40792.21649098396, 'episode_reward': -50.0}
+evaluate on 40858.4669315815
+{'episode': 13001, 'step': 650000, 'env_step': 1300000, 'total_time': 40858.46692728996, 'episode_reward': -50.0}
+evaluate on 40923.70218253136
+{'episode': 13021, 'step': 651000, 'env_step': 1302000, 'total_time': 40923.70217823982, 'episode_reward': -50.0}
+evaluate on 40988.840480327606
+{'episode': 13041, 'step': 652000, 'env_step': 1304000, 'total_time': 40988.84047627449, 'episode_reward': -50.0}
+evaluate on 41054.849744558334
+{'episode': 13061, 'step': 653000, 'env_step': 1306000, 'total_time': 41054.849739313126, 'episode_reward': -50.0}
+evaluate on 41120.12735533714
+{'episode': 13081, 'step': 654000, 'env_step': 1308000, 'total_time': 41120.12735128403, 'episode_reward': -50.0}
+evaluate on 41185.893840789795
+{'episode': 13101, 'step': 655000, 'env_step': 1310000, 'total_time': 41185.893837451935, 'episode_reward': -50.0}
+evaluate on 41252.497364997864
+{'episode': 13121, 'step': 656000, 'env_step': 1312000, 'total_time': 41252.49736189842, 'episode_reward': -50.0}
+evaluate on 41318.87248182297
+{'episode': 13141, 'step': 657000, 'env_step': 1314000, 'total_time': 41318.87247848511, 'episode_reward': -50.0}
+evaluate on 41385.36529254913
+{'episode': 13161, 'step': 658000, 'env_step': 1316000, 'total_time': 41385.36528968811, 'episode_reward': -50.0}
+evaluate on 41451.063603401184
+{'episode': 13181, 'step': 659000, 'env_step': 1318000, 'total_time': 41451.06360077858, 'episode_reward': -50.0}
+evaluate on 41517.80787229538
+{'episode': 13201, 'step': 660000, 'env_step': 1320000, 'total_time': 41517.80786943436, 'episode_reward': -50.0}
+evaluate on 41584.62010073662
+{'episode': 13221, 'step': 661000, 'env_step': 1322000, 'total_time': 41584.62009644508, 'episode_reward': -50.0}
+evaluate on 41652.8916451931
+{'episode': 13241, 'step': 662000, 'env_step': 1324000, 'total_time': 41652.89164185524, 'episode_reward': -50.0}
+evaluate on 41718.56655716896
+{'episode': 13261, 'step': 663000, 'env_step': 1326000, 'total_time': 41718.56655335426, 'episode_reward': -50.0}
+evaluate on 41785.40867161751
+{'episode': 13281, 'step': 664000, 'env_step': 1328000, 'total_time': 41785.40866804123, 'episode_reward': -50.0}
+evaluate on 41852.7668633461
+{'episode': 13301, 'step': 665000, 'env_step': 1330000, 'total_time': 41852.76685881615, 'episode_reward': -50.0}
+evaluate on 41921.47700595856
+{'episode': 13321, 'step': 666000, 'env_step': 1332000, 'total_time': 41921.47700214386, 'episode_reward': -50.0}
+evaluate on 41990.68666052818
+{'episode': 13341, 'step': 667000, 'env_step': 1334000, 'total_time': 41990.686656713486, 'episode_reward': -50.0}
+evaluate on 42057.04350757599
+{'episode': 13361, 'step': 668000, 'env_step': 1336000, 'total_time': 42057.04350447655, 'episode_reward': -50.0}
+evaluate on 42125.41805481911
+{'episode': 13381, 'step': 669000, 'env_step': 1338000, 'total_time': 42125.41805052757, 'episode_reward': -50.0}
+evaluate on 42190.920391082764
+{'episode': 13401, 'step': 670000, 'env_step': 1340000, 'total_time': 42190.920387506485, 'episode_reward': -50.0}
+evaluate on 42257.4380095005
+{'episode': 13421, 'step': 671000, 'env_step': 1342000, 'total_time': 42257.438005685806, 'episode_reward': -50.0}
+evaluate on 42324.20400381088
+{'episode': 13441, 'step': 672000, 'env_step': 1344000, 'total_time': 42324.203999996185, 'episode_reward': -50.0}
+evaluate on 42389.26108646393
+{'episode': 13461, 'step': 673000, 'env_step': 1346000, 'total_time': 42389.26108264923, 'episode_reward': -50.0}
+evaluate on 42454.47656106949
+{'episode': 13481, 'step': 674000, 'env_step': 1348000, 'total_time': 42454.47655773163, 'episode_reward': -50.0}
+evaluate on 42520.49774956703
+{'episode': 13501, 'step': 675000, 'env_step': 1350000, 'total_time': 42520.49774622917, 'episode_reward': -50.0}
+evaluate on 42585.64053416252
+{'episode': 13521, 'step': 676000, 'env_step': 1352000, 'total_time': 42585.640530347824, 'episode_reward': -50.0}
+evaluate on 42653.69906377792
+{'episode': 13541, 'step': 677000, 'env_step': 1354000, 'total_time': 42653.69905972481, 'episode_reward': -50.0}
+evaluate on 42721.9447453022
+{'episode': 13561, 'step': 678000, 'env_step': 1356000, 'total_time': 42721.944741249084, 'episode_reward': -50.0}
+evaluate on 42789.312311410904
+{'episode': 13581, 'step': 679000, 'env_step': 1358000, 'total_time': 42789.31230735779, 'episode_reward': -50.0}
+evaluate on 42857.208342552185
+{'episode': 13601, 'step': 680000, 'env_step': 1360000, 'total_time': 42857.20833873749, 'episode_reward': -50.0}
+evaluate on 42923.82862329483
+{'episode': 13621, 'step': 681000, 'env_step': 1362000, 'total_time': 42923.82862043381, 'episode_reward': -50.0}
+evaluate on 42989.50518202782
+{'episode': 13641, 'step': 682000, 'env_step': 1364000, 'total_time': 42989.50517868996, 'episode_reward': -50.0}
+evaluate on 43055.23856449127
+{'episode': 13661, 'step': 683000, 'env_step': 1366000, 'total_time': 43055.23856115341, 'episode_reward': -50.0}
+evaluate on 43118.078525066376
+{'episode': 13681, 'step': 684000, 'env_step': 1368000, 'total_time': 43118.07852220535, 'episode_reward': -50.0}
+evaluate on 43182.971818208694
+{'episode': 13701, 'step': 685000, 'env_step': 1370000, 'total_time': 43182.97181534767, 'episode_reward': -50.0}
+evaluate on 43249.847328186035
+{'episode': 13721, 'step': 686000, 'env_step': 1372000, 'total_time': 43249.84732508659, 'episode_reward': -50.0}
+evaluate on 43317.08549904823
+{'episode': 13741, 'step': 687000, 'env_step': 1374000, 'total_time': 43317.08549594879, 'episode_reward': -50.0}
+evaluate on 43384.55355978012
+{'episode': 13761, 'step': 688000, 'env_step': 1376000, 'total_time': 43384.5535569191, 'episode_reward': -50.0}
+evaluate on 43452.27086901665
+{'episode': 13781, 'step': 689000, 'env_step': 1378000, 'total_time': 43452.270865917206, 'episode_reward': -50.0}
+evaluate on 43519.70483207703
+{'episode': 13801, 'step': 690000, 'env_step': 1380000, 'total_time': 43519.704828977585, 'episode_reward': -50.0}
+evaluate on 43586.84493470192
+{'episode': 13821, 'step': 691000, 'env_step': 1382000, 'total_time': 43586.8449318409, 'episode_reward': -50.0}
+evaluate on 43653.214675188065
+{'episode': 13841, 'step': 692000, 'env_step': 1384000, 'total_time': 43653.21467208862, 'episode_reward': -50.0}
+evaluate on 43720.62915229797
+{'episode': 13861, 'step': 693000, 'env_step': 1386000, 'total_time': 43720.62914943695, 'episode_reward': -50.0}
+evaluate on 43788.098092556
+{'episode': 13881, 'step': 694000, 'env_step': 1388000, 'total_time': 43788.098089933395, 'episode_reward': -50.0}
+evaluate on 43854.72831487656
+{'episode': 13901, 'step': 695000, 'env_step': 1390000, 'total_time': 43854.728311777115, 'episode_reward': -50.0}
+evaluate on 43922.42990684509
+{'episode': 13921, 'step': 696000, 'env_step': 1392000, 'total_time': 43922.429903268814, 'episode_reward': -50.0}
+evaluate on 43990.55621767044
+{'episode': 13941, 'step': 697000, 'env_step': 1394000, 'total_time': 43990.556215047836, 'episode_reward': -50.0}
+evaluate on 44058.399815797806
+{'episode': 13961, 'step': 698000, 'env_step': 1396000, 'total_time': 44058.39981293678, 'episode_reward': -50.0}
+evaluate on 44127.03824043274
+{'episode': 13981, 'step': 699000, 'env_step': 1398000, 'total_time': 44127.0382373333, 'episode_reward': -50.0}
+evaluate on 44193.78566479683
+{'episode': 14001, 'step': 700000, 'env_step': 1400000, 'total_time': 44193.785661935806, 'episode_reward': -50.0}
+evaluate on 44260.26936626434
+{'episode': 14021, 'step': 701000, 'env_step': 1402000, 'total_time': 44260.26936340332, 'episode_reward': -50.0}
+evaluate on 44327.51331496239
+{'episode': 14041, 'step': 702000, 'env_step': 1404000, 'total_time': 44327.513311862946, 'episode_reward': -50.0}
+evaluate on 44395.18458390236
+{'episode': 14061, 'step': 703000, 'env_step': 1406000, 'total_time': 44395.184581041336, 'episode_reward': -50.0}
+evaluate on 44464.151034832
+{'episode': 14081, 'step': 704000, 'env_step': 1408000, 'total_time': 44464.15103173256, 'episode_reward': -50.0}
+evaluate on 44530.43793010712
+{'episode': 14101, 'step': 705000, 'env_step': 1410000, 'total_time': 44530.43792748451, 'episode_reward': -50.0}
+evaluate on 44597.844183683395
+{'episode': 14121, 'step': 706000, 'env_step': 1412000, 'total_time': 44597.84418082237, 'episode_reward': -50.0}
+evaluate on 44665.4278986454
+{'episode': 14141, 'step': 707000, 'env_step': 1414000, 'total_time': 44665.42789578438, 'episode_reward': -50.0}
+evaluate on 44732.37834620476
+{'episode': 14161, 'step': 708000, 'env_step': 1416000, 'total_time': 44732.378343105316, 'episode_reward': -50.0}
+evaluate on 44798.056542634964
+{'episode': 14181, 'step': 709000, 'env_step': 1418000, 'total_time': 44798.05653953552, 'episode_reward': -50.0}
+evaluate on 44864.5221619606
+{'episode': 14201, 'step': 710000, 'env_step': 1420000, 'total_time': 44864.52215909958, 'episode_reward': -50.0}
+evaluate on 44932.02759027481
+{'episode': 14221, 'step': 711000, 'env_step': 1422000, 'total_time': 44932.02758765221, 'episode_reward': -50.0}
+evaluate on 44997.000633239746
+{'episode': 14241, 'step': 712000, 'env_step': 1424000, 'total_time': 44997.000630140305, 'episode_reward': -50.0}
+evaluate on 45063.95040130615
+{'episode': 14261, 'step': 713000, 'env_step': 1426000, 'total_time': 45063.95039796829, 'episode_reward': -50.0}
+evaluate on 45131.153680324554
+{'episode': 14281, 'step': 714000, 'env_step': 1428000, 'total_time': 45131.15367722511, 'episode_reward': -50.0}
+evaluate on 45198.71546244621
+{'episode': 14301, 'step': 715000, 'env_step': 1430000, 'total_time': 45198.71545958519, 'episode_reward': -50.0}
+evaluate on 45265.634007930756
+{'episode': 14321, 'step': 716000, 'env_step': 1432000, 'total_time': 45265.63400530815, 'episode_reward': -50.0}
+evaluate on 45333.068838357925
+{'episode': 14341, 'step': 717000, 'env_step': 1434000, 'total_time': 45333.068835258484, 'episode_reward': -50.0}
+evaluate on 45401.38618993759
+{'episode': 14361, 'step': 718000, 'env_step': 1436000, 'total_time': 45401.38618731499, 'episode_reward': -50.0}
+evaluate on 45467.005579948425
+{'episode': 14381, 'step': 719000, 'env_step': 1438000, 'total_time': 45467.0055770874, 'episode_reward': -50.0}
+evaluate on 45534.652601480484
+{'episode': 14401, 'step': 720000, 'env_step': 1440000, 'total_time': 45534.65259885788, 'episode_reward': -50.0}
+evaluate on 45600.94525384903
+{'episode': 14421, 'step': 721000, 'env_step': 1442000, 'total_time': 45600.94525098801, 'episode_reward': -50.0}
+evaluate on 45667.470143318176
+{'episode': 14441, 'step': 722000, 'env_step': 1444000, 'total_time': 45667.4701397419, 'episode_reward': -50.0}
+evaluate on 45733.49999284744
+{'episode': 14461, 'step': 723000, 'env_step': 1446000, 'total_time': 45733.49998998642, 'episode_reward': -50.0}
+evaluate on 45799.76247882843
+{'episode': 14481, 'step': 724000, 'env_step': 1448000, 'total_time': 45799.762476205826, 'episode_reward': -50.0}
+evaluate on 45866.80258059502
+{'episode': 14501, 'step': 725000, 'env_step': 1450000, 'total_time': 45866.80257773399, 'episode_reward': -50.0}
+evaluate on 45933.10833287239
+{'episode': 14521, 'step': 726000, 'env_step': 1452000, 'total_time': 45933.10833001137, 'episode_reward': -50.0}
+evaluate on 45999.981958150864
+{'episode': 14541, 'step': 727000, 'env_step': 1454000, 'total_time': 45999.98195528984, 'episode_reward': -50.0}
+evaluate on 46066.59867620468
+{'episode': 14561, 'step': 728000, 'env_step': 1456000, 'total_time': 46066.59867310524, 'episode_reward': -50.0}
+evaluate on 46133.95506644249
+{'episode': 14581, 'step': 729000, 'env_step': 1458000, 'total_time': 46133.95506358147, 'episode_reward': -50.0}
+evaluate on 46201.17207360268
+{'episode': 14601, 'step': 730000, 'env_step': 1460000, 'total_time': 46201.17207098007, 'episode_reward': -50.0}
+evaluate on 46268.614182949066
+{'episode': 14621, 'step': 731000, 'env_step': 1462000, 'total_time': 46268.61418008804, 'episode_reward': -50.0}
+evaluate on 46336.77223587036
+{'episode': 14641, 'step': 732000, 'env_step': 1464000, 'total_time': 46336.77223277092, 'episode_reward': -50.0}
+evaluate on 46404.49533700943
+{'episode': 14661, 'step': 733000, 'env_step': 1466000, 'total_time': 46404.495334386826, 'episode_reward': -50.0}
+evaluate on 46471.305435180664
+{'episode': 14681, 'step': 734000, 'env_step': 1468000, 'total_time': 46471.30543231964, 'episode_reward': -50.0}
+evaluate on 46538.06286716461
+{'episode': 14701, 'step': 735000, 'env_step': 1470000, 'total_time': 46538.06286454201, 'episode_reward': -50.0}
+evaluate on 46605.941464185715
+{'episode': 14721, 'step': 736000, 'env_step': 1472000, 'total_time': 46605.94146156311, 'episode_reward': -50.0}
+evaluate on 46673.23003935814
+{'episode': 14741, 'step': 737000, 'env_step': 1474000, 'total_time': 46673.2300362587, 'episode_reward': -50.0}
+evaluate on 46740.88113927841
+{'episode': 14761, 'step': 738000, 'env_step': 1476000, 'total_time': 46740.88113617897, 'episode_reward': -50.0}
+evaluate on 46807.98859643936
+{'episode': 14781, 'step': 739000, 'env_step': 1478000, 'total_time': 46807.988592624664, 'episode_reward': -50.0}
+evaluate on 46874.42073941231
+{'episode': 14801, 'step': 740000, 'env_step': 1480000, 'total_time': 46874.42073583603, 'episode_reward': -50.0}
+evaluate on 46943.32455086708
+{'episode': 14821, 'step': 741000, 'env_step': 1482000, 'total_time': 46943.32454705238, 'episode_reward': -50.0}
+evaluate on 47011.94652199745
+{'episode': 14841, 'step': 742000, 'env_step': 1484000, 'total_time': 47011.94651842117, 'episode_reward': -50.0}
+evaluate on 47077.56118440628
+{'episode': 14861, 'step': 743000, 'env_step': 1486000, 'total_time': 47077.56118130684, 'episode_reward': -50.0}
+evaluate on 47143.903681993484
+{'episode': 14881, 'step': 744000, 'env_step': 1488000, 'total_time': 47143.90367889404, 'episode_reward': -50.0}
+evaluate on 47212.48893523216
+{'episode': 14901, 'step': 745000, 'env_step': 1490000, 'total_time': 47212.4889318943, 'episode_reward': -50.0}
+evaluate on 47282.01346421242
+{'episode': 14921, 'step': 746000, 'env_step': 1492000, 'total_time': 47282.01346087456, 'episode_reward': -50.0}
+evaluate on 47350.92459845543
+{'episode': 14941, 'step': 747000, 'env_step': 1494000, 'total_time': 47350.92459464073, 'episode_reward': -50.0}
+evaluate on 47415.2536380291
+{'episode': 14961, 'step': 748000, 'env_step': 1496000, 'total_time': 47415.253635406494, 'episode_reward': -50.0}
+evaluate on 47482.91815185547
+{'episode': 14981, 'step': 749000, 'env_step': 1498000, 'total_time': 47482.91814875603, 'episode_reward': -50.0}
+evaluate on 47550.61602163315
+{'episode': 15001, 'step': 750000, 'env_step': 1500000, 'total_time': 47550.616018772125, 'episode_reward': -50.0}
+evaluate on 47618.51237368584
+{'episode': 15021, 'step': 751000, 'env_step': 1502000, 'total_time': 47618.512370586395, 'episode_reward': -50.0}
+evaluate on 47686.06818628311
+{'episode': 15041, 'step': 752000, 'env_step': 1504000, 'total_time': 47686.06818342209, 'episode_reward': -50.0}
+evaluate on 47752.53159427643
+{'episode': 15061, 'step': 753000, 'env_step': 1506000, 'total_time': 47752.53159093857, 'episode_reward': -50.0}
+evaluate on 47820.54059386253
+{'episode': 15081, 'step': 754000, 'env_step': 1508000, 'total_time': 47820.54059076309, 'episode_reward': -50.0}
+evaluate on 47887.873071193695
+{'episode': 15101, 'step': 755000, 'env_step': 1510000, 'total_time': 47887.87306833267, 'episode_reward': -50.0}
+evaluate on 47954.17150092125
+{'episode': 15121, 'step': 756000, 'env_step': 1512000, 'total_time': 47954.17149806023, 'episode_reward': -50.0}
+evaluate on 48021.04925608635
+{'episode': 15141, 'step': 757000, 'env_step': 1514000, 'total_time': 48021.049253463745, 'episode_reward': -50.0}
+evaluate on 48088.77197265625
+{'episode': 15161, 'step': 758000, 'env_step': 1516000, 'total_time': 48088.77196955681, 'episode_reward': -50.0}
+evaluate on 48153.878687143326
+{'episode': 15181, 'step': 759000, 'env_step': 1518000, 'total_time': 48153.87868356705, 'episode_reward': -50.0}
+evaluate on 48220.34775543213
+{'episode': 15201, 'step': 760000, 'env_step': 1520000, 'total_time': 48220.34775161743, 'episode_reward': -50.0}
+evaluate on 48288.740460157394
+{'episode': 15221, 'step': 761000, 'env_step': 1522000, 'total_time': 48288.7404563427, 'episode_reward': -50.0}
+evaluate on 48354.89382433891
+{'episode': 15241, 'step': 762000, 'env_step': 1524000, 'total_time': 48354.8938202858, 'episode_reward': -50.0}
+evaluate on 48419.863906383514
+{'episode': 15261, 'step': 763000, 'env_step': 1526000, 'total_time': 48419.86390209198, 'episode_reward': -50.0}
+evaluate on 48488.611421346664
+{'episode': 15281, 'step': 764000, 'env_step': 1528000, 'total_time': 48488.61141753197, 'episode_reward': -50.0}
+evaluate on 48554.488248586655
+{'episode': 15301, 'step': 765000, 'env_step': 1530000, 'total_time': 48554.48824429512, 'episode_reward': -50.0}
+evaluate on 48621.617045640945
+{'episode': 15321, 'step': 766000, 'env_step': 1532000, 'total_time': 48621.617042303085, 'episode_reward': -50.0}
+evaluate on 48688.51784968376
+{'episode': 15341, 'step': 767000, 'env_step': 1534000, 'total_time': 48688.517845630646, 'episode_reward': -50.0}
+evaluate on 48754.824070453644
+{'episode': 15361, 'step': 768000, 'env_step': 1536000, 'total_time': 48754.82406663895, 'episode_reward': -50.0}
+evaluate on 48823.10687613487
+{'episode': 15381, 'step': 769000, 'env_step': 1538000, 'total_time': 48823.10687303543, 'episode_reward': -50.0}
+evaluate on 48888.70305848122
+{'episode': 15401, 'step': 770000, 'env_step': 1540000, 'total_time': 48888.703055381775, 'episode_reward': -50.0}
+evaluate on 48956.3387761116
+{'episode': 15421, 'step': 771000, 'env_step': 1542000, 'total_time': 48956.33877325058, 'episode_reward': -50.0}
+evaluate on 49023.807957172394
+{'episode': 15441, 'step': 772000, 'env_step': 1544000, 'total_time': 49023.80795431137, 'episode_reward': -50.0}
+evaluate on 49091.294191122055
+{'episode': 15461, 'step': 773000, 'env_step': 1546000, 'total_time': 49091.294187784195, 'episode_reward': -50.0}
+evaluate on 49157.78757214546
+{'episode': 15481, 'step': 774000, 'env_step': 1548000, 'total_time': 49157.7875688076, 'episode_reward': -50.0}
+evaluate on 49224.547335624695
+{'episode': 15501, 'step': 775000, 'env_step': 1550000, 'total_time': 49224.54733276367, 'episode_reward': -50.0}
+evaluate on 49290.56265735626
+{'episode': 15521, 'step': 776000, 'env_step': 1552000, 'total_time': 49290.56265425682, 'episode_reward': -50.0}
+evaluate on 49357.76307606697
+{'episode': 15541, 'step': 777000, 'env_step': 1554000, 'total_time': 49357.76307296753, 'episode_reward': -50.0}
+evaluate on 49424.37642979622
+{'episode': 15561, 'step': 778000, 'env_step': 1556000, 'total_time': 49424.376426935196, 'episode_reward': -50.0}
+evaluate on 49490.313045978546
+{'episode': 15581, 'step': 779000, 'env_step': 1558000, 'total_time': 49490.313042879105, 'episode_reward': -50.0}
+evaluate on 49558.08750581741
+{'episode': 15601, 'step': 780000, 'env_step': 1560000, 'total_time': 49558.08750319481, 'episode_reward': -50.0}
+evaluate on 49625.8808221817
+{'episode': 15621, 'step': 781000, 'env_step': 1562000, 'total_time': 49625.88081884384, 'episode_reward': -50.0}
+evaluate on 49693.67494678497
+{'episode': 15641, 'step': 782000, 'env_step': 1564000, 'total_time': 49693.67494368553, 'episode_reward': -50.0}
+evaluate on 49762.00321292877
+{'episode': 15661, 'step': 783000, 'env_step': 1566000, 'total_time': 49762.00320959091, 'episode_reward': -50.0}
+evaluate on 49830.95770549774
+{'episode': 15681, 'step': 784000, 'env_step': 1568000, 'total_time': 49830.9577023983, 'episode_reward': -50.0}
+evaluate on 49898.26107215881
+{'episode': 15701, 'step': 785000, 'env_step': 1570000, 'total_time': 49898.26106929779, 'episode_reward': -50.0}
+evaluate on 49966.8474419117
+{'episode': 15721, 'step': 786000, 'env_step': 1572000, 'total_time': 49966.847439050674, 'episode_reward': -50.0}
+evaluate on 50035.26866722107
+{'episode': 15741, 'step': 787000, 'env_step': 1574000, 'total_time': 50035.26866412163, 'episode_reward': -50.0}
+evaluate on 50102.2715883255
+{'episode': 15761, 'step': 788000, 'env_step': 1576000, 'total_time': 50102.27158546448, 'episode_reward': -50.0}
+evaluate on 50168.269701719284
+{'episode': 15781, 'step': 789000, 'env_step': 1578000, 'total_time': 50168.26969861984, 'episode_reward': -50.0}
+evaluate on 50236.18297433853
+{'episode': 15801, 'step': 790000, 'env_step': 1580000, 'total_time': 50236.18297147751, 'episode_reward': -50.0}
+evaluate on 50304.2890753746
+{'episode': 15821, 'step': 791000, 'env_step': 1582000, 'total_time': 50304.28907227516, 'episode_reward': -50.0}
+evaluate on 50373.83643722534
+{'episode': 15841, 'step': 792000, 'env_step': 1584000, 'total_time': 50373.83643436432, 'episode_reward': -50.0}
+evaluate on 50441.33305025101
+{'episode': 15861, 'step': 793000, 'env_step': 1586000, 'total_time': 50441.333047389984, 'episode_reward': -50.0}
+evaluate on 50509.19412994385
+{'episode': 15881, 'step': 794000, 'env_step': 1588000, 'total_time': 50509.194127082825, 'episode_reward': -50.0}
+evaluate on 50577.84445619583
+{'episode': 15901, 'step': 795000, 'env_step': 1590000, 'total_time': 50577.8444519043, 'episode_reward': -50.0}
+evaluate on 50646.57600736618
+{'episode': 15921, 'step': 796000, 'env_step': 1592000, 'total_time': 50646.57600355148, 'episode_reward': -50.0}
+evaluate on 50714.71944308281
+{'episode': 15941, 'step': 797000, 'env_step': 1594000, 'total_time': 50714.71943926811, 'episode_reward': -50.0}
+evaluate on 50783.1557199955
+{'episode': 15961, 'step': 798000, 'env_step': 1596000, 'total_time': 50783.15571665764, 'episode_reward': -50.0}
+evaluate on 50850.11462712288
+{'episode': 15981, 'step': 799000, 'env_step': 1598000, 'total_time': 50850.11462378502, 'episode_reward': -50.0}
+evaluate on 50914.4384560585
+{'episode': 16001, 'step': 800000, 'env_step': 1600000, 'total_time': 50914.43845248222, 'episode_reward': -50.0}
+evaluate on 50984.77296233177
+{'episode': 16021, 'step': 801000, 'env_step': 1602000, 'total_time': 50984.77295899391, 'episode_reward': -50.0}
+evaluate on 51051.043325424194
+{'episode': 16041, 'step': 802000, 'env_step': 1604000, 'total_time': 51051.0433216095, 'episode_reward': -50.0}
+evaluate on 51118.62645816803
+{'episode': 16061, 'step': 803000, 'env_step': 1606000, 'total_time': 51118.62645459175, 'episode_reward': -50.0}
+evaluate on 51187.97697901726
+{'episode': 16081, 'step': 804000, 'env_step': 1608000, 'total_time': 51187.97697496414, 'episode_reward': -50.0}
+evaluate on 51255.30366849899
+{'episode': 16101, 'step': 805000, 'env_step': 1610000, 'total_time': 51255.303664922714, 'episode_reward': -50.0}
+evaluate on 51324.6969730854
+{'episode': 16121, 'step': 806000, 'env_step': 1612000, 'total_time': 51324.696969509125, 'episode_reward': -50.0}
+evaluate on 51392.04051232338
+{'episode': 16141, 'step': 807000, 'env_step': 1614000, 'total_time': 51392.04050922394, 'episode_reward': -50.0}
+evaluate on 51460.47696304321
+{'episode': 16161, 'step': 808000, 'env_step': 1616000, 'total_time': 51460.47696018219, 'episode_reward': -50.0}
+evaluate on 51528.368061065674
+{'episode': 16181, 'step': 809000, 'env_step': 1618000, 'total_time': 51528.36805820465, 'episode_reward': -50.0}
+evaluate on 51596.29134130478
+{'episode': 16201, 'step': 810000, 'env_step': 1620000, 'total_time': 51596.29133796692, 'episode_reward': -50.0}
+evaluate on 51662.86463427544
+{'episode': 16221, 'step': 811000, 'env_step': 1622000, 'total_time': 51662.86463141441, 'episode_reward': -50.0}
+evaluate on 51731.5764541626
+{'episode': 16241, 'step': 812000, 'env_step': 1624000, 'total_time': 51731.576451301575, 'episode_reward': -50.0}
+evaluate on 51798.67405438423
+{'episode': 16261, 'step': 813000, 'env_step': 1626000, 'total_time': 51798.67405080795, 'episode_reward': -50.0}
+evaluate on 51868.61602163315
+{'episode': 16281, 'step': 814000, 'env_step': 1628000, 'total_time': 51868.61601829529, 'episode_reward': -50.0}
+evaluate on 51937.815932035446
+{'episode': 16301, 'step': 815000, 'env_step': 1630000, 'total_time': 51937.81592917442, 'episode_reward': -50.0}
+evaluate on 52005.181962013245
+{'episode': 16321, 'step': 816000, 'env_step': 1632000, 'total_time': 52005.181958436966, 'episode_reward': -50.0}
+evaluate on 52072.40034174919
+{'episode': 16341, 'step': 817000, 'env_step': 1634000, 'total_time': 52072.40033864975, 'episode_reward': -50.0}
+evaluate on 52140.722348213196
+{'episode': 16361, 'step': 818000, 'env_step': 1636000, 'total_time': 52140.722345113754, 'episode_reward': -50.0}
+evaluate on 52208.93514299393
+{'episode': 16381, 'step': 819000, 'env_step': 1638000, 'total_time': 52208.935139894485, 'episode_reward': -50.0}
+evaluate on 52276.81416320801
+{'episode': 16401, 'step': 820000, 'env_step': 1640000, 'total_time': 52276.814160346985, 'episode_reward': -50.0}
+evaluate on 52344.767140865326
+{'episode': 16421, 'step': 821000, 'env_step': 1642000, 'total_time': 52344.767137527466, 'episode_reward': -50.0}
+evaluate on 52413.04143047333
+{'episode': 16441, 'step': 822000, 'env_step': 1644000, 'total_time': 52413.041427612305, 'episode_reward': -50.0}
+evaluate on 52481.090593099594
+{'episode': 16461, 'step': 823000, 'env_step': 1646000, 'total_time': 52481.09059000015, 'episode_reward': -50.0}
+evaluate on 52548.43994426727
+{'episode': 16481, 'step': 824000, 'env_step': 1648000, 'total_time': 52548.43994116783, 'episode_reward': -50.0}
+evaluate on 52615.96860098839
+{'episode': 16501, 'step': 825000, 'env_step': 1650000, 'total_time': 52615.96859765053, 'episode_reward': -50.0}
+evaluate on 52682.92604923248
+{'episode': 16521, 'step': 826000, 'env_step': 1652000, 'total_time': 52682.92604613304, 'episode_reward': -50.0}
+evaluate on 52751.09135913849
+{'episode': 16541, 'step': 827000, 'env_step': 1654000, 'total_time': 52751.091356277466, 'episode_reward': -50.0}
+evaluate on 52815.31984972954
+{'episode': 16561, 'step': 828000, 'env_step': 1656000, 'total_time': 52815.3198466301, 'episode_reward': -50.0}
+evaluate on 52878.50299477577
+{'episode': 16581, 'step': 829000, 'env_step': 1658000, 'total_time': 52878.50299191475, 'episode_reward': -50.0}
+evaluate on 52946.008769989014
+{'episode': 16601, 'step': 830000, 'env_step': 1660000, 'total_time': 52946.00876617432, 'episode_reward': -50.0}
+evaluate on 53010.34532237053
+{'episode': 16621, 'step': 831000, 'env_step': 1662000, 'total_time': 53010.34531903267, 'episode_reward': -50.0}
+evaluate on 53072.44950699806
+{'episode': 16641, 'step': 832000, 'env_step': 1664000, 'total_time': 53072.44950342178, 'episode_reward': -50.0}
+evaluate on 53137.188512563705
+{'episode': 16661, 'step': 833000, 'env_step': 1666000, 'total_time': 53137.188509464264, 'episode_reward': -50.0}
+evaluate on 53204.666862249374
+{'episode': 16681, 'step': 834000, 'env_step': 1668000, 'total_time': 53204.66685914993, 'episode_reward': -50.0}
+evaluate on 53268.933933496475
+{'episode': 16701, 'step': 835000, 'env_step': 1670000, 'total_time': 53268.933930158615, 'episode_reward': -50.0}
+evaluate on 53334.19201183319
+{'episode': 16721, 'step': 836000, 'env_step': 1672000, 'total_time': 53334.19200897217, 'episode_reward': -50.0}
+evaluate on 53400.87883210182
+{'episode': 16741, 'step': 837000, 'env_step': 1674000, 'total_time': 53400.8788292408, 'episode_reward': -50.0}
+evaluate on 53467.15809369087
+{'episode': 16761, 'step': 838000, 'env_step': 1676000, 'total_time': 53467.15809035301, 'episode_reward': -50.0}
+evaluate on 53532.76832532883
+{'episode': 16781, 'step': 839000, 'env_step': 1678000, 'total_time': 53532.768322467804, 'episode_reward': -50.0}
+evaluate on 53596.48551225662
+{'episode': 16801, 'step': 840000, 'env_step': 1680000, 'total_time': 53596.48550915718, 'episode_reward': -50.0}
+evaluate on 53663.44908499718
+{'episode': 16821, 'step': 841000, 'env_step': 1682000, 'total_time': 53663.44908165932, 'episode_reward': -50.0}
+evaluate on 53727.558614254
+{'episode': 16841, 'step': 842000, 'env_step': 1684000, 'total_time': 53727.55861091614, 'episode_reward': -50.0}
+evaluate on 53795.33782982826
+{'episode': 16861, 'step': 843000, 'env_step': 1686000, 'total_time': 53795.337824344635, 'episode_reward': -50.0}
+evaluate on 53865.29680609703
+{'episode': 16881, 'step': 844000, 'env_step': 1688000, 'total_time': 53865.296802043915, 'episode_reward': -50.0}
+evaluate on 53934.19527888298
+{'episode': 16901, 'step': 845000, 'env_step': 1690000, 'total_time': 53934.19527387619, 'episode_reward': -50.0}
+evaluate on 54002.05526471138
+{'episode': 16921, 'step': 846000, 'env_step': 1692000, 'total_time': 54002.055260658264, 'episode_reward': -50.0}
+evaluate on 54069.73109602928
+{'episode': 16941, 'step': 847000, 'env_step': 1694000, 'total_time': 54069.73109173775, 'episode_reward': -50.0}
+evaluate on 54140.84777855873
+{'episode': 16961, 'step': 848000, 'env_step': 1696000, 'total_time': 54140.8477742672, 'episode_reward': -50.0}
+evaluate on 54208.88966321945
+{'episode': 16981, 'step': 849000, 'env_step': 1698000, 'total_time': 54208.889659166336, 'episode_reward': -50.0}
+evaluate on 54277.550485134125

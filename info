@@ -1,0 +1,6 @@
+FetchReach-v1 = {'obs': 10, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+FetchSlide-v1 = {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+FetchPush-v1 = {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+FetchPickAndPlace-v1 = {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+
+
