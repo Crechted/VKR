@@ -1,0 +1,92 @@
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseRewardJointCtrl-v0
+pybullet build time: Oct  8 2020 00:11:27
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 27, 'goal': 3, 'action': 7, 'action_max': 1.0, 'max_timesteps': 50} 
+
+[2023-04-01 17:45:45.827580] epoch is: 0, eval success rate is: 0.017
+[2023-04-01 17:47:28.244544] epoch is: 1, eval success rate is: 0.033
+[2023-04-01 17:49:11.185780] epoch is: 2, eval success rate is: 0.083
+[2023-04-01 17:51:01.725873] epoch is: 3, eval success rate is: 0.033
+[2023-04-01 17:52:45.731692] epoch is: 4, eval success rate is: 0.000
+[2023-04-01 17:54:35.646119] epoch is: 5, eval success rate is: 0.033
+[2023-04-01 17:56:27.393630] epoch is: 6, eval success rate is: 0.050
+[2023-04-01 17:58:17.813760] epoch is: 7, eval success rate is: 0.033
+[2023-04-01 18:00:04.785988] epoch is: 8, eval success rate is: 0.017
+[2023-04-01 18:01:52.898743] epoch is: 9, eval success rate is: 0.050
+[2023-04-01 18:03:45.696984] epoch is: 10, eval success rate is: 0.033
+[2023-04-01 18:05:39.168010] epoch is: 11, eval success rate is: 0.000
+[2023-04-01 18:07:32.025708] epoch is: 12, eval success rate is: 0.133
+[2023-04-01 18:09:35.732742] epoch is: 13, eval success rate is: 0.017
+[2023-04-01 18:11:23.149033] epoch is: 14, eval success rate is: 0.017
+[2023-04-01 18:13:12.221119] epoch is: 15, eval success rate is: 0.083
+[2023-04-01 18:14:58.840126] epoch is: 16, eval success rate is: 0.100
+[2023-04-01 18:16:52.562099] epoch is: 17, eval success rate is: 0.167
+[2023-04-01 18:18:52.709142] epoch is: 18, eval success rate is: 0.183
+[2023-04-01 18:20:44.684521] epoch is: 19, eval success rate is: 0.167
+[2023-04-01 18:22:32.427482] epoch is: 20, eval success rate is: 0.433
+[2023-04-01 18:24:26.733207] epoch is: 21, eval success rate is: 0.467
+[2023-04-01 18:26:23.181863] epoch is: 22, eval success rate is: 0.667
+[2023-04-01 18:28:10.207431] epoch is: 23, eval success rate is: 0.633
+[2023-04-01 18:29:56.880885] epoch is: 24, eval success rate is: 0.667
+[2023-04-01 18:31:43.306721] epoch is: 25, eval success rate is: 0.850
+[2023-04-01 18:33:31.662331] epoch is: 26, eval success rate is: 0.883
+[2023-04-01 18:35:19.985741] epoch is: 27, eval success rate is: 1.000
+[2023-04-01 18:37:48.940225] epoch is: 28, eval success rate is: 0.967
+[2023-04-01 18:40:30.078726] epoch is: 29, eval success rate is: 0.933
+[2023-04-01 18:43:13.346888] epoch is: 30, eval success rate is: 0.983
+[2023-04-01 18:45:57.688598] epoch is: 31, eval success rate is: 0.983
+[2023-04-01 18:48:43.759913] epoch is: 32, eval success rate is: 0.950
+[2023-04-01 18:51:33.015273] epoch is: 33, eval success rate is: 0.967
+[2023-04-01 18:54:15.967896] epoch is: 34, eval success rate is: 0.967
+[2023-04-01 18:56:56.492025] epoch is: 35, eval success rate is: 1.000
+[2023-04-01 18:59:46.115499] epoch is: 36, eval success rate is: 0.967
+[2023-04-01 19:02:41.519131] epoch is: 37, eval success rate is: 0.983
+[2023-04-01 19:05:35.313540] epoch is: 38, eval success rate is: 0.983
+[2023-04-01 19:08:25.914300] epoch is: 39, eval success rate is: 0.983
+[2023-04-01 19:11:14.021591] epoch is: 40, eval success rate is: 0.950
+[2023-04-01 19:14:08.586897] epoch is: 41, eval success rate is: 1.000
+[2023-04-01 19:17:05.452627] epoch is: 42, eval success rate is: 0.967
+[2023-04-01 19:19:57.446626] epoch is: 43, eval success rate is: 1.000
+[2023-04-01 19:22:45.169793] epoch is: 44, eval success rate is: 0.967
+[2023-04-01 19:25:31.462967] epoch is: 45, eval success rate is: 1.000
+[2023-04-01 19:28:25.132881] epoch is: 46, eval success rate is: 1.000
+[2023-04-01 19:31:19.641472] epoch is: 47, eval success rate is: 0.983
+[2023-04-01 19:34:14.274888] epoch is: 48, eval success rate is: 0.983
+[2023-04-01 19:37:09.337294] epoch is: 49, eval success rate is: 0.983

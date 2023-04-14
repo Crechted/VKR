@@ -1,0 +1,160 @@
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+RENDER:  False
+Task id: KukaPushParallelGripSparseReward-v0
+pybullet build time: Oct  8 2020 00:11:27
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  24 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  26 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  22 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  27 
+
+
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  25 
+
+b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,9266]:
+CMD_CREATE_SENSOR: cannot perform sensor removal request, no sensor on joint [7]
+ENV PARAMS:  {'obs': 20, 'goal': 3, 'action': 3, 'action_max': 1.0, 'max_timesteps': 50} 
+
+
+SEED:  23 
+
+[2023-04-04 17:51:17.075345] epoch is: 0, eval success rate is: 0.017
+[2023-04-04 17:53:52.900853] epoch is: 1, eval success rate is: 0.033
+[2023-04-04 17:56:37.069372] epoch is: 2, eval success rate is: 0.067
+[2023-04-04 17:59:25.562067] epoch is: 3, eval success rate is: 0.050
+[2023-04-04 18:02:14.243743] epoch is: 4, eval success rate is: 0.083
+[2023-04-04 18:05:01.340028] epoch is: 5, eval success rate is: 0.000
+[2023-04-04 18:07:46.491892] epoch is: 6, eval success rate is: 0.050
+[2023-04-04 18:10:26.091426] epoch is: 7, eval success rate is: 0.017
+[2023-04-04 18:13:03.718086] epoch is: 8, eval success rate is: 0.117
+[2023-04-04 18:15:41.158096] epoch is: 9, eval success rate is: 0.050
+[2023-04-04 18:18:20.780805] epoch is: 10, eval success rate is: 0.000
+[2023-04-04 18:21:10.631119] epoch is: 11, eval success rate is: 0.033
+[2023-04-04 18:24:10.118943] epoch is: 12, eval success rate is: 0.067
+[2023-04-04 18:27:02.968629] epoch is: 13, eval success rate is: 0.017
+[2023-04-04 18:29:51.715434] epoch is: 14, eval success rate is: 0.050
+[2023-04-04 18:32:28.608065] epoch is: 15, eval success rate is: 0.050
+[2023-04-04 18:35:08.905554] epoch is: 16, eval success rate is: 0.050
+[2023-04-04 18:37:59.644557] epoch is: 17, eval success rate is: 0.017
+[2023-04-04 18:40:43.410265] epoch is: 18, eval success rate is: 0.000
+[2023-04-04 18:43:23.456912] epoch is: 19, eval success rate is: 0.017
+[2023-04-04 18:46:11.245536] epoch is: 20, eval success rate is: 0.017
+[2023-04-04 18:49:02.902338] epoch is: 21, eval success rate is: 0.033
+[2023-04-04 18:51:51.752465] epoch is: 22, eval success rate is: 0.067
+[2023-04-04 18:54:47.901782] epoch is: 23, eval success rate is: 0.017
+[2023-04-04 18:57:39.574205] epoch is: 24, eval success rate is: 0.067
+[2023-04-04 19:00:16.706715] epoch is: 25, eval success rate is: 0.050
+[2023-04-04 19:02:59.271421] epoch is: 26, eval success rate is: 0.083
+[2023-04-04 19:05:34.293829] epoch is: 27, eval success rate is: 0.000
+[2023-04-04 19:08:12.636480] epoch is: 28, eval success rate is: 0.017
+[2023-04-04 19:10:55.275786] epoch is: 29, eval success rate is: 0.050
+[2023-04-04 19:13:41.939939] epoch is: 30, eval success rate is: 0.033
+[2023-04-04 19:16:46.243634] epoch is: 31, eval success rate is: 0.050
+[2023-04-04 19:19:51.339014] epoch is: 32, eval success rate is: 0.033
+[2023-04-04 19:22:39.966659] epoch is: 33, eval success rate is: 0.033
+[2023-04-04 19:25:33.616887] epoch is: 34, eval success rate is: 0.017
+[2023-04-04 19:28:25.389710] epoch is: 35, eval success rate is: 0.017
+[2023-04-04 19:31:10.633417] epoch is: 36, eval success rate is: 0.000
+[2023-04-04 19:34:02.817824] epoch is: 37, eval success rate is: 0.050
+[2023-04-04 19:36:56.023022] epoch is: 38, eval success rate is: 0.050
+[2023-04-04 19:39:46.208121] epoch is: 39, eval success rate is: 0.033
+[2023-04-04 19:42:58.518771] epoch is: 40, eval success rate is: 0.117
+[2023-04-04 19:46:13.542569] epoch is: 41, eval success rate is: 0.050
+[2023-04-04 19:49:20.298847] epoch is: 42, eval success rate is: 0.033
+[2023-04-04 19:52:05.901503] epoch is: 43, eval success rate is: 0.000
+[2023-04-04 19:54:50.027375] epoch is: 44, eval success rate is: 0.067
+[2023-04-04 19:57:40.002190] epoch is: 45, eval success rate is: 0.000
+[2023-04-04 20:00:43.297169] epoch is: 46, eval success rate is: 0.017
+[2023-04-04 20:03:35.625903] epoch is: 47, eval success rate is: 0.083
+[2023-04-04 20:06:45.735576] epoch is: 48, eval success rate is: 0.000
+[2023-04-04 20:09:37.694900] epoch is: 49, eval success rate is: 0.050
+[2023-04-04 20:12:25.657387] epoch is: 50, eval success rate is: 0.067
+[2023-04-04 20:15:21.942347] epoch is: 51, eval success rate is: 0.017
+[2023-04-04 20:18:16.445215] epoch is: 52, eval success rate is: 0.033
+[2023-04-04 20:21:24.712702] epoch is: 53, eval success rate is: 0.050
+[2023-04-04 20:24:34.541726] epoch is: 54, eval success rate is: 0.033
+[2023-04-04 20:27:32.257382] epoch is: 55, eval success rate is: 0.033
+[2023-04-04 20:30:33.520278] epoch is: 56, eval success rate is: 0.017
+[2023-04-04 20:33:35.311500] epoch is: 57, eval success rate is: 0.000
+[2023-04-04 20:36:32.346651] epoch is: 58, eval success rate is: 0.017
+[2023-04-04 20:39:33.510041] epoch is: 59, eval success rate is: 0.067
+[2023-04-04 20:42:32.715560] epoch is: 60, eval success rate is: 0.017
+[2023-04-04 20:45:26.391342] epoch is: 61, eval success rate is: 0.067
+[2023-04-04 20:48:11.491812] epoch is: 62, eval success rate is: 0.050
+[2023-04-04 20:51:14.943282] epoch is: 63, eval success rate is: 0.050
+[2023-04-04 20:54:15.655461] epoch is: 64, eval success rate is: 0.050
+[2023-04-04 20:57:02.256375] epoch is: 65, eval success rate is: 0.050
+[2023-04-04 21:00:03.360914] epoch is: 66, eval success rate is: 0.017
+[2023-04-04 21:02:52.354617] epoch is: 67, eval success rate is: 0.033
+[2023-04-04 21:05:46.072316] epoch is: 68, eval success rate is: 0.033
+[2023-04-04 21:08:40.449703] epoch is: 69, eval success rate is: 0.017
+[2023-04-04 21:11:39.147755] epoch is: 70, eval success rate is: 0.050
+[2023-04-04 21:14:25.730716] epoch is: 71, eval success rate is: 0.033
+[2023-04-04 21:17:15.421219] epoch is: 72, eval success rate is: 0.033
+[2023-04-04 21:20:11.869790] epoch is: 73, eval success rate is: 0.033
+[2023-04-04 21:23:12.009554] epoch is: 74, eval success rate is: 0.083
+[2023-04-04 21:26:11.302042] epoch is: 75, eval success rate is: 0.033
+[2023-04-04 21:29:13.612930] epoch is: 76, eval success rate is: 0.000
+[2023-04-04 21:32:05.572087] epoch is: 77, eval success rate is: 0.067
+[2023-04-04 21:35:06.693112] epoch is: 78, eval success rate is: 0.000
+[2023-04-04 21:37:58.280394] epoch is: 79, eval success rate is: 0.017
+[2023-04-04 21:40:49.903126] epoch is: 80, eval success rate is: 0.000
+[2023-04-04 21:43:38.084587] epoch is: 81, eval success rate is: 0.067
+[2023-04-04 21:46:27.119489] epoch is: 82, eval success rate is: 0.000
+[2023-04-04 21:49:25.899477] epoch is: 83, eval success rate is: 0.017
+[2023-04-04 21:52:17.123218] epoch is: 84, eval success rate is: 0.050
+[2023-04-04 21:55:11.157825] epoch is: 85, eval success rate is: 0.083
+[2023-04-04 21:58:04.302832] epoch is: 86, eval success rate is: 0.033
+[2023-04-04 22:01:07.344315] epoch is: 87, eval success rate is: 0.050
+[2023-04-04 22:04:01.637803] epoch is: 88, eval success rate is: 0.083
+[2023-04-04 22:06:57.747728] epoch is: 89, eval success rate is: 0.017
+[2023-04-04 22:09:50.795550] epoch is: 90, eval success rate is: 0.033
+[2023-04-04 22:13:04.533062] epoch is: 91, eval success rate is: 0.050
+[2023-04-04 22:16:15.224392] epoch is: 92, eval success rate is: 0.033
+[2023-04-04 22:19:09.112598] epoch is: 93, eval success rate is: 0.050
+[2023-04-04 22:21:59.681636] epoch is: 94, eval success rate is: 0.050
+[2023-04-04 22:24:57.241193] epoch is: 95, eval success rate is: 0.017
+[2023-04-04 22:27:48.026525] epoch is: 96, eval success rate is: 0.000
+[2023-04-04 22:30:43.050801] epoch is: 97, eval success rate is: 0.017
+[2023-04-04 22:33:32.311388] epoch is: 98, eval success rate is: 0.050
+[2023-04-04 22:36:19.609442] epoch is: 99, eval success rate is: 0.050

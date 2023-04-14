@@ -1,0 +1,266 @@
+RENDER:  False
+RENDER:  False
+RENDER:  False
+RENDER:  False
+RENDER:  False
+RENDER:  False
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  16
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  9.10966987e-01,
+        6.90397663e-01,  4.14022562e-01, -8.46779487e-02, -5.85116859e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([0.91096699, 0.69039766, 0.41402256]), 'desired_goal': array([1.51574613, 0.98642435, 0.41401894])}
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  14
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  1.08748285e+00,
+        8.20502869e-01,  4.14022562e-01,  9.18379149e-02,  7.15935197e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([1.08748285, 0.82050287, 0.41402256]), 'desired_goal': array([1.12074389, 0.81915918, 0.41401894])}
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  15
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  9.04626627e-01,
+        7.91874053e-01,  4.14022562e-01, -9.10183086e-02,  4.29647039e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([0.90462663, 0.79187405, 0.41402256]), 'desired_goal': array([1.45727935, 0.6171718 , 0.41401894])}
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  13
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  9.61904852e-01,
+        8.48518558e-01,  4.14022562e-01, -3.37400836e-02,  9.96092089e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([0.96190485, 0.84851856, 0.41402256]), 'desired_goal': array([1.65105338, 0.77782942, 0.41401894])}
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  12
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  9.30969638e-01,
+        6.49059088e-01,  4.14022562e-01, -6.46752972e-02, -9.98502609e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([0.93096964, 0.64905909, 0.41402256]), 'desired_goal': array([1.37025014, 0.46799956, 0.41401894])}
+
+ENV PARAMS:  {'obs': 25, 'goal': 3, 'action': 4, 'action_max': 1.0, 'max_timesteps': 50}
+SEED:  11
+SAMPLE ENV:  {'observation': array([ 9.95644936e-01,  7.48909349e-01,  4.12685879e-01,  9.09316779e-01,
+        6.89708442e-01,  4.14022562e-01, -8.63281562e-02, -5.92009071e-02,
+        1.33668285e-03, -2.02409822e-06,  1.46269158e-03, -5.32964268e-03,
+        1.24548653e-04, -1.88202234e-02,  1.18415598e-03, -5.54487050e-05,
+        7.46713768e-05,  1.86450993e-02, -4.64845346e-04, -4.83036131e-03,
+       -1.22686993e-03,  5.01588816e-05, -2.30984296e-06,  4.63429471e-07,
+        5.47231104e-05]), 'achieved_goal': array([0.90931678, 0.68970844, 0.41402256]), 'desired_goal': array([1.13280202, 0.7522534 , 0.41401894])}
+[2023-04-07 13:49:04.175057] epoch is: 0, eval success rate is: 0.000
+[2023-04-07 13:50:59.578766] epoch is: 1, eval success rate is: 0.000
+[2023-04-07 13:52:54.162976] epoch is: 2, eval success rate is: 0.017
+[2023-04-07 13:54:51.372251] epoch is: 3, eval success rate is: 0.017
+[2023-04-07 13:56:35.905507] epoch is: 4, eval success rate is: 0.000
+[2023-04-07 13:58:20.297053] epoch is: 5, eval success rate is: 0.017
+[2023-04-07 14:00:06.307012] epoch is: 6, eval success rate is: 0.067
+[2023-04-07 14:01:50.588191] epoch is: 7, eval success rate is: 0.017
+[2023-04-07 14:03:52.372797] epoch is: 8, eval success rate is: 0.033
+[2023-04-07 14:06:03.109801] epoch is: 9, eval success rate is: 0.050
+[2023-04-07 14:08:11.391594] epoch is: 10, eval success rate is: 0.100
+[2023-04-07 14:10:24.816441] epoch is: 11, eval success rate is: 0.133
+[2023-04-07 14:12:33.749036] epoch is: 12, eval success rate is: 0.083
+[2023-04-07 14:14:18.482442] epoch is: 13, eval success rate is: 0.150
+[2023-04-07 14:16:02.967379] epoch is: 14, eval success rate is: 0.167
+[2023-04-07 14:17:47.495731] epoch is: 15, eval success rate is: 0.333
+[2023-04-07 14:19:44.931193] epoch is: 16, eval success rate is: 0.317
+[2023-04-07 14:21:42.533480] epoch is: 17, eval success rate is: 0.317
+[2023-04-07 14:23:54.467444] epoch is: 18, eval success rate is: 0.283
+[2023-04-07 14:25:53.854587] epoch is: 19, eval success rate is: 0.500
+[2023-04-07 14:27:42.489073] epoch is: 20, eval success rate is: 0.300
+[2023-04-07 14:29:42.272458] epoch is: 21, eval success rate is: 0.383
+[2023-04-07 14:31:38.540893] epoch is: 22, eval success rate is: 0.367
+[2023-04-07 14:32:58.963629] epoch is: 23, eval success rate is: 0.383
+[2023-04-07 14:34:19.014400] epoch is: 24, eval success rate is: 0.433
+[2023-04-07 14:35:39.157320] epoch is: 25, eval success rate is: 0.450
+[2023-04-07 14:36:59.390511] epoch is: 26, eval success rate is: 0.350
+[2023-04-07 14:38:19.587100] epoch is: 27, eval success rate is: 0.567
+[2023-04-07 14:39:39.722817] epoch is: 28, eval success rate is: 0.533
+[2023-04-07 14:40:59.709692] epoch is: 29, eval success rate is: 0.567
+[2023-04-07 14:42:22.696423] epoch is: 30, eval success rate is: 0.450
+[2023-04-07 14:43:49.118733] epoch is: 31, eval success rate is: 0.567
+[2023-04-07 14:45:16.813040] epoch is: 32, eval success rate is: 0.617
+[2023-04-07 14:46:40.361457] epoch is: 33, eval success rate is: 0.350
+[2023-04-07 14:48:05.043214] epoch is: 34, eval success rate is: 0.600
+[2023-04-07 14:49:29.484711] epoch is: 35, eval success rate is: 0.567
+[2023-04-07 14:50:54.792967] epoch is: 36, eval success rate is: 0.733
+[2023-04-07 14:52:21.057085] epoch is: 37, eval success rate is: 0.583
+[2023-04-07 14:53:47.252981] epoch is: 38, eval success rate is: 0.400
+[2023-04-07 14:55:16.423744] epoch is: 39, eval success rate is: 0.600
+[2023-04-07 14:56:45.191140] epoch is: 40, eval success rate is: 0.500
+[2023-04-07 14:58:17.343976] epoch is: 41, eval success rate is: 0.583
+[2023-04-07 14:59:44.951253] epoch is: 42, eval success rate is: 0.633
+[2023-04-07 15:01:11.945988] epoch is: 43, eval success rate is: 0.517
+[2023-04-07 15:02:41.030125] epoch is: 44, eval success rate is: 0.700
+[2023-04-07 15:04:09.607042] epoch is: 45, eval success rate is: 0.683
+[2023-04-07 15:05:43.663843] epoch is: 46, eval success rate is: 0.633
+[2023-04-07 15:07:24.160224] epoch is: 47, eval success rate is: 0.683
+[2023-04-07 15:08:57.081474] epoch is: 48, eval success rate is: 0.650
+[2023-04-07 15:10:24.279265] epoch is: 49, eval success rate is: 0.650
+[2023-04-07 15:11:53.562926] epoch is: 50, eval success rate is: 0.583
+[2023-04-07 15:13:23.045830] epoch is: 51, eval success rate is: 0.633
+[2023-04-07 15:14:52.812790] epoch is: 52, eval success rate is: 0.633
+[2023-04-07 15:16:19.942685] epoch is: 53, eval success rate is: 0.600
+[2023-04-07 15:17:47.214694] epoch is: 54, eval success rate is: 0.733
+[2023-04-07 15:19:14.020600] epoch is: 55, eval success rate is: 0.700
+[2023-04-07 15:20:40.928887] epoch is: 56, eval success rate is: 0.700
+[2023-04-07 15:22:08.347712] epoch is: 57, eval success rate is: 0.717
+[2023-04-07 15:23:35.147615] epoch is: 58, eval success rate is: 0.650
+[2023-04-07 15:25:02.409479] epoch is: 59, eval success rate is: 0.467
+[2023-04-07 15:26:29.945928] epoch is: 60, eval success rate is: 0.533
+[2023-04-07 15:27:57.754970] epoch is: 61, eval success rate is: 0.750
+[2023-04-07 15:29:25.840039] epoch is: 62, eval success rate is: 0.683
+[2023-04-07 15:30:54.000343] epoch is: 63, eval success rate is: 0.617
+[2023-04-07 15:32:21.968708] epoch is: 64, eval success rate is: 0.500
+[2023-04-07 15:33:52.445397] epoch is: 65, eval success rate is: 0.633
+[2023-04-07 15:35:24.804184] epoch is: 66, eval success rate is: 0.783
+[2023-04-07 15:36:52.878688] epoch is: 67, eval success rate is: 0.617
+[2023-04-07 15:38:51.876065] epoch is: 68, eval success rate is: 0.600
+[2023-04-07 15:40:21.224637] epoch is: 69, eval success rate is: 0.633
+[2023-04-07 15:42:18.373933] epoch is: 70, eval success rate is: 0.767
+[2023-04-07 15:43:49.396709] epoch is: 71, eval success rate is: 0.617
+[2023-04-07 15:45:15.612938] epoch is: 72, eval success rate is: 0.567
+[2023-04-07 15:46:43.850024] epoch is: 73, eval success rate is: 0.533
+[2023-04-07 15:48:48.472672] epoch is: 74, eval success rate is: 0.583
+[2023-04-07 15:51:13.659513] epoch is: 75, eval success rate is: 0.600
+[2023-04-07 15:53:40.290153] epoch is: 76, eval success rate is: 0.683
+[2023-04-07 15:56:03.411903] epoch is: 77, eval success rate is: 0.700
+[2023-04-07 15:58:24.746022] epoch is: 78, eval success rate is: 0.583
+[2023-04-07 16:00:50.849879] epoch is: 79, eval success rate is: 0.617
+[2023-04-07 16:03:17.010079] epoch is: 80, eval success rate is: 0.617
+[2023-04-07 16:05:42.996581] epoch is: 81, eval success rate is: 0.483
+[2023-04-07 16:08:08.376949] epoch is: 82, eval success rate is: 0.667
+[2023-04-07 16:10:35.218378] epoch is: 83, eval success rate is: 0.717
+[2023-04-07 16:13:02.279745] epoch is: 84, eval success rate is: 0.617
+[2023-04-07 16:15:30.218574] epoch is: 85, eval success rate is: 0.600
+[2023-04-07 16:17:52.870630] epoch is: 86, eval success rate is: 0.633
+[2023-04-07 16:20:18.891275] epoch is: 87, eval success rate is: 0.550
+[2023-04-07 16:22:46.916425] epoch is: 88, eval success rate is: 0.533
+[2023-04-07 16:25:13.193910] epoch is: 89, eval success rate is: 0.667
+[2023-04-07 16:27:33.776538] epoch is: 90, eval success rate is: 0.750
+[2023-04-07 16:29:07.600299] epoch is: 91, eval success rate is: 0.617
+[2023-04-07 16:30:58.116674] epoch is: 92, eval success rate is: 0.600
+[2023-04-07 16:32:40.318568] epoch is: 93, eval success rate is: 0.683
+[2023-04-07 16:34:24.249288] epoch is: 94, eval success rate is: 0.667
+[2023-04-07 16:36:23.716016] epoch is: 95, eval success rate is: 0.717
+[2023-04-07 16:38:14.516060] epoch is: 96, eval success rate is: 0.783
+[2023-04-07 16:40:21.853776] epoch is: 97, eval success rate is: 0.667
+[2023-04-07 16:42:24.175739] epoch is: 98, eval success rate is: 0.567
+[2023-04-07 16:44:37.182978] epoch is: 99, eval success rate is: 0.650
+[2023-04-07 16:46:33.324689] epoch is: 100, eval success rate is: 0.600
+[2023-04-07 16:48:30.282474] epoch is: 101, eval success rate is: 0.700
+[2023-04-07 16:50:27.635441] epoch is: 102, eval success rate is: 0.733
+[2023-04-07 16:52:27.488117] epoch is: 103, eval success rate is: 0.650
+[2023-04-07 16:54:27.141407] epoch is: 104, eval success rate is: 0.650
+[2023-04-07 16:56:22.437646] epoch is: 105, eval success rate is: 0.650
+[2023-04-07 16:58:23.862188] epoch is: 106, eval success rate is: 0.600
+[2023-04-07 17:00:28.409843] epoch is: 107, eval success rate is: 0.533
+[2023-04-07 17:02:48.791842] epoch is: 108, eval success rate is: 0.633
+[2023-04-07 17:04:59.330888] epoch is: 109, eval success rate is: 0.567
+[2023-04-07 17:07:00.943710] epoch is: 110, eval success rate is: 0.700
+[2023-04-07 17:08:55.065257] epoch is: 111, eval success rate is: 0.550
+[2023-04-07 17:10:51.251287] epoch is: 112, eval success rate is: 0.483
+[2023-04-07 17:12:46.918268] epoch is: 113, eval success rate is: 0.600
+[2023-04-07 17:14:46.179983] epoch is: 114, eval success rate is: 0.433
+[2023-04-07 17:16:40.519108] epoch is: 115, eval success rate is: 0.550
+[2023-04-07 17:18:35.912714] epoch is: 116, eval success rate is: 0.683
+[2023-04-07 17:20:26.614718] epoch is: 117, eval success rate is: 0.733
+[2023-04-07 17:22:16.819281] epoch is: 118, eval success rate is: 0.633
+[2023-04-07 17:24:13.630937] epoch is: 119, eval success rate is: 0.617
+[2023-04-07 17:26:04.333301] epoch is: 120, eval success rate is: 0.500
+[2023-04-07 17:27:57.239270] epoch is: 121, eval success rate is: 0.567
+[2023-04-07 17:29:47.794959] epoch is: 122, eval success rate is: 0.583
+[2023-04-07 17:31:41.893450] epoch is: 123, eval success rate is: 0.683
+[2023-04-07 17:33:34.772479] epoch is: 124, eval success rate is: 0.600
+[2023-04-07 17:35:27.470176] epoch is: 125, eval success rate is: 0.667
+[2023-04-07 17:37:17.683668] epoch is: 126, eval success rate is: 0.633
+[2023-04-07 17:39:12.136500] epoch is: 127, eval success rate is: 0.533
+[2023-04-07 17:41:09.131469] epoch is: 128, eval success rate is: 0.550
+[2023-04-07 17:43:13.122238] epoch is: 129, eval success rate is: 0.633
+[2023-04-07 17:45:33.475266] epoch is: 130, eval success rate is: 0.600
+[2023-04-07 17:47:37.583373] epoch is: 131, eval success rate is: 0.450
+[2023-04-07 17:49:33.788294] epoch is: 132, eval success rate is: 0.633
+[2023-04-07 17:51:31.187663] epoch is: 133, eval success rate is: 0.517
+[2023-04-07 17:53:52.652039] epoch is: 134, eval success rate is: 0.600
+[2023-04-07 17:55:45.297948] epoch is: 135, eval success rate is: 0.650
+[2023-04-07 17:58:07.281545] epoch is: 136, eval success rate is: 0.633
+[2023-04-07 18:00:17.163826] epoch is: 137, eval success rate is: 0.533
+[2023-04-07 18:02:33.546560] epoch is: 138, eval success rate is: 0.533
+[2023-04-07 18:04:47.304142] epoch is: 139, eval success rate is: 0.600
+[2023-04-07 18:06:46.642844] epoch is: 140, eval success rate is: 0.600
+[2023-04-07 18:08:37.850019] epoch is: 141, eval success rate is: 0.600
+[2023-04-07 18:10:28.312805] epoch is: 142, eval success rate is: 0.733
+[2023-04-07 18:12:35.783284] epoch is: 143, eval success rate is: 0.733
+[2023-04-07 18:14:31.580818] epoch is: 144, eval success rate is: 0.633
+[2023-04-07 18:16:30.782416] epoch is: 145, eval success rate is: 0.600
+[2023-04-07 18:18:21.241453] epoch is: 146, eval success rate is: 0.683
+[2023-04-07 18:20:11.495877] epoch is: 147, eval success rate is: 0.617
+[2023-04-07 18:22:01.521227] epoch is: 148, eval success rate is: 0.550
+[2023-04-07 18:23:53.784009] epoch is: 149, eval success rate is: 0.667
+[2023-04-07 18:25:50.359235] epoch is: 150, eval success rate is: 0.667
+[2023-04-07 18:27:41.493076] epoch is: 151, eval success rate is: 0.483
+[2023-04-07 18:29:32.581203] epoch is: 152, eval success rate is: 0.567
+[2023-04-07 18:31:23.410333] epoch is: 153, eval success rate is: 0.750
+[2023-04-07 18:33:21.661456] epoch is: 154, eval success rate is: 0.567
+[2023-04-07 18:35:21.695728] epoch is: 155, eval success rate is: 0.717
+[2023-04-07 18:37:18.667097] epoch is: 156, eval success rate is: 0.567
+[2023-04-07 18:39:21.336188] epoch is: 157, eval success rate is: 0.800
+[2023-04-07 18:41:15.925878] epoch is: 158, eval success rate is: 0.567
+[2023-04-07 18:43:07.530729] epoch is: 159, eval success rate is: 0.567
+[2023-04-07 18:44:59.893010] epoch is: 160, eval success rate is: 0.683
+[2023-04-07 18:46:52.439852] epoch is: 161, eval success rate is: 0.617
+[2023-04-07 18:48:45.433066] epoch is: 162, eval success rate is: 0.333
+[2023-04-07 18:50:35.934480] epoch is: 163, eval success rate is: 0.633
+[2023-04-07 18:52:27.157700] epoch is: 164, eval success rate is: 0.583
+[2023-04-07 18:54:19.597892] epoch is: 165, eval success rate is: 0.550
+[2023-04-07 18:56:13.056405] epoch is: 166, eval success rate is: 0.683
+[2023-04-07 18:58:06.561441] epoch is: 167, eval success rate is: 0.550
+[2023-04-07 18:59:58.566722] epoch is: 168, eval success rate is: 0.683
+[2023-04-07 19:01:56.739921] epoch is: 169, eval success rate is: 0.717
+[2023-04-07 19:03:48.051618] epoch is: 170, eval success rate is: 0.600
+[2023-04-07 19:05:38.582997] epoch is: 171, eval success rate is: 0.700
+[2023-04-07 19:07:28.831423] epoch is: 172, eval success rate is: 0.583
+[2023-04-07 19:09:29.472801] epoch is: 173, eval success rate is: 0.583
+[2023-04-07 19:11:25.427568] epoch is: 174, eval success rate is: 0.467
+[2023-04-07 19:13:23.893770] epoch is: 175, eval success rate is: 0.500
+[2023-04-07 19:15:19.862207] epoch is: 176, eval success rate is: 0.567
+[2023-04-07 19:17:11.757574] epoch is: 177, eval success rate is: 0.667
+[2023-04-07 19:19:10.581929] epoch is: 178, eval success rate is: 0.600
+[2023-04-07 19:21:01.992572] epoch is: 179, eval success rate is: 0.567
+[2023-04-07 19:22:54.637144] epoch is: 180, eval success rate is: 0.617
+[2023-04-07 19:24:53.398550] epoch is: 181, eval success rate is: 0.733
+[2023-04-07 19:26:49.219609] epoch is: 182, eval success rate is: 0.617
+[2023-04-07 19:28:48.369553] epoch is: 183, eval success rate is: 0.750
+[2023-04-07 19:30:50.902418] epoch is: 184, eval success rate is: 0.750
+[2023-04-07 19:32:44.125006] epoch is: 185, eval success rate is: 0.633
+[2023-04-07 19:34:46.588552] epoch is: 186, eval success rate is: 0.567
+[2023-04-07 19:36:51.034516] epoch is: 187, eval success rate is: 0.483
+[2023-04-07 19:38:50.990049] epoch is: 188, eval success rate is: 0.667
+[2023-04-07 19:40:55.168403] epoch is: 189, eval success rate is: 0.683
+[2023-04-07 19:42:50.650355] epoch is: 190, eval success rate is: 0.533
+[2023-04-07 19:44:58.265261] epoch is: 191, eval success rate is: 0.567
+[2023-04-07 19:47:05.899693] epoch is: 192, eval success rate is: 0.550
+[2023-04-07 19:49:01.989189] epoch is: 193, eval success rate is: 0.750
+[2023-04-07 19:50:59.438296] epoch is: 194, eval success rate is: 0.667
+[2023-04-07 19:52:56.351063] epoch is: 195, eval success rate is: 0.550
+[2023-04-07 19:54:53.377863] epoch is: 196, eval success rate is: 0.550
+[2023-04-07 19:56:42.931935] epoch is: 197, eval success rate is: 0.733
+[2023-04-07 19:58:32.390344] epoch is: 198, eval success rate is: 0.633
+[2023-04-07 20:00:21.928266] epoch is: 199, eval success rate is: 0.533
