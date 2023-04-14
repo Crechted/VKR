@@ -4,8 +4,6 @@ import TD_MPC as tdmpc
 from TD_MPC import demo, train
 import LOGO as logo
 from LOGO import demo, train
-import HER2 as her2
-from HER2 import demo, train
 import pybullet_multigoal_gym as pmg
 import configs.arguments as get_arg
 import gym
@@ -75,8 +73,6 @@ def choose_learn_alg(args):
         return tdmpc
     if args.alg_name == 'LOGO':
         return logo
-    if args.alg_name == 'HER2':
-        return her2
 
 
 if __name__ == '__main__':
