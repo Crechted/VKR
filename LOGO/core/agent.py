@@ -17,7 +17,7 @@ def get_obs(obs):
 
 
 def collect_samples(pid, queue, env, ep_len, policy, custom_reward,
-                    mean_action, render, running_state, min_batch_size, env_prog):
+                    mean_action, render, running_state, min_batch_size, env_name):
     if pid > 0:
         torch.manual_seed(torch.randint(0, 5000, (1,)) * pid)
         if hasattr(env, 'np_random'):
@@ -66,7 +66,7 @@ def collect_samples(pid, queue, env, ep_len, policy, custom_reward,
 
             memory.push(state, action, mask, next_state, reward)
 
-            if render and env_prog == 'mujoco':
+            if render and env_name == 'mujoco':
                 env.render()
             if done:
                 break
@@ -125,7 +125,7 @@ class Agent:
         self.running_state = running_state
         self.num_threads = num_threads
         self.eval_env = eval_env
-        self.env_prog = args.env_prog
+        self.env_name = args.env_name
 
     def collect_samples(self, min_batch_size, ep_len=50, eval_flag=False, mean_action=False, render=False):
         t_start = time.time()
@@ -146,7 +146,7 @@ class Agent:
         elif eval_flag == True:
             collect_sample_env = self.eval_env
 
-        memory, log = collect_samples(0, None, collect_sample_env, ep_len, self.policy, self.custom_reward, mean_action, render, self.running_state, thread_batch_size, self.env_prog)
+        memory, log = collect_samples(0, None, collect_sample_env, ep_len, self.policy, self.custom_reward, mean_action, render, self.running_state, thread_batch_size, self.env_name)
 
         worker_logs = [None] * len(workers)
         worker_memories = [None] * len(workers)

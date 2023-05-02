@@ -26,8 +26,8 @@ def launch(args, env):
     assert torch.cuda.is_available()
 
     cwd = os.getcwd()
-    s_name = '/model_mu.pt' if args.env_prog == 'mujoco' else '/model_py.pt'
-    model_path = cwd + '/TD_MPC/saved_models/' + args.env_name + s_name
+    s_name = '/model_mu.pt' if args.env_name == 'mujoco' else '/model_py.pt'
+    model_path = cwd + '/TD_MPC/saved_models/' + args.task_name + s_name
     # create the environment
     cfg = get_TDMPC_cfgs(args, env)
     set_seed(cfg.seed)
@@ -40,7 +40,7 @@ def launch(args, env):
         obs = env.reset()
         episode = Episode(cfg, get_obs(obs))
         while not episode.done:
-            if args.env_prog == 'mujoco' and args.render:
+            if args.env_name == 'mujoco' and args.render:
                 env.render()
             action = agent.plan(get_obs(obs), eval_mode=True, step=step, t0=episode.first)
             obs, reward, done, _ = env.step(action.cpu().numpy())

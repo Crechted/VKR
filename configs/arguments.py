@@ -9,8 +9,8 @@ def get_default_args_and_parser():
     parser = argparse.ArgumentParser()
     # the environment setting
     parser.add_argument('--alg-name', type=str, default='HER', help='the algorithm name')
-    parser.add_argument('--env-name', type=str, default='reach', help='the environment name')
-    parser.add_argument('--env-prog', type=str, default='mujoco', help='the environment name')
+    parser.add_argument('--task-name', type=str, default='reach', help='the environment name')
+    parser.add_argument('--env-name', type=str, default='mujoco', help='the environment name')
     parser.add_argument('--binary-rew', action='store_true', default=False, help='binary reward')
     parser.add_argument('--render', action='store_true', default=False, help='render learning')
     parser.add_argument('--demo', action='store_true', default=False, help='Demonstration')
@@ -66,7 +66,7 @@ def get_default_args_and_parser():
     parser.add_argument('--per-alpha', type=float, default=0.6)
     parser.add_argument('--per-beta', type=float, default=0.4)
     parser.add_argument('--grad-clip-norm', type=int, default=10)
-    parser.add_argument('--seed-steps', type=int, default=250)
+    parser.add_argument('--seed-steps', type=int, default=5000)
     parser.add_argument('--update-freq', type=int, default=2)
     parser.add_argument('--tau', type=int, default=0.01) # And LOGO
     # architecture

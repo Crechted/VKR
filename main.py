@@ -1,35 +1,41 @@
-import HER as her
+import HER
 from HER import demo, train
-import TD_MPC as tdmpc
+import TD_MPC
 from TD_MPC import demo, train
-import LOGO as logo
+import LOGO
 from LOGO import demo, train
 import pybullet_multigoal_gym as pmg
 import configs.arguments as get_arg
 import gym
 
-# mpirun -np 1 python main.py --alg-name='HER' --env-name='reach' | tee HER/logs/reach.log
-# python main.py --alg-name='TD_MPC' --env-name='reach' --cuda --render | tee TD_MPC/logs/reach.log
-# python main.py --alg-name='LOGO' --env-name='reach' --render | tee LOGO/logs/reach.log
+# set PATH=C:\Users\Crechted\.mujoco\mjpro150\bin;%PATH%
+# os.add_dll_directory("C://Users//Crechted//.mujoco//mjpro150//bin")
+# mpirun -np 1 python main.py --alg-name='HER' --task-name='reach' | tee HER/logs/reach.log
+# python main.py --alg-name="TD_MPC" --task-name="reach" --cuda --render | tee TD_MPC/logs/reach.log
+# python main.py --alg-name='LOGO' --task-name='reach' --render | tee LOGO/logs/reach.log
 
-# python main.py --alg-name='TD_MPC' --env-name='push' --env-prog='mujoco' --cuda --load --horizon=7
+# python main.py --alg-name='TD_MPC' --task-name='push' --env-name='mujoco' --cuda --load --horizon=7
 # numba 0.56.4 requires numpy<1.24,>=1.18, but you have numpy 1.24.2 which is incompatible.
+
+# python main.py --alg-name="HER" --task-name="reach" --env-name="mujoco" --demo --render
+# python main.py --alg-name="TD_MPC" --task-name="push" --seed-steps=250 --horizon=2 --iterations=3 --env-name="mujoco" --cuda --load
 def create_env(args):
-    if args.env_prog == "mujoco":
+    if args.env_name == "mujoco":
         return create_mujoco_env(args)
-    elif args.env_prog == "pybullet":
-        return  create_pybullet_env(args)
+    elif args.env_name == "pybullet":
+        return create_pybullet_env(args)
 
 
 def create_mujoco_env(args):
-    if args.env_name == 'reach':
+    if args.task_name == 'reach':
         return gym.make('FetchReach-v1')
-    elif args.env_name == 'slide':
+    elif args.task_name == 'slide':
         return gym.make('FetchSlide-v1')
-    elif args.env_name == 'push':
+    elif args.task_name == 'push':
         return gym.make('FetchPush-v1')
-    elif args.env_name == 'pick_and_place':
+    elif args.task_name == 'pick_and_place':
         return gym.make('FetchPickAndPlace-v1')
+    print('bruh')
 
 
 def create_pybullet_env(args):
@@ -66,13 +72,14 @@ def create_pybullet_env(args):
         goal_cam_id=1)
 
 
-def choose_learn_alg(args):
-    if args.alg_name == 'HER':
-        return her
-    if args.alg_name == 'TD_MPC':
-        return tdmpc
-    if args.alg_name == 'LOGO':
-        return logo
+def choose_learn_alg(a):
+    if a.alg_name == 'HER':
+        return HER
+    if a.alg_name == 'TD_MPC':
+        return TD_MPC
+    if a.alg_name == 'LOGO':
+        return LOGO
+    print('bruh')
 
 
 if __name__ == '__main__':
@@ -82,6 +89,7 @@ if __name__ == '__main__':
     print("RENDER: ", args.render)
     env = create_env(args)
     alg = choose_learn_alg(args)
+    print(args)
     if args.demo:
         alg.demo.launch(args, env)
     else:

@@ -33,7 +33,7 @@ def create_model_path(cfgs):
     if not os.path.exists(cfgs.save_dir):
         os.mkdir(cfgs.save_dir)
     # path to save the model
-    model_path = os.path.join(cfgs.save_dir, cfgs.env_name)
+    model_path = os.path.join(cfgs.save_dir, cfgs.task_name)
     if not os.path.exists(model_path):
         os.mkdir(model_path)
     return model_path
@@ -52,7 +52,7 @@ def launch(arg, env):
     dtype = torch.float64
     torch.set_default_dtype(dtype)
 
-    writer = SummaryWriter(f'LOGO/Results/{args.env_name}/')
+    writer = SummaryWriter(f'LOGO/Results/{args.task_name}/')
     if args.K_delta > -1:
         print('Adaptive Decay')
         print('delta_0:', args.delta_0)
@@ -68,7 +68,7 @@ def launch(arg, env):
         print('Using cuda device:', device)
 
     obs_shape = tuple(
-        x + y for x in env.observation_space['observation' if args.env_prog == 'mujoco' else 'state'].shape for y in env.observation_space['desired_goal'].shape)
+        x + y for x in env.observation_space['observation' if args.env_name == 'mujoco' else 'state'].shape for y in env.observation_space['desired_goal'].shape)
     if args.observe == 0:
         # args.observe = env.observation_space.shape[0]
         args.observe = obs_shape[0]
@@ -114,7 +114,7 @@ def launch(arg, env):
     agent = Agent(args, env, policy_net, device, eval_env=eval_env,
                   num_threads=args.num_threads)
 
-    writer.add_text('Evaluation env name', str(args.env_name))
+    writer.add_text('Evaluation env name', str(args.task_name))
     writer.add_text('Demonstration trajectories path', str(args.demo_traj_path))
     writer.add_text('K_delta', str(args.K_delta))
     writer.add_text('delta_0', str(args.delta_0))
@@ -176,8 +176,8 @@ def main_loop(agent):
     prev_rwd.append(0)
 
     model_path = create_model_path(args)
-    s_name = '/model_mu.pt' if args.env_prog == 'mujoco' else '/model_py.pt'
-    csv_name = '/train_info_mu.csv' if args.env_prog == 'mujoco' else '/train_info_py.csv'
+    s_name = '/model_mu.pt' if args.env_name == 'mujoco' else '/model_py.pt'
+    csv_name = '/train_info_mu.csv' if args.env_name == 'mujoco' else '/train_info_py.csv'
     train_info = {'steps': [], 'rewards': []}
     print(f'epochs: {args.max_iter_num}, episodes: {args.max_iter_num*args.min_batch_size}, steps: {args.max_iter_num*args.min_batch_size*args.episode_length}')
     for i_iter in range(args.max_iter_num):

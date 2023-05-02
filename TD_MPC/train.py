@@ -29,7 +29,7 @@ def create_model_path(cfgs):
 	if not os.path.exists(cfgs.save_dir):
 		os.mkdir(cfgs.save_dir)
 	# path to save the model
-	model_path = os.path.join(cfgs.save_dir, cfgs.env_name)
+	model_path = os.path.join(cfgs.save_dir, cfgs.task_name)
 	if not os.path.exists(model_path):
 		os.mkdir(model_path)
 	return model_path
@@ -46,7 +46,7 @@ def evaluate(cfg, env, agent, num_episodes, step):
 	for i in range(num_episodes):
 		obs, done, ep_reward, t = env.reset(), False, 0, 0
 		while not done:
-			if cfg.env_prog == 'mujoco' and cfg.render:
+			if cfg.env_name == 'mujoco' and cfg.render:
 				env.render()
 			action = agent.plan(get_obs(obs), eval_mode=True, step=step, t0=t==0)
 			obs, reward, done, _ = env.step(action.cpu().numpy())
@@ -62,8 +62,8 @@ def launch(args, env):
 	cfg = get_TDMPC_cfgs(args, env)
 	set_seed(cfg.seed)
 	model_path = create_model_path(cfg)
-	s_name = '/model_mu.pt' if cfg.env_prog == 'mujoco' else '/model_py.pt'
-	csv_name = '/train_info_mu.csv' if cfg.env_prog == 'mujoco' else '/train_info_py.csv'
+	s_name = '/model_mu.pt' if cfg.env_name == 'mujoco' else '/model_py.pt'
+	csv_name = '/train_info_mu.csv' if cfg.env_name == 'mujoco' else '/train_info_py.csv'
 	agent, buffer = TDMPC(cfg), ReplayBuffer(cfg)
 
 	# Run training
@@ -76,14 +76,14 @@ def launch(args, env):
 		train_info['steps'], train_info['rewards'] = parse.load_data_from_csv(model_path+csv_name)
 		print(f'was loaded: {train_info}')
 
-	print(f"\nNUM STEPS:{cfg.train_steps}, num epochs: {cfg.epochs}\n OBS:{env.observation_space}")
+	print(f"\nNUM STEPS:{cfg.train_steps}, num epochs: {cfg.epochs}\n OBS:{env.observation_space}\n{cfg.horizon}")
 	for step in range(0, cfg.train_steps+cfg.episode_length, cfg.episode_length):
 
 		# Collect trajectory
 		obs = env.reset()
 		episode = Episode(cfg, get_obs(obs))
 		while not episode.done:
-			if cfg.env_prog == 'mujoco' and cfg.render:
+			if cfg.env_name == 'mujoco' and cfg.render:
 				env.render()
 			action = agent.plan(get_obs(obs), step=step, t0=episode.first)
 			obs, reward, done, _ = env.step(action.cpu().numpy())

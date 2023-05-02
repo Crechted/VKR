@@ -15,21 +15,21 @@ def get_TDMPC_cfgs(args, env):
     cfg = args
 
     cfg.n_cycles = 50
-    if cfg.env_name == 'reach':
+    if cfg.task_name == 'reach':
         cfg.action_repeat = 1
         cfg.epochs = 14
         cfg.n_episodes = 3
-    elif cfg.env_name == 'slide':
+    elif cfg.task_name == 'slide':
         cfg.action_repeat = 1
         cfg.epochs = 200
         cfg.n_episodes = 18
-    elif cfg.env_name == 'push':
+    elif cfg.task_name == 'push':
         cfg.action_repeat = 1
-        cfg.epochs = 15
+        cfg.epochs = 40
         cfg.n_episodes = 18
-    elif cfg.env_name == 'pick_and_place':
+    elif cfg.task_name == 'pick_and_place':
         cfg.action_repeat = 1
-        cfg.epochs = 50
+        cfg.epochs = 40
         cfg.n_episodes = 18
 
 
@@ -38,7 +38,7 @@ def get_TDMPC_cfgs(args, env):
 
     # planning
     # cfg.iterations = 6
-    cfg.num_samples = 256
+    # cfg.num_samples = 256
     # cfg.num_elites = 64
     # cfg.mixture_coef = 0.05
     # cfg.min_std = 0.05
@@ -75,14 +75,14 @@ def get_TDMPC_cfgs(args, env):
 
     # misc
     cfg.seed = 22
-    cfg.exp_name = args.env_name
+    cfg.exp_name = args.task_name
     cfg.eval_freq = cfg.n_cycles*cfg.n_episodes*cfg.episode_length
     cfg.eval_episodes = 10
     cfg.train_steps = int(cfg.eval_freq*cfg.epochs)
 
     cfg.save_video = False
     cfg.save_model = False
-    cfg.obs_shape = tuple(x+y for x in env.observation_space['observation' if args.env_prog == 'mujoco' else 'state'].shape for y in env.observation_space['desired_goal'].shape)
+    cfg.obs_shape = tuple(x+y for x in env.observation_space['observation' if args.env_name == 'mujoco' else 'state'].shape for y in env.observation_space['desired_goal'].shape)
     cfg.action_shape = tuple(int(x) for x in env.action_space.shape)
     cfg.action_dim = env.action_space.shape[0]
     cfg.device = 'cuda' if args.cuda else 'cpu'
@@ -90,7 +90,7 @@ def get_TDMPC_cfgs(args, env):
     cfg.modality = 'state'
     if args.img_obs:
         cfg.modality = 'pixels'
-        cfg.obs_shape = tuple(int(x) for x in env.observation_space['observation' if args.env_prog == 'mujoco' else 'state'].shape)
+        cfg.obs_shape = tuple(int(x) for x in env.observation_space['observation' if args.env_name == 'mujoco' else 'state'].shape)
         cfg.frame_stack = 224/3
         cfg.num_channels = 32
         cfg.img_size = 224
@@ -104,7 +104,7 @@ def get_LOGO_cfgs(args, env):
     cfg.episode_length = env._max_episode_steps
     cfg.gamma = 0.99
     cfg.tau = 0.01
-    if (cfg.env_name == 'reach'):
+    if (cfg.task_name == 'reach'):
         cfg.demo_traj_path = 'LOGO/logo/data/HalfCheetah-v2_data.p'
         cfg.K_delta = 50
         cfg.sparse_val = 2.
