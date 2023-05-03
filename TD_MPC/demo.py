@@ -22,14 +22,13 @@ def process_inputs(o, g, o_mean, o_std, g_mean, g_std, args):
     return inputs
 
 
-def launch(args, env):
+def launch(cfg, env):
     assert torch.cuda.is_available()
 
     cwd = os.getcwd()
-    s_name = '/model_mu.pt' if args.env_name == 'mujoco' else '/model_py.pt'
-    model_path = cwd + '/TD_MPC/saved_models/' + args.task_name + s_name
+    s_name = '/model_mu.pt' if cfg.env_name == 'mujoco' else '/model_py.pt'
+    model_path = cwd + '/TD_MPC/saved_models/' + cfg.task_name + s_name
     # create the environment
-    cfg = get_TDMPC_cfgs(args, env)
     set_seed(cfg.seed)
     agent, buffer = TDMPC(cfg), ReplayBuffer(cfg)
     # get the environment params
@@ -40,7 +39,7 @@ def launch(args, env):
         obs = env.reset()
         episode = Episode(cfg, get_obs(obs))
         while not episode.done:
-            if args.env_name == 'mujoco' and args.render:
+            if cfg.env_name == 'mujoco' and cfg.render:
                 env.render()
             action = agent.plan(get_obs(obs), eval_mode=True, step=step, t0=episode.first)
             obs, reward, done, _ = env.step(action.cpu().numpy())

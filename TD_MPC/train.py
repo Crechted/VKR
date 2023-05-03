@@ -11,7 +11,6 @@ import time
 import random
 from TD_MPC.src.algorithm.tdmpc import TDMPC
 from TD_MPC.src.algorithm.helper import Episode, ReplayBuffer
-from configs.env_info import get_TDMPC_cfgs
 from datetime import datetime
 import configs.parse_csv as parse
 torch.backends.cudnn.benchmark = True
@@ -56,10 +55,10 @@ def evaluate(cfg, env, agent, num_episodes, step):
 	return np.nanmean(episode_rewards)
 
 
-def launch(args, env):
+def launch(cfg, env):
 	"""Training script for TD_MPC. Requires a CUDA-enabled device."""
 	assert torch.cuda.is_available()
-	cfg = get_TDMPC_cfgs(args, env)
+
 	set_seed(cfg.seed)
 	model_path = create_model_path(cfg)
 	s_name = '/model_mu.pt' if cfg.env_name == 'mujoco' else '/model_py.pt'
@@ -76,7 +75,7 @@ def launch(args, env):
 		train_info['steps'], train_info['rewards'] = parse.load_data_from_csv(model_path+csv_name)
 		print(f'was loaded: {train_info}')
 
-	print(f"\nNUM STEPS:{cfg.train_steps}, num epochs: {cfg.epochs}\n OBS:{env.observation_space}\n{cfg.horizon}")
+	print(f"\nNUM STEPS:{cfg.train_steps}, num epochs: {cfg.n_epochs}\n OBS:{env.observation_space}\n{cfg.horizon}")
 	for step in range(0, cfg.train_steps+cfg.episode_length, cfg.episode_length):
 
 		# Collect trajectory

@@ -6,6 +6,8 @@ import LOGO
 from LOGO import demo, train
 import pybullet_multigoal_gym as pmg
 import configs.arguments as get_arg
+from configs.env_info import Configs
+from configs.env_info import get_cfgs
 import gym
 
 # set PATH=C:\Users\Crechted\.mujoco\mjpro150\bin;%PATH%
@@ -18,7 +20,7 @@ import gym
 # numba 0.56.4 requires numpy<1.24,>=1.18, but you have numpy 1.24.2 which is incompatible.
 
 # python main.py --alg-name="HER" --task-name="reach" --env-name="mujoco" --demo --render
-# python main.py --alg-name="TD_MPC" --task-name="push" --seed-steps=250 --horizon=2 --iterations=3 --env-name="mujoco" --cuda --load
+# python main.py --alg-name="TD_MPC" --task-name="push" --env-name="mujoco" --seed-steps=250 --num-samples=256 --num-elites=32 --horizon=10 --cuda
 def create_env(args):
     if args.env_name == "mujoco":
         return create_mujoco_env(args)
@@ -89,8 +91,9 @@ if __name__ == '__main__':
     print("RENDER: ", args.render)
     env = create_env(args)
     alg = choose_learn_alg(args)
-    print(args)
-    if args.demo:
-        alg.demo.launch(args, env)
+    cfg = get_cfgs(args, env)
+    Configs(cfg).demo()
+    if cfg.demo:
+        alg.demo.launch(cfg, env)
     else:
-        alg.train.launch(args, env)
+        alg.train.launch(cfg, env)

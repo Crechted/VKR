@@ -19,7 +19,6 @@ from LOGO.core.common import estimate_advantages
 from LOGO.core.agent import Agent
 from torch.utils.tensorboard import SummaryWriter
 from collections import deque
-from configs.env_info import get_cfgs
 import configs.parse_csv as par
 from datetime import datetime
 
@@ -39,10 +38,10 @@ def create_model_path(cfgs):
     return model_path
 
 
-def launch(arg, env):
+def launch(cfg, env):
     global args, discrim_net, writer, device, value_net, value_net_exp, policy_net, partial_expert_traj, optimizer_discrim, discrim_criterion, dtype, render
 
-    args = get_cfgs(arg, env)
+    args = cfg
     args.model_path = create_model_path(args)
     eval_env = env
     render = args.render
