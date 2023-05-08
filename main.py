@@ -8,6 +8,8 @@ import pybullet_multigoal_gym as pmg
 import configs.arguments as get_arg
 from configs.env_info import Configs
 from configs.env_info import get_cfgs
+from datetime import datetime
+import os
 import gym
 
 # set PATH=C:\Users\Crechted\.mujoco\mjpro150\bin;%PATH%
@@ -83,6 +85,14 @@ def choose_learn_alg(a):
         return LOGO
     print('bruh')
 
+def create_model_path(cfgs):
+	if not os.path.exists(cfgs.save_dir):
+		os.mkdir(cfgs.save_dir)
+	# path to save the model
+	model_path = os.path.join(cfgs.save_dir, cfgs.task_name)
+	if not os.path.exists(model_path):
+		os.mkdir(model_path)
+	return model_path
 
 if __name__ == '__main__':
     args, parser = get_arg.get_default_args_and_parser()
@@ -92,8 +102,16 @@ if __name__ == '__main__':
     env = create_env(args)
     alg = choose_learn_alg(args)
     cfg = get_cfgs(args, env)
-    Configs(cfg).demo()
-    if cfg.demo:
-        alg.demo.launch(cfg, env)
+    cfgs = args if args.alg_name == 'HER' else cfg
+    Configs(cfgs).demo()
+    start_t = datetime.now()
+    if cfgs.demo:
+        alg.demo.launch(cfgs, env)
     else:
-        alg.train.launch(cfg, env)
+        alg.train.launch(cfgs, env)
+    end_t = datetime.now()
+
+    model_path = create_model_path(cfgs)
+    s_name = '/timer.txt'
+    with open(model_path + s_name, 'w') as f:
+        f.write(str(f'start time: {start_t}; end time: {end_t}'))

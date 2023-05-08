@@ -177,7 +177,7 @@ def main_loop(agent):
     model_path = create_model_path(args)
     s_name = '/model_mu.pt' if args.env_name == 'mujoco' else '/model_py.pt'
     csv_name = '/train_info_mu.csv' if args.env_name == 'mujoco' else '/train_info_py.csv'
-    train_info = {'steps': [], 'rewards': []}
+    train_info = {'steps': [], 'rewards': [], 'times': []}
     print(f'epochs: {args.max_iter_num}, episodes: {args.max_iter_num*args.min_batch_size}, steps: {args.max_iter_num*args.min_batch_size*args.episode_length}')
     for i_iter in range(args.max_iter_num):
         """generate multiple trajectories that reach the minimum batch_size"""
@@ -207,7 +207,8 @@ def main_loop(agent):
                   .format(datetime.now(), i_iter,  log['avg_reward'], log_eval['avg_reward'], kl))
             train_info['steps'].append(i_iter*args.min_batch_size*args.episode_length)
             train_info['rewards'].append(log_eval['avg_reward'])
-            par.save_data_to_csv(train_info['steps'], train_info['rewards'], model_path+csv_name)
+            train_info['times'].append(datetime.now())
+            par.save_data_to_csv(train_info['steps'], train_info['rewards'], model_path+csv_name, time=train_info['times'])
             agent.save(model_path+s_name)
 
         writer.add_scalar('rewards/train_R_avg', log['avg_reward'], i_iter + 1)

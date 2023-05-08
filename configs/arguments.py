@@ -68,7 +68,7 @@ def get_default_args_and_parser():
     parser.add_argument('--grad-clip-norm', type=int, default=10)
     parser.add_argument('--seed-steps', type=int, default=5000)
     parser.add_argument('--update-freq', type=int, default=2)
-    parser.add_argument('--tau', type=int, default=0.01) # And LOGO
+    parser.add_argument('--tau', type=float, default=0.01) # And LOGO
     # architecture
     parser.add_argument('--enc-dim', type=int, default=256)
     parser.add_argument('--mlp-dim', type=int, default=512)
@@ -88,9 +88,9 @@ def get_default_args_and_parser():
     parser.add_argument('--clip-epsilon', type=float, default=0.2, metavar='N', help='clipping epsilon for PPO')
     parser.add_argument('--num-threads', type=int, default=1, metavar='N',
                         help='number of threads for agent (default: 4)')
-    parser.add_argument('--min-batch-size', type=int, default=2048, metavar='N',
+    parser.add_argument('--min-batch-size', type=int, default=2000, metavar='N',
                         help='minimal batch size per PPO update (default: 2048)')
-    parser.add_argument('--eval-batch-size', type=int, default=2048, metavar='N',
+    parser.add_argument('--eval-batch-size', type=int, default=500, metavar='N',
                         help='minimal batch size for evaluation (default: 2048)')
     parser.add_argument('--max-iter-num', type=int, default=1500, metavar='N',
                         help='maximal number of main iterations (default: 500)')

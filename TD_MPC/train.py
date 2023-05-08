@@ -68,11 +68,11 @@ def launch(cfg, env):
 	# Run training
 	# L = logger.Logger(work_dir, cfg)
 	episode_idx, start_time = 0, time.time()
-	train_info = {'steps': [], 'rewards': []}
+	train_info = {'steps': [], 'rewards': [], 'times': []}
 	if cfg.load:
 		print(f'load {model_path+s_name}')
 		agent.load(model_path+s_name)
-		train_info['steps'], train_info['rewards'] = parse.load_data_from_csv(model_path+csv_name)
+		train_info['steps'], train_info['rewards'], train_info['times'] = parse.load_data_from_csv(model_path+csv_name, with_time=True)
 		print(f'was loaded: {train_info}')
 
 	print(f"\nNUM STEPS:{cfg.train_steps}, num epochs: {cfg.n_epochs}\n OBS:{env.observation_space}\n{cfg.horizon}")
@@ -117,7 +117,8 @@ def launch(cfg, env):
 			print(common_metrics)
 			train_info['steps'].append(common_metrics['step'])
 			train_info['rewards'].append(common_metrics['episode_reward'])
-			parse.save_data_to_csv(train_info['steps'], train_info['rewards'], model_path + csv_name)
+			train_info['times'].append(datetime.now())
+			parse.save_data_to_csv(train_info['steps'], train_info['rewards'], model_path + csv_name, train_info['times'])
 			agent.save(model_path + s_name)
 			# L.log(common_metrics, category='eval')
 

@@ -28,7 +28,7 @@ def get_TDMPC_cfgs(args, env):
         cfg.n_episodes = 18
     elif cfg.task_name == 'push':
         cfg.action_repeat = 1
-        cfg.n_epochs = 40
+        cfg.n_epochs = 8
         cfg.n_episodes = 18
     elif cfg.task_name == 'pick_and_place':
         cfg.action_repeat = 1
@@ -109,12 +109,12 @@ def get_LOGO_cfgs(args, env):
     cfg.save_dir = 'LOGO/saved_models/'
     cfg.episode_length = env._max_episode_steps
     cfg.gamma = 0.99
-    cfg.tau = 0.01
+    cfg.tau = 0.5
     if (cfg.task_name == 'reach'):
         cfg.demo_traj_path = 'LOGO/logo/data/HalfCheetah_v2_data.p'
         cfg.K_delta = 50
         cfg.sparse_val = 2.
-        cfg.delta_0 = 0.2
+        # cfg.delta_0 = 0.2
         cfg.low_kl = 5e-7
         cfg.delta = 0.95
         cfg.min_batch_size = 1000
@@ -124,7 +124,48 @@ def get_LOGO_cfgs(args, env):
         if cfg.init_BC:
             cfg.delta_0 = 0.05
         cfg.delay_val = 1000
-
+    elif (cfg.task_name == 'push'):
+        cfg.demo_traj_path = 'LOGO/logo/data/HalfCheetah_v2_data.p'
+        cfg.K_delta = 50
+        cfg.sparse_val = 2.
+        # cfg.delta_0 = 0.2
+        cfg.low_kl = 5e-7
+        cfg.delta = 0.95
+        cfg.min_batch_size = 1000
+        cfg.seed = 11
+        cfg.observe = 0
+        cfg.max_iter_num = 2000
+        if cfg.init_BC:
+            cfg.delta_0 = 0.05
+        cfg.delay_val = 1000
+    elif (cfg.task_name == 'pick_and_place'):
+        cfg.demo_traj_path = 'LOGO/logo/data/HalfCheetah_v2_data.p'
+        cfg.K_delta = 50
+        cfg.sparse_val = 2.
+        # cfg.delta_0 = 0.2
+        cfg.low_kl = 5e-7
+        cfg.delta = 0.95
+        cfg.min_batch_size = 1000
+        cfg.seed = 11
+        cfg.observe = 0
+        cfg.max_iter_num = 2000
+        if cfg.init_BC:
+            cfg.delta_0 = 0.05
+        cfg.delay_val = 1000
+    elif (cfg.task_name == 'slide'):
+        cfg.demo_traj_path = 'LOGO/logo/data/HalfCheetah_v2_data.p'
+        cfg.K_delta = 50
+        cfg.sparse_val = 2.
+        # cfg.delta_0 = 0.2
+        cfg.low_kl = 5e-7
+        cfg.delta = 0.95
+        cfg.min_batch_size = 1000
+        cfg.seed = 11
+        cfg.observe = 0
+        cfg.max_iter_num = 2000
+        if cfg.init_BC:
+            cfg.delta_0 = 0.05
+        cfg.delay_val = 1000
     return cfg
 
 
