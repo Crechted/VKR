@@ -17,7 +17,7 @@ from torch import nn
 from LOGO.core.trpo import trpo_step
 from LOGO.core.common import estimate_advantages
 from LOGO.core.agent import Agent
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 from collections import deque
 import configs.parse_csv as par
 from datetime import datetime
@@ -33,6 +33,17 @@ def create_model_path(cfgs):
         os.mkdir(cfgs.save_dir)
     # path to save the model
     model_path = os.path.join(cfgs.save_dir, cfgs.task_name)
+    model_path += f"/{cfgs.noise_eps}" \
+                  f"_{cfgs.random_eps}" \
+                  f"_{cfgs.replay_k}" \
+                  f"_{cfgs.clip_obs}" \
+                  f"_{cfgs.batch_size}"\
+                  f"_{cfgs.gamma}" \
+                  f"_{cfgs.action_l2}" \
+                  f"_{cfgs.lr_actor}" \
+                  f"_{cfgs.lr_critic}" \
+                  f"_{cfgs.polyak}" \
+                  f"_{cfgs.seed}"
     if not os.path.exists(model_path):
         os.mkdir(model_path)
     return model_path
@@ -51,7 +62,7 @@ def launch(cfg, env):
     dtype = torch.float64
     torch.set_default_dtype(dtype)
 
-    writer = SummaryWriter(f'LOGO/Results/{args.task_name}/')
+    # writer = SummaryWriter(f'LOGO/Results/{args.task_name}/')
     if args.K_delta > -1:
         print('Adaptive Decay')
         print('delta_0:', args.delta_0)
@@ -113,18 +124,23 @@ def launch(cfg, env):
     agent = Agent(args, env, policy_net, device, eval_env=eval_env,
                   num_threads=args.num_threads)
 
-    writer.add_text('Evaluation env name', str(args.task_name))
-    writer.add_text('Demonstration trajectories path', str(args.demo_traj_path))
-    writer.add_text('K_delta', str(args.K_delta))
-    writer.add_text('delta_0', str(args.delta_0))
-    writer.add_text('delta', str(args.delta))
-    writer.add_text('Seed', str(args.seed))
-    writer.add_text('Observable state', str(args.observe))
-    writer.add_text('Expert trajectory samples', str(partial_expert_traj.shape))
-    if args.model_path is not None:
-        writer.add_text('Model Path', str(args.model_path))
+    # writer.add_text('Evaluation env name', str(args.task_name))
+    # writer.add_text('Demonstration trajectories path', str(args.demo_traj_path))
+    # writer.add_text('K_delta', str(args.K_delta))
+    # writer.add_text('delta_0', str(args.delta_0))
+    # writer.add_text('delta', str(args.delta))
+    # writer.add_text('Seed', str(args.seed))
+    # writer.add_text('Observable state', str(args.observe))
+    # writer.add_text('Expert trajectory samples', str(partial_expert_traj.shape))
+    # if args.model_path is not None:
+        # writer.add_text('Model Path', str(args.model_path))
 
     main_loop(agent)
+    _, log_eval = agent.collect_samples(2000, ep_len=args.episode_length, eval_flag=True,
+                                        mean_action=True, render=render)
+    return log_eval['avg_reward']
+
+
 
 
 ##########################################################################
@@ -190,8 +206,7 @@ def main_loop(agent):
                 avg_prev_rwd = np.mean(prev_rwd)
                 if (avg_prev_rwd < log['avg_reward']):
                     kl = max(args.low_kl, kl * args.delta)
-
-        writer.add_scalar('KL', kl, i_iter + 1)
+        # writer.add_scalar('KL', kl, i_iter + 1)
         prev_rwd.append(log['avg_reward'])
         t0 = time.time()
         update_params(batch, i_iter, kl)
@@ -211,8 +226,8 @@ def main_loop(agent):
             par.save_data_to_csv(train_info['steps'], train_info['rewards'], model_path+csv_name, time=train_info['times'])
             agent.save(model_path+s_name)
 
-        writer.add_scalar('rewards/train_R_avg', log['avg_reward'], i_iter + 1)
-        writer.add_scalar('rewards/eval_R_avg', log_eval['avg_reward'], i_iter + 1)
+        # writer.add_scalar('rewards/train_R_avg', log['avg_reward'], i_iter + 1)
+        # writer.add_scalar('rewards/eval_R_avg', log_eval['avg_reward'], i_iter + 1)
 
         """clean up gpu memory"""
         torch.cuda.empty_cache()

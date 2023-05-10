@@ -11,6 +11,7 @@ from configs.env_info import get_cfgs
 from datetime import datetime
 import os
 import gym
+import tuning_hyperparams
 
 # set PATH=C:\Users\Crechted\.mujoco\mjpro150\bin;%PATH%
 # os.add_dll_directory("C://Users//Crechted//.mujoco//mjpro150//bin")
@@ -105,7 +106,9 @@ if __name__ == '__main__':
     cfgs = args if args.alg_name == 'HER' else cfg
     Configs(cfgs).demo()
     start_t = datetime.now()
-    if cfgs.demo:
+    if cfgs.tune:
+        tuning_hyperparams.Tune(cfgs, env).tuning()
+    elif cfgs.demo:
         alg.demo.launch(cfgs, env)
     else:
         alg.train.launch(cfgs, env)

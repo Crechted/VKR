@@ -18,6 +18,8 @@ def get_default_args_and_parser():
     parser.add_argument('--load', action='store_true', default=False, help='Need load')
     parser.add_argument('--save-dir', type=str, default='HER/saved_models/', help='the path to save the models')
     parser.add_argument('--seed', type=int, default=11, metavar='N', help='random seed')
+    parser.add_argument('--n-trials', type=int, default=50, metavar='N', help='num trials in tuning hyperparameters')
+    parser.add_argument('--tune', action='store_true', default=False, help='tuning hyperparameters')
 
     parser.add_argument('--n-epochs', type=int, default=50, help='the number of epochs to train the agent')
     parser.add_argument('--n-cycles', type=int, default=50, help='the times to collect samples per epoch')
