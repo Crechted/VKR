@@ -34,6 +34,7 @@ class Tune(object):
         eval_rewards = train_logo.launch(self.cfg, self.env)
         scores = (50.0+eval_rewards)/50.0
         print(f"RESULT: {eval_rewards} --- {scores} ")
+
         return scores
 
     def train_HER(self, config: Configuration, seed: int = 0) -> float:
@@ -50,7 +51,7 @@ class Tune(object):
         self.cfg.seed = config["seed"]
         print(f"train with {config}")
         eval_rate = train_her.launch(self.cfg, self.env)
-        print(f"RESULT: {eval_rate}")
+        print(f"RESULT: {eval_rate} --- {eval_rate/50}")
         return eval_rate
 
     def get_config_by_alg(self, name):
