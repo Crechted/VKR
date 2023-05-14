@@ -225,18 +225,18 @@ class ReplayBuffer():
 			max_priority = 1. if self.idx == 0 else self._priorities[:self.idx].max().to(self.device).item()
 		mask = torch.arange(self.cfg.episode_length) >= self.cfg.episode_length-self.cfg.horizon
 		new_priorities = torch.full((self.cfg.episode_length,), max_priority, device=self.device)
-		new_priorities[mask] = 0
+		new_priorities[mask.long()] = 0
 		self._priorities[self.idx:self.idx+self.cfg.episode_length] = new_priorities
 		self.idx = (self.idx + self.cfg.episode_length) % self.capacity
 		self._full = self._full or self.idx == 0
 
 	def update_priorities(self, idxs, priorities):
-		self._priorities[idxs] = priorities.squeeze(1).to(self.device) + self._eps
+		self._priorities[idxs.long()] = priorities.squeeze(1).to(self.device) + self._eps
 
 	def _get_obs(self, arr, idxs):
 		if self.cfg.modality == 'state':
 			arr.to(self.device)
-			return arr[idxs]
+			return arr[idxs.long()]
 		obs = torch.empty((self.cfg.batch_size, 3*self.cfg.frame_stack, *arr.shape[-2:]), dtype=arr.dtype, device=torch.device('cuda'))
 		obs[:, -3:] = arr[idxs].cuda()
 		_idxs = idxs.clone()
@@ -252,7 +252,7 @@ class ReplayBuffer():
 		probs /= probs.sum()
 		total = len(probs)
 		idxs = torch.from_numpy(np.random.choice(total, self.cfg.batch_size, p=probs.cpu().numpy(), replace=not self._full)).to(self.device)
-		weights = (total * probs[idxs]) ** (-self.cfg.per_beta)
+		weights = (total * probs[idxs.long()].long()) ** (-self.cfg.per_beta)
 		weights /= weights.max()
 
 		obs = self._get_obs(self._obs, idxs)
@@ -263,11 +263,11 @@ class ReplayBuffer():
 		for t in range(self.cfg.horizon+1):
 			_idxs = idxs + t
 			next_obs[t] = self._get_obs(self._obs, _idxs+1)
-			action[t] = self._action[_idxs]
-			reward[t] = self._reward[_idxs]
+			action[t] = self._action[_idxs.long()]
+			reward[t] = self._reward[_idxs.long()]
 
 		mask = (_idxs+1) % self.cfg.episode_length == 0
-		next_obs[-1, mask] = self._last_obs[_idxs[mask]//self.cfg.episode_length].cuda().float()
+		next_obs[-1, mask.long()] = self._last_obs[(_idxs[mask.long()]//self.cfg.episode_length).long()].cuda().float()
 		if not action.is_cuda:
 			action, reward, idxs, weights = \
 				action.cuda(), reward.cuda(), idxs.cuda(), weights.cuda()

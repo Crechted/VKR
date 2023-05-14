@@ -56,7 +56,7 @@ def get_TDMPC_cfgs(args, env):
     # cfg.consistency_coef = 2
     # cfg.rho = 0.5
     # cfg.kappa = 0.1
-    # cfg.lr = 1e_3
+    # cfg.lr = 1e-3
 
     cfg.std_schedule = f'linear(0.5, {cfg.min_std}, 25000)'
     cfg.horizon_schedule = f'linear(1, {cfg.horizon}, 25000)'

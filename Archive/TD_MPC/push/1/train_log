@@ -3,156 +3,54 @@ was loaded: {'steps': [0, 20000, 40000, 60000, 80000, 100000, 120000, 140000, 16
 
 NUM STEPS:1000000, num epochs: 50
  OBS:Dict(achieved_goal:Box(-inf, inf, (3,), float32), desired_goal:Box(-inf, inf, (3,), float32), observation:Box(-inf, inf, (25,), float32))
-
-[2023-04-09 23:40:43.971518] evaluate № 0
-{'episode': 1, 'step': 0, 'env_step': 0, 'total_time': 4.318712949752808, 'episode_reward': -48.9}
-
-[2023-04-10 00:02:03.826873] evaluate № 1
-{'episode': 401, 'step': 20000, 'env_step': 20000, 'total_time': 1284.174077987671, 'episode_reward': -49.9}
-
-[2023-04-10 00:26:42.759789] evaluate № 2
-{'episode': 801, 'step': 40000, 'env_step': 40000, 'total_time': 2763.1069951057434, 'episode_reward': -36.2}
-
-[2023-04-10 00:52:07.876858] evaluate № 3
-{'episode': 1201, 'step': 60000, 'env_step': 60000, 'total_time': 4288.22406411171, 'episode_reward': -32.6}
-
-[2023-04-10 01:16:28.141935] evaluate № 4
-{'episode': 1601, 'step': 80000, 'env_step': 80000, 'total_time': 5748.489141225815, 'episode_reward': -41.2}
-
-[2023-04-10 01:41:11.732014] evaluate № 5
-{'episode': 2001, 'step': 100000, 'env_step': 100000, 'total_time': 7232.079219579697, 'episode_reward': -34.1}
-
-[2023-04-10 02:07:11.063055] evaluate № 6
-{'episode': 2401, 'step': 120000, 'env_step': 120000, 'total_time': 8791.41026186943, 'episode_reward': -26.8}
-
-[2023-04-10 02:32:39.076127] evaluate № 7
-{'episode': 2801, 'step': 140000, 'env_step': 140000, 'total_time': 10319.423333644867, 'episode_reward': -28.4}
-
-[2023-04-10 02:58:20.265407] evaluate № 8
-{'episode': 3201, 'step': 160000, 'env_step': 160000, 'total_time': 11860.61261343956, 'episode_reward': -37.2}
-
-[2023-04-10 03:23:28.831730] evaluate № 9
-{'episode': 3601, 'step': 180000, 'env_step': 180000, 'total_time': 13369.178936481476, 'episode_reward': -31.5}
-
-[2023-04-10 03:48:12.783414] evaluate № 10
-{'episode': 4001, 'step': 200000, 'env_step': 200000, 'total_time': 14853.130620479584, 'episode_reward': -29.4}
-
-[2023-04-10 04:13:13.117911] evaluate № 11
-{'episode': 4401, 'step': 220000, 'env_step': 220000, 'total_time': 16353.465116500854, 'episode_reward': -39.5}
-
-[2023-04-10 04:39:49.753985] evaluate № 12
-{'episode': 4801, 'step': 240000, 'env_step': 240000, 'total_time': 17950.101190328598, 'episode_reward': -46.2}
-
-[2023-04-10 05:06:00.118992] evaluate № 13
-{'episode': 5201, 'step': 260000, 'env_step': 260000, 'total_time': 19520.466198205948, 'episode_reward': -45.4}
-
-[2023-04-10 05:32:24.042956] evaluate № 14
-{'episode': 5601, 'step': 280000, 'env_step': 280000, 'total_time': 21104.390161514282, 'episode_reward': -34.2}
-
-[2023-04-10 05:58:42.280036] evaluate № 15
-{'episode': 6001, 'step': 300000, 'env_step': 300000, 'total_time': 22682.6272418499, 'episode_reward': -23.0}
-
-[2023-04-10 06:24:57.475389] evaluate № 16
-{'episode': 6401, 'step': 320000, 'env_step': 320000, 'total_time': 24257.822595596313, 'episode_reward': -29.7}
-
-[2023-04-10 06:51:11.861118] evaluate № 17
-{'episode': 6801, 'step': 340000, 'env_step': 340000, 'total_time': 25832.208324193954, 'episode_reward': -34.3}
-
-[2023-04-10 07:17:38.045897] evaluate № 18
-{'episode': 7201, 'step': 360000, 'env_step': 360000, 'total_time': 27418.39310336113, 'episode_reward': -36.3}
-
-[2023-04-10 07:44:38.289542] evaluate № 19
-{'episode': 7601, 'step': 380000, 'env_step': 380000, 'total_time': 29038.63674712181, 'episode_reward': -36.1}
-
-[2023-04-10 08:11:32.455672] evaluate № 20
-{'episode': 8001, 'step': 400000, 'env_step': 400000, 'total_time': 30652.802877664566, 'episode_reward': -38.7}
-
-[2023-04-10 08:38:25.986739] evaluate № 21
-{'episode': 8401, 'step': 420000, 'env_step': 420000, 'total_time': 32266.333945035934, 'episode_reward': -34.2}
-
-[2023-04-10 09:05:00.576659] evaluate № 22
-{'episode': 8801, 'step': 440000, 'env_step': 440000, 'total_time': 33860.92386507988, 'episode_reward': -35.0}
-
-[2023-04-10 09:31:52.808571] evaluate № 23
-{'episode': 9201, 'step': 460000, 'env_step': 460000, 'total_time': 35473.15577721596, 'episode_reward': -33.0}
-
-[2023-04-10 09:58:59.937845] evaluate № 24
-{'episode': 9601, 'step': 480000, 'env_step': 480000, 'total_time': 37100.28505086899, 'episode_reward': -33.8}
-
-[2023-04-10 10:26:02.577555] evaluate № 25
-{'episode': 10001, 'step': 500000, 'env_step': 500000, 'total_time': 38722.92476081848, 'episode_reward': -32.7}
-
-[2023-04-10 10:52:31.063248] evaluate № 26
-{'episode': 10401, 'step': 520000, 'env_step': 520000, 'total_time': 40311.41045379639, 'episode_reward': -38.0}
-
-[2023-04-10 11:19:57.919509] evaluate № 27
-{'episode': 10801, 'step': 540000, 'env_step': 540000, 'total_time': 41958.266714811325, 'episode_reward': -49.6}
-
-[2023-04-10 11:47:14.760102] evaluate № 28
-{'episode': 11201, 'step': 560000, 'env_step': 560000, 'total_time': 43595.10730814934, 'episode_reward': -27.2}
-
-[2023-04-10 12:14:42.653575] evaluate № 29
-{'episode': 11601, 'step': 580000, 'env_step': 580000, 'total_time': 45243.0007815361, 'episode_reward': -29.8}
-
-[2023-04-10 12:41:50.826268] evaluate № 30
-{'episode': 12001, 'step': 600000, 'env_step': 600000, 'total_time': 46871.17347407341, 'episode_reward': -44.9}
-
-[2023-04-10 13:09:18.489054] evaluate № 31
-{'episode': 12401, 'step': 620000, 'env_step': 620000, 'total_time': 48518.83625984192, 'episode_reward': -36.4}
-
-[2023-04-10 13:37:00.299882] evaluate № 32
-{'episode': 12801, 'step': 640000, 'env_step': 640000, 'total_time': 50180.64708828926, 'episode_reward': -38.5}
-
-[2023-04-10 14:04:54.547635] evaluate № 33
-{'episode': 13201, 'step': 660000, 'env_step': 660000, 'total_time': 51854.89484024048, 'episode_reward': -33.8}
-
-[2023-04-10 14:32:20.185215] evaluate № 34
-{'episode': 13601, 'step': 680000, 'env_step': 680000, 'total_time': 53500.53241968155, 'episode_reward': -35.6}
-
-[2023-04-10 14:59:13.608708] evaluate № 35
-{'episode': 14001, 'step': 700000, 'env_step': 700000, 'total_time': 55113.95591402054, 'episode_reward': -36.9}
-
-[2023-04-10 15:26:54.286134] evaluate № 36
-{'episode': 14401, 'step': 720000, 'env_step': 720000, 'total_time': 56774.6333398819, 'episode_reward': -25.7}
-
-[2023-04-10 15:54:06.718409] evaluate № 37
-{'episode': 14801, 'step': 740000, 'env_step': 740000, 'total_time': 58407.06561398506, 'episode_reward': -30.5}
-
-[2023-04-10 16:20:55.420340] evaluate № 38
-{'episode': 15201, 'step': 760000, 'env_step': 760000, 'total_time': 60015.76754665375, 'episode_reward': -31.9}
-
-[2023-04-10 16:48:41.311868] evaluate № 39
-{'episode': 15601, 'step': 780000, 'env_step': 780000, 'total_time': 61681.65907359123, 'episode_reward': -40.4}
-
-[2023-04-10 17:15:52.225843] evaluate № 40
-{'episode': 16001, 'step': 800000, 'env_step': 800000, 'total_time': 63312.57304906845, 'episode_reward': -30.2}
-
-[2023-04-10 17:43:10.459230] evaluate № 41
-{'episode': 16401, 'step': 820000, 'env_step': 820000, 'total_time': 64950.80643439293, 'episode_reward': -30.9}
-
-[2023-04-10 18:09:49.669141] evaluate № 42
-{'episode': 16801, 'step': 840000, 'env_step': 840000, 'total_time': 66550.01634550095, 'episode_reward': -24.8}
-
-[2023-04-10 18:37:17.131645] evaluate № 43
-{'episode': 17201, 'step': 860000, 'env_step': 860000, 'total_time': 68197.47884726524, 'episode_reward': -38.1}
-
-[2023-04-10 19:04:23.281579] evaluate № 44
-{'episode': 17601, 'step': 880000, 'env_step': 880000, 'total_time': 69823.62878251076, 'episode_reward': -18.9}
-
-[2023-04-10 19:31:38.836381] evaluate № 45
-{'episode': 18001, 'step': 900000, 'env_step': 900000, 'total_time': 71459.18358564377, 'episode_reward': -31.1}
-
-[2023-04-10 19:59:03.769063] evaluate № 46
-{'episode': 18401, 'step': 920000, 'env_step': 920000, 'total_time': 73104.11626935005, 'episode_reward': -32.9}
-
-[2023-04-10 20:27:09.015007] evaluate № 47
-{'episode': 18801, 'step': 940000, 'env_step': 940000, 'total_time': 74789.36221265793, 'episode_reward': -32.7}
-
-[2023-04-10 20:55:50.188219] evaluate № 48
-{'episode': 19201, 'step': 960000, 'env_step': 960000, 'total_time': 76510.53542327881, 'episode_reward': -34.7}
-
-[2023-04-10 21:24:00.458986] evaluate № 49
-{'episode': 19601, 'step': 980000, 'env_step': 980000, 'total_time': 78200.80618929863, 'episode_reward': -35.1}
-
-[2023-04-10 21:52:35.789650] evaluate № 50
-{'episode': 20001, 'step': 1000000, 'env_step': 1000000, 'total_time': 79916.13685584068, 'episode_reward': -39.5}
+[2023-04-09 23:40:43.971518] evaluate № 0{'episode': 1, 'step': 0, 'env_step': 0, 'total_time': 4.318712949752808, 'episode_reward': -48.9}
+[2023-04-10 00:02:03.826873] evaluate № 1{'episode': 401, 'step': 20000, 'env_step': 20000, 'total_time': 1284.174077987671, 'episode_reward': -49.9}
+[2023-04-10 00:26:42.759789] evaluate № 2{'episode': 801, 'step': 40000, 'env_step': 40000, 'total_time': 2763.1069951057434, 'episode_reward': -36.2}
+[2023-04-10 00:52:07.876858] evaluate № 3{'episode': 1201, 'step': 60000, 'env_step': 60000, 'total_time': 4288.22406411171, 'episode_reward': -32.6}
+[2023-04-10 01:16:28.141935] evaluate № 4{'episode': 1601, 'step': 80000, 'env_step': 80000, 'total_time': 5748.489141225815, 'episode_reward': -41.2}
+[2023-04-10 01:41:11.732014] evaluate № 5{'episode': 2001, 'step': 100000, 'env_step': 100000, 'total_time': 7232.079219579697, 'episode_reward': -34.1}
+[2023-04-10 02:07:11.063055] evaluate № 6{'episode': 2401, 'step': 120000, 'env_step': 120000, 'total_time': 8791.41026186943, 'episode_reward': -26.8}
+[2023-04-10 02:32:39.076127] evaluate № 7{'episode': 2801, 'step': 140000, 'env_step': 140000, 'total_time': 10319.423333644867, 'episode_reward': -28.4}
+[2023-04-10 02:58:20.265407] evaluate № 8{'episode': 3201, 'step': 160000, 'env_step': 160000, 'total_time': 11860.61261343956, 'episode_reward': -37.2}
+[2023-04-10 03:23:28.831730] evaluate № 9{'episode': 3601, 'step': 180000, 'env_step': 180000, 'total_time': 13369.178936481476, 'episode_reward': -31.5}
+[2023-04-10 03:48:12.783414] evaluate № 10{'episode': 4001, 'step': 200000, 'env_step': 200000, 'total_time': 14853.130620479584, 'episode_reward': -29.4}
+[2023-04-10 04:13:13.117911] evaluate № 11{'episode': 4401, 'step': 220000, 'env_step': 220000, 'total_time': 16353.465116500854, 'episode_reward': -39.5}
+[2023-04-10 04:39:49.753985] evaluate № 12{'episode': 4801, 'step': 240000, 'env_step': 240000, 'total_time': 17950.101190328598, 'episode_reward': -46.2}
+[2023-04-10 05:06:00.118992] evaluate № 13{'episode': 5201, 'step': 260000, 'env_step': 260000, 'total_time': 19520.466198205948, 'episode_reward': -45.4}
+[2023-04-10 05:32:24.042956] evaluate № 14{'episode': 5601, 'step': 280000, 'env_step': 280000, 'total_time': 21104.390161514282, 'episode_reward': -34.2}
+[2023-04-10 05:58:42.280036] evaluate № 15{'episode': 6001, 'step': 300000, 'env_step': 300000, 'total_time': 22682.6272418499, 'episode_reward': -23.0}
+[2023-04-10 06:24:57.475389] evaluate № 16{'episode': 6401, 'step': 320000, 'env_step': 320000, 'total_time': 24257.822595596313, 'episode_reward': -29.7}
+[2023-04-10 06:51:11.861118] evaluate № 17{'episode': 6801, 'step': 340000, 'env_step': 340000, 'total_time': 25832.208324193954, 'episode_reward': -34.3}
+[2023-04-10 07:17:38.045897] evaluate № 18{'episode': 7201, 'step': 360000, 'env_step': 360000, 'total_time': 27418.39310336113, 'episode_reward': -36.3}
+[2023-04-10 07:44:38.289542] evaluate № 19{'episode': 7601, 'step': 380000, 'env_step': 380000, 'total_time': 29038.63674712181, 'episode_reward': -36.1}
+[2023-04-10 08:11:32.455672] evaluate № 20{'episode': 8001, 'step': 400000, 'env_step': 400000, 'total_time': 30652.802877664566, 'episode_reward': -38.7}
+[2023-04-10 08:38:25.986739] evaluate № 21{'episode': 8401, 'step': 420000, 'env_step': 420000, 'total_time': 32266.333945035934, 'episode_reward': -34.2}
+[2023-04-10 09:05:00.576659] evaluate № 22{'episode': 8801, 'step': 440000, 'env_step': 440000, 'total_time': 33860.92386507988, 'episode_reward': -35.0}
+[2023-04-10 09:31:52.808571] evaluate № 23{'episode': 9201, 'step': 460000, 'env_step': 460000, 'total_time': 35473.15577721596, 'episode_reward': -33.0}
+[2023-04-10 09:58:59.937845] evaluate № 24{'episode': 9601, 'step': 480000, 'env_step': 480000, 'total_time': 37100.28505086899, 'episode_reward': -33.8}
+[2023-04-10 10:26:02.577555] evaluate № 25{'episode': 10001, 'step': 500000, 'env_step': 500000, 'total_time': 38722.92476081848, 'episode_reward': -32.7}
+[2023-04-10 10:52:31.063248] evaluate № 26{'episode': 10401, 'step': 520000, 'env_step': 520000, 'total_time': 40311.41045379639, 'episode_reward': -38.0}
+[2023-04-10 11:19:57.919509] evaluate № 27{'episode': 10801, 'step': 540000, 'env_step': 540000, 'total_time': 41958.266714811325, 'episode_reward': -49.6}
+[2023-04-10 11:47:14.760102] evaluate № 28{'episode': 11201, 'step': 560000, 'env_step': 560000, 'total_time': 43595.10730814934, 'episode_reward': -27.2}
+[2023-04-10 12:14:42.653575] evaluate № 29{'episode': 11601, 'step': 580000, 'env_step': 580000, 'total_time': 45243.0007815361, 'episode_reward': -29.8}
+[2023-04-10 12:41:50.826268] evaluate № 30{'episode': 12001, 'step': 600000, 'env_step': 600000, 'total_time': 46871.17347407341, 'episode_reward': -44.9}
+[2023-04-10 13:09:18.489054] evaluate № 31{'episode': 12401, 'step': 620000, 'env_step': 620000, 'total_time': 48518.83625984192, 'episode_reward': -36.4}
+[2023-04-10 13:37:00.299882] evaluate № 32{'episode': 12801, 'step': 640000, 'env_step': 640000, 'total_time': 50180.64708828926, 'episode_reward': -38.5}
+[2023-04-10 14:04:54.547635] evaluate № 33{'episode': 13201, 'step': 660000, 'env_step': 660000, 'total_time': 51854.89484024048, 'episode_reward': -33.8}
+[2023-04-10 14:32:20.185215] evaluate № 34{'episode': 13601, 'step': 680000, 'env_step': 680000, 'total_time': 53500.53241968155, 'episode_reward': -35.6}
+[2023-04-10 14:59:13.608708] evaluate № 35{'episode': 14001, 'step': 700000, 'env_step': 700000, 'total_time': 55113.95591402054, 'episode_reward': -36.9}
+[2023-04-10 15:26:54.286134] evaluate № 36{'episode': 14401, 'step': 720000, 'env_step': 720000, 'total_time': 56774.6333398819, 'episode_reward': -25.7}
+[2023-04-10 15:54:06.718409] evaluate № 37{'episode': 14801, 'step': 740000, 'env_step': 740000, 'total_time': 58407.06561398506, 'episode_reward': -30.5}
+[2023-04-10 16:20:55.420340] evaluate № 38{'episode': 15201, 'step': 760000, 'env_step': 760000, 'total_time': 60015.76754665375, 'episode_reward': -31.9}
+[2023-04-10 16:48:41.311868] evaluate № 39{'episode': 15601, 'step': 780000, 'env_step': 780000, 'total_time': 61681.65907359123, 'episode_reward': -40.4}
+[2023-04-10 17:15:52.225843] evaluate № 40{'episode': 16001, 'step': 800000, 'env_step': 800000, 'total_time': 63312.57304906845, 'episode_reward': -30.2}
+[2023-04-10 17:43:10.459230] evaluate № 41{'episode': 16401, 'step': 820000, 'env_step': 820000, 'total_time': 64950.80643439293, 'episode_reward': -30.9}
+[2023-04-10 18:09:49.669141] evaluate № 42{'episode': 16801, 'step': 840000, 'env_step': 840000, 'total_time': 66550.01634550095, 'episode_reward': -24.8}
+[2023-04-10 18:37:17.131645] evaluate № 43{'episode': 17201, 'step': 860000, 'env_step': 860000, 'total_time': 68197.47884726524, 'episode_reward': -38.1}
+[2023-04-10 19:04:23.281579] evaluate № 44{'episode': 17601, 'step': 880000, 'env_step': 880000, 'total_time': 69823.62878251076, 'episode_reward': -18.9}
+[2023-04-10 19:31:38.836381] evaluate № 45{'episode': 18001, 'step': 900000, 'env_step': 900000, 'total_time': 71459.18358564377, 'episode_reward': -31.1}
+[2023-04-10 19:59:03.769063] evaluate № 46{'episode': 18401, 'step': 920000, 'env_step': 920000, 'total_time': 73104.11626935005, 'episode_reward': -32.9}
+[2023-04-10 20:27:09.015007] evaluate № 47{'episode': 18801, 'step': 940000, 'env_step': 940000, 'total_time': 74789.36221265793, 'episode_reward': -32.7}
+[2023-04-10 20:55:50.188219] evaluate № 48{'episode': 19201, 'step': 960000, 'env_step': 960000, 'total_time': 76510.53542327881, 'episode_reward': -34.7}
+[2023-04-10 21:24:00.458986] evaluate № 49{'episode': 19601, 'step': 980000, 'env_step': 980000, 'total_time': 78200.80618929863, 'episode_reward': -35.1}
+[2023-04-10 21:52:35.789650] evaluate № 50{'episode': 20001, 'step': 1000000, 'env_step': 1000000, 'total_time': 79916.13685584068, 'episode_reward': -39.5}

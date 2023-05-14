@@ -22,8 +22,10 @@ import tuning_hyperparams
 # python main.py --alg-name='TD_MPC' --task-name='push' --env-name='mujoco' --cuda --load --horizon=7
 # numba 0.56.4 requires numpy<1.24,>=1.18, but you have numpy 1.24.2 which is incompatible.
 
+# python main.py --alg-name="LOGO" --task-name="reach" --env-name="mujoco" --tune --n-trial=20
 # python main.py --alg-name="HER" --task-name="reach" --env-name="mujoco" --demo --render
-# python main.py --alg-name="TD_MPC" --task-name="push" --env-name="mujoco" --seed-steps=250 --num-samples=256 --num-elites=32 --horizon=10 --cuda
+# python main.py --alg-name="TD_MPC" --task-name="slide" --env-name="mujoco" --seed-steps=250 --cuda --horizon=10 --tau=0.3 --load
+# pip install numpy==1.19.0  / 1.23.5
 def create_env(args):
     if args.env_name == "mujoco":
         return create_mujoco_env(args)

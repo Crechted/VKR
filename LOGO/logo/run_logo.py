@@ -33,16 +33,16 @@ def create_model_path(cfgs):
         os.mkdir(cfgs.save_dir)
     # path to save the model
     model_path = os.path.join(cfgs.save_dir, cfgs.task_name)
-    model_path += f"/{cfgs.noise_eps}" \
-                  f"_{cfgs.random_eps}" \
-                  f"_{cfgs.replay_k}" \
-                  f"_{cfgs.clip_obs}" \
-                  f"_{cfgs.batch_size}"\
+    model_path += f"/{cfgs.damping}" \
+                  f"_{cfgs.log_std}" \
+                  f"_{cfgs.l2_reg}" \
+                  f"_{cfgs.learning_rate}" \
+                  f"_{cfgs.clip_epsilon}"\
                   f"_{cfgs.gamma}" \
-                  f"_{cfgs.action_l2}" \
-                  f"_{cfgs.lr_actor}" \
-                  f"_{cfgs.lr_critic}" \
-                  f"_{cfgs.polyak}" \
+                  f"_{cfgs.tau}" \
+                  f"_{cfgs.sparse_val}" \
+                  f"_{cfgs.K_delta}" \
+                  f"_{cfgs.delta_0}" \
                   f"_{cfgs.seed}"
     if not os.path.exists(model_path):
         os.mkdir(model_path)

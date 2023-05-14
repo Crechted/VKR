@@ -46,7 +46,7 @@ class TOLD(nn.Module):
 	def Q(self, z, a):
 		"""Predict state-action value (Q)."""
 		x = torch.cat([z, a], dim=-1)
-		return self._Q1(x), self._Q2(x)
+		return self._Q1(x).nan_to_num(0), self._Q2(x).nan_to_num(0)
 
 
 class TDMPC():
@@ -157,7 +157,6 @@ class TDMPC():
 		"""Update policy using a sequence of latent states."""
 		self.pi_optim.zero_grad(set_to_none=True)
 		self.model.track_q_grad(False)
-
 		# Loss is a weighted sum of Q-values
 		pi_loss = 0
 		for t,z in enumerate(zs):
@@ -190,10 +189,8 @@ class TDMPC():
 		# Representation
 		z = self.model.h(self.aug(obs))
 		zs = [z.detach()]
-
 		consistency_loss, reward_loss, value_loss, priority_loss = 0, 0, 0, 0
 		for t in range(self.cfg.horizon):
-
 			# Predictions
 			Q1, Q2 = self.model.Q(z, action[t])
 			z, reward_pred = self.model.next(z, action[t])

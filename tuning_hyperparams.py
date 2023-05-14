@@ -51,7 +51,7 @@ class Tune(object):
         self.cfg.seed = config["seed"]
         print(f"train with {config}")
         eval_rate = train_her.launch(self.cfg, self.env)
-        print(f"RESULT: {eval_rate} --- {eval_rate/50}")
+        print(f"RESULT: {eval_rate}")
         return eval_rate
 
     def get_config_by_alg(self, name):
