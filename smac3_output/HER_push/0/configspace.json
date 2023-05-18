@@ -1,0 +1,96 @@
+{
+  "hyperparameters": [
+    {
+      "name": "action-l2",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.5,
+      "upper": 3.0,
+      "default": 1.75
+    },
+    {
+      "name": "batch-size",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 128,
+      "upper": 512,
+      "default": 320
+    },
+    {
+      "name": "clip-obs",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 100,
+      "upper": 400,
+      "default": 250
+    },
+    {
+      "name": "gamma",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.8,
+      "upper": 0.99,
+      "default": 0.895
+    },
+    {
+      "name": "lr-actor",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0001,
+      "upper": 0.003,
+      "default": 0.00155
+    },
+    {
+      "name": "lr-critic",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0001,
+      "upper": 0.003,
+      "default": 0.00155
+    },
+    {
+      "name": "noise-eps",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 1.0,
+      "default": 0.505
+    },
+    {
+      "name": "polyak",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.8,
+      "upper": 0.99,
+      "default": 0.895
+    },
+    {
+      "name": "random-eps",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 1.0,
+      "default": 0.505
+    },
+    {
+      "name": "replay-k",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 20,
+      "default": 10
+    },
+    {
+      "name": "seed",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 50,
+      "default": 26
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}
